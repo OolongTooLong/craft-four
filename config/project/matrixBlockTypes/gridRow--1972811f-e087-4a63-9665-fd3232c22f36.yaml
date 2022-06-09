@@ -1,0 +1,1579 @@
+field: ffc2b89f-46b4-4c4f-9ca6-71feacca2d27 # Page Builder
+fieldLayouts:
+  4f781bf8-9fda-4781-b1c3-3f16825d230b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 10db7aae-6270-451e-9f2f-c279cc5e3af0 # __blank__
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 312dd9f9-a435-41ae-a7bf-cf17f37177d8
+            warning: null
+            width: 100
+          -
+            fieldUid: 4fddff1a-b4fd-48a2-b695-c7fe78876db8 # Anchor Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a46c837-1020-4c3c-b017-1b2894cc0714
+            warning: null
+            width: 25
+          -
+            fieldUid: 54b52fe6-5ff6-47ab-badd-b53ff1a14014 # Row Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6770fd7b-8e08-40a6-9278-a1a63812c715
+            warning: null
+            width: 25
+          -
+            fieldUid: c19f1ba5-3c56-42a1-bc4c-81a3b24b269b # Block Layout
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43aab89d-c2be-40a7-ac99-80a7ab65d559
+            warning: null
+            width: 25
+          -
+            fieldUid: 5165520f-c260-4c6e-9cac-fdc7adc456d8 # Grid Gap
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d8d4e79-119b-42ad-892e-bef3ee120a2a
+            warning: null
+            width: 25
+          -
+            fieldUid: bb261ea6-1a7d-4a69-aa23-60051b43e1d3 # Space Top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e09d0389-02cc-4ab0-8de5-b5a29c513609
+            warning: null
+            width: 25
+          -
+            fieldUid: c04a28cc-e246-4b2f-abb9-bcea43868edb # Row Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 47df079d-a757-4b91-bce3-7498f6d76afe
+            warning: null
+            width: 25
+          -
+            fieldUid: 2605faf8-5a41-4885-9202-42af4117dc63 # Padding Top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12eba303-154f-4f4f-9fd2-ba3deac40d06
+            warning: null
+            width: 25
+          -
+            fieldUid: 653c18f3-0735-478d-8078-c017a86b6d49 # Padding Bottom
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a59ec5b1-4467-43fe-93ad-1225ef6d45e8
+            warning: null
+            width: 25
+          -
+            fieldUid: b12af4cb-33ee-45d8-839f-cc631bdec7aa # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5b6e3d7a-b375-4775-80a8-fe7cc7e3dec5
+            warning: null
+            width: 100
+          -
+            fieldUid: e4d5325a-fdd0-4791-9abe-279b9b1e19df # Media Queries
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: efb80959-58eb-4475-a0fd-16c04e7b80b1
+            warning: null
+            width: 100
+          -
+            fieldUid: 8f3762b8-c75d-4f3e-b157-ca44c6c8a3b0 # Advanced Settings
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4d0f49bf-4458-49d3-b796-ed2bb37e1840
+            warning: null
+            width: 100
+        name: Content
+        uid: b3fe0e14-a09c-4724-a063-b4aa0a41cc6c
+fields:
+  4fddff1a-b4fd-48a2-b695-c7fe78876db8: # Anchor Label
+    columnSuffix: onuaseee
+    contentColumnType: text
+    fieldGroup: null
+    handle: anchorLabel
+    instructions: null
+    name: 'Anchor Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8f3762b8-c75d-4f3e-b157-ca44c6c8a3b0: # Advanced Settings
+    columnSuffix: grdyymcp
+    contentColumnType: text
+    fieldGroup: null
+    handle: advancedSettings
+    instructions: null
+    name: 'Advanced Settings'
+    searchable: false
+    settings:
+      addRowLabel: 'Advanced Settings'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Block Size'
+                -
+                  - handle
+                  - blockSize
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Micro
+                        -
+                          - value
+                          - micro-blocks
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Tiny
+                        -
+                          - value
+                          - tiny-blocks
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Small
+                        -
+                          - value
+                          - small-blocks
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Default
+                        -
+                          - value
+                          - ''
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Large
+                        -
+                          - value
+                          - large-blocks-blocks
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'Extra Large'
+                        -
+                          - value
+                          - extra-large-blocks
+                        -
+                          - default
+                          - false
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Slider
+                -
+                  - handle
+                  - slider
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - lightswitch
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Slides to Show'
+                -
+                  - handle
+                  - slidesToShow
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - number
+          -
+            - col4
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Arrows
+                -
+                  - handle
+                  - arrows
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'False'
+                        -
+                          - value
+                          - 'false'
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Default
+                        -
+                          - value
+                          - default
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Bottom
+                        -
+                          - value
+                          - bottom
+                        -
+                          - default
+                          - false
+          -
+            - col5
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Arrow Colour'
+                -
+                  - handle
+                  - arrowColour
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Default
+                        -
+                          - value
+                          - default
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Light
+                        -
+                          - value
+                          - light-main
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Dark
+                        -
+                          - value
+                          - dark-main
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Primary
+                        -
+                          - value
+                          - primary-main
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Secondary
+                        -
+                          - value
+                          - secondary-main
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Tertiary
+                        -
+                          - value
+                          - tertiary-main
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Quaternary
+                        -
+                          - value
+                          - quaternary-main
+                        -
+                          - default
+                          - false
+          -
+            - col6
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Dots
+                -
+                  - handle
+                  - dots
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - lightswitch
+          -
+            - col7
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Width Mod'
+                -
+                  - handle
+                  - widthMod
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - None
+                        -
+                          - value
+                          - none
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'Right Full'
+                        -
+                          - value
+                          - right-full
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'Left Full'
+                        -
+                          - value
+                          - left-full
+                        -
+                          - default
+                          - false
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+            -
+              - col3
+              - ''
+            -
+              - col4
+              - 'false'
+            -
+              - col5
+              - default
+            -
+              - col6
+              - ''
+            -
+              - col7
+              - none
+      maxRows: 1
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  10db7aae-6270-451e-9f2f-c279cc5e3af0: # __blank__
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockRepeater
+    instructions: null
+    name: __blank__
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1869882462
+      columns:
+        __assoc__:
+          -
+            - 2b752466-a680-4956-b353-c24d023b4612 # Blocks
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_2_blockrepeater}}'
+      fieldLayout: matrix
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: 'Add a block'
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  54b52fe6-5ff6-47ab-badd-b53ff1a14014: # Row Width
+    columnSuffix: aqxwezbr
+    contentColumnType: string
+    fieldGroup: null
+    handle: rowWidth
+    instructions: 'Set the width of this row'
+    name: 'Row Width'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - XXX-Narrow
+            -
+              - value
+              - xxx-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - XX-Narrow
+            -
+              - value
+              - xx-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - X-Narrow
+            -
+              - value
+              - x-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Narrow
+            -
+              - value
+              - narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Wide
+            -
+              - value
+              - wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - X-Wide
+            -
+              - value
+              - x-wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - XX-Wide
+            -
+              - value
+              - xx-wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - XXX-Wide
+            -
+              - value
+              - xxx-wide
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  653c18f3-0735-478d-8078-c017a86b6d49: # Padding Bottom
+    columnSuffix: lsavcyfd
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingBottom
+    instructions: 'Set the bottom padding'
+    name: 'Padding Bottom'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Inherit
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-bottom-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-bottom-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-bottom-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-bottom-300
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-bottom-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-bottom-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-bottom-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-bottom-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  2605faf8-5a41-4885-9202-42af4117dc63: # Padding Top
+    columnSuffix: gzcnihvg
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingTop
+    instructions: 'Set the top padding'
+    name: 'Padding Top'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Inherit
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-top-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-top-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-top-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-top-300
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-top-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-top-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-top-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-top-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  5165520f-c260-4c6e-9cac-fdc7adc456d8: # Grid Gap
+    columnSuffix: brzmuruj
+    contentColumnType: string
+    fieldGroup: null
+    handle: gridGap
+    instructions: 'Set the space between blocks'
+    name: 'Grid Gap'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - grid-gap-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - grid-gap-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - grid-gap-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - grid-gap-300
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - grid-gap-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - grid-gap-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - grid-gap-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - grid-gap-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  b12af4cb-33ee-45d8-839f-cc631bdec7aa: # Background Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundImage
+    instructions: null
+    name: 'Background Image'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1666355167
+      columns:
+        __assoc__:
+          -
+            - e6787659-8762-438e-9d5b-f250484899e1 # Image
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 3125d32f-3f3e-476e-be41-570a311f535d # Overlay
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 8198fa56-c374-4bf1-a89b-e12f9424c957 # Overlay Type
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 65157ff9-c335-43fb-8fe6-c55b6a446515 # Opacity
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - dc08a4ab-5fa4-44d6-ba58-5881bc075598 # Blend Mode
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_2_backgroundimage}}'
+      fieldLayout: table
+      maxRows: 1
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: 'Add Background Image'
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  bb261ea6-1a7d-4a69-aa23-60051b43e1d3: # Space Top
+    columnSuffix: ywiargip
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceTop
+    instructions: 'Set the space above this row'
+    name: 'Space Top'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - gap-top-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - gap-top-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - gap-top-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - gap-top-300
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - gap-top-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - gap-top-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - gap-top-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - gap-top-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  c04a28cc-e246-4b2f-abb9-bcea43868edb: # Row Colour
+    columnSuffix: xnpmugpu
+    contentColumnType: string
+    fieldGroup: null
+    handle: rowColour
+    instructions: 'Set the background colour'
+    name: 'Row Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  c19f1ba5-3c56-42a1-bc4c-81a3b24b269b: # Block Layout
+    columnSuffix: lnlredgx
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockLayout
+    instructions: 'Set advanced layout options'
+    name: 'Block Layout'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Auto
+            -
+              - value
+              - auto
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - '1 Col'
+            -
+              - value
+              - has-one-column
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col'
+            -
+              - value
+              - has-two-columns
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (left-wide)'
+            -
+              - value
+              - 'has-two-columns left-wide'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (right-wide)'
+            -
+              - value
+              - 'has-two-columns right-wide'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (left wider)'
+            -
+              - value
+              - 'has-two-columns left-wider'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (right wider)'
+            -
+              - value
+              - 'has-two-columns right-wider'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (left- stack)'
+            -
+              - value
+              - 'has-two-columns left-stack'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (right- stack)'
+            -
+              - value
+              - 'has-two-columns right-stack '
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (left split stack)'
+            -
+              - value
+              - 'has-two-columns left-split-stack '
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (right split stack)'
+            -
+              - value
+              - 'has-two-columns right-split-stack'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '3 Col'
+            -
+              - value
+              - 'has-three-columns '
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '3 Col (left-wide)'
+            -
+              - value
+              - 'has-three-columns right-wide'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '3 Col (right-wide)'
+            -
+              - value
+              - 'has-three-columns left-wide'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4 Col'
+            -
+              - value
+              - 'has-four-columns row-four'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4 Col (grid)'
+            -
+              - value
+              - 'has-four-columns grid-four'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4 Col (uneven-1)'
+            -
+              - value
+              - 'has-four-columns uneven-grid'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4 Col (uneven-2)'
+            -
+              - value
+              - 'has-four-columns uneven-grid-flipped'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '5 Col'
+            -
+              - value
+              - has-five-columns
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '6 Col'
+            -
+              - value
+              - has-six-columns
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  e4d5325a-fdd0-4791-9abe-279b9b1e19df: # Media Queries
+    columnSuffix: mzdjgasm
+    contentColumnType: string
+    fieldGroup: null
+    handle: mediaQueries
+    instructions: 'This can be used to preserve layout at smaller screen sizes'
+    name: 'Media Queries'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Ignore Medium Large'
+            -
+              - value
+              - ignore-medium-large
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Ignore Medium'
+            -
+              - value
+              - ignore-medium
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Ignore Large Tablet'
+            -
+              - value
+              - ignore-large-tablet
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Ignore Tablet'
+            -
+              - value
+              - ignore-tablet
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Ignore Phablet'
+            -
+              - value
+              - ignore-phablet
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Ignore Mobile'
+            -
+              - value
+              - ignore-mobile
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Checkboxes
+handle: gridRow
+name: 'Grid Row'
+sortOrder: 1

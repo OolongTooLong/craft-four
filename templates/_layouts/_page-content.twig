@@ -1,0 +1,75 @@
+{#
+This is the page builder template
+
+Struture:
+-- General Page settings
+-- Switch on matrix layouts:
+    -- GridRow
+
+Settings are applied to each row and then the blocks are included using their file name,
+as such all blocks in a matrix layout live in the same folder.
+#}
+
+
+{% if pageBuilder|length %}
+
+    {% for rowKey, row in pageBuilder.all() %}
+
+        {% set gridGap = row.gridGap %}
+        {% if gridGap == 'default' %}
+            {% set gridGap = master.masterGridGap %}
+        {% endif %}
+
+        {% set rowSpace = row.spaceTop %}
+        {% if rowSpace == 'default' %}
+            {% set rowSpace = master.masterRowSpacing %}
+        {% endif %}
+
+        {% set anchorLabel = row.anchorLabel ?? '' %}
+        {% set backgroundImage = row.backgroundImage.all()[0].image.one().getUrl('large') ?? '' %}
+        {% set overlay = row.backgroundImage.all()[0].overlay ?? '' %}
+        {% set overlayType = row.backgroundImage.all()[0].overlayType ?? '' %}
+        {% set opacity = row.backgroundImage.all()[0].opacity ?? '' %}
+        {% set blendMode = row.backgroundImage.all()[0].blendMode ?? '' %}
+
+        {% set mediaQueries = row.mediaQueries ?? '' %}
+
+        {% if row.advancedSettings|length %}
+            {% set slider = row.advancedSettings[0].slider ? 'slider' : '' %}
+            {% set slidesToShow = row.advancedSettings[0].slidesToShow ?? 3 %}
+            {% set blockSize = row.advancedSettings[0].blockSize ?? '' %}
+            {% set widthMod = row.advancedSettings[0].widthMod ?? '' %}
+
+            {% if row.advancedSettings[0].arrows is defined %}
+                {% set arrowsOptions = row.advancedSettings[0].arrows ?? ' ' %}
+                {% if arrowsOptions == 'false' %}{% set arrows = 'false' %}{% else %}{% set arrows = 'true' %}{% endif %}
+                {% set arrowColour = row.advancedSettings[0].arrowColour ?? ' ' %}
+            {% endif %}
+            {% if row.advancedSettings[0].dots  is defined %}
+                {% set dots = row.advancedSettings[0].dots ? 'true' : 'false' %}
+            {% endif %}
+        {% else %}
+            {% set slider =  '' %}
+        {% endif %}
+
+        {% switch row.type.handle %}
+
+        {% case 'gridRow' %}
+
+            <section id="{{ anchorLabel|kebab }}"
+                     class="grid-row {{ rowSpace }} {{ row.rowColour ?? '' }} {{ row.paddingTop ?? '' }} {{ row.paddingBottom ?? '' }} {{ overlay }} {{ overlayType }} {{ opacity }} {{ blendMode }}" {% if backgroundImage %} style="background: url({{ backgroundImage }}) center center/cover no-repeat"{% endif %}>
+                <div class="grid {{ row.type.handle }} {{ row.rowWidth ?? '' }} {{ row.blockLayout ?? '' }} {{ gridGap }} {{ widthMod ?? '' }} {{ blockSize ?? '' }} {{ slider ?? '' }} {{ arrowsOptions ?? '' }} {{ arrowColour ?? '' }} {% for option in mediaQueries %}{{ option.value~' ' }}{% endfor %}"{% if slider == 'slider' %} id="slider-{{ rowKey }}" data-slick='{"slidesToShow": {{ slidesToShow|raw }}, "slidesToScroll": 1, "arrows":{{ arrows }},"dots":{{ dots }}, "responsive": [ { "breakpoint": 768, "settings": { "slidesToShow": 2 } }, { "breakpoint": 480, "settings": {"slidesToShow": 1 } }]}'{% endif %}>
+                    {% if row.blockRepeater.one() %}
+                        {% set repeater = row.blockRepeater.one().blocks %}
+                        {% for blockKey, block in repeater.all() %}
+                            {% include '_layouts/_grid-blocks/_'~ block.type.handle~'.twig' with {blockType:block.type.handle} %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </section>
+
+        {% endswitch %}
+
+    {% endfor %}
+
+{% endif %}

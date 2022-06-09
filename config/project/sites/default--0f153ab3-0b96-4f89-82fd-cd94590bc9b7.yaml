@@ -4,5 +4,5 @@ hasUrls: true
 language: en-GB
 name: 'Craft Four'
 primary: true
-siteGroup: 58d2395d-8abf-4cd8-b657-a18274b1d213
+siteGroup: 58d2395d-8abf-4cd8-b657-a18274b1d213 # Craft Four
 sortOrder: 1

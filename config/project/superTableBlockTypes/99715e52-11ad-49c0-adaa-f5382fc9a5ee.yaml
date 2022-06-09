@@ -1,0 +1,453 @@
+field: fa7fa0a6-7d39-499d-acbd-5952299df1cc # Block Padding
+fieldLayouts:
+  8558a76f-85a8-4062-bc42-4f1049ecbb1f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b3d66a47-c862-4659-8953-f90d60906b0f # Padding Top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a259ee8a-e898-4d3a-b5fc-fe753d7fb189
+            warning: null
+            width: 100
+          -
+            fieldUid: c86c67e1-384e-4226-bc08-27ed89875a9d # Padding Bottom
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e8b465c5-5af0-474e-b702-2de0fd9014c4
+            warning: null
+            width: 100
+          -
+            fieldUid: e6970a2e-a0cd-4716-8697-40806cd1a9be # Padding Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8dea5984-c470-477b-a5df-34dda5b4a00e
+            warning: null
+            width: 100
+          -
+            fieldUid: c2a6272c-ce4f-4332-896b-96c2e99c4ef8 # Padding Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c04db6ec-2fbb-41ee-9a5f-e784fcc31d16
+            warning: null
+            width: 100
+        name: Content
+        uid: db8d34d5-d169-4359-84e5-7e5e25578900
+fields:
+  b3d66a47-c862-4659-8953-f90d60906b0f: # Padding Top
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingTop
+    instructions: null
+    name: 'Padding Top'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-top-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-top-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-top-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-top-300
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-top-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-top-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-top-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-top-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  c2a6272c-ce4f-4332-896b-96c2e99c4ef8: # Padding Right
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingRight
+    instructions: null
+    name: 'Padding Right'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-right-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-right-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-right-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-right-300
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-right-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-right-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-right-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-right-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  c86c67e1-384e-4226-bc08-27ed89875a9d: # Padding Bottom
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingBottom
+    instructions: null
+    name: 'Padding Bottom'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-bottom-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-bottom-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-bottom-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-bottom-300
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-bottom-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-bottom-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-bottom-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-bottom-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  e6970a2e-a0cd-4716-8697-40806cd1a9be: # Padding Left
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingLeft
+    instructions: null
+    name: 'Padding Left'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-left-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-left-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-left-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-left-300
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-left-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-left-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-left-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-left-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown

@@ -1,0 +1,78 @@
+fieldLayouts:
+  7014c071-ecf8-4d9a-ac2b-e411679366a1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 8f8bdbd3-02b4-44c4-a855-e46684f47565 # Space Ratio
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7573a8b1-2e99-4ed5-9e9e-30a31840de99
+            warning: null
+            width: 25
+          -
+            fieldUid: da3a6e67-61d1-48e6-9abf-099982a09541 # Master Grid Gap
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b0abe1c-18f5-44f5-aad2-3c9c56db6d9f
+            warning: null
+            width: 25
+          -
+            fieldUid: f2f08d3c-65a2-4bec-8cac-bfb6e498b841 # Master Row Spacing
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e83b366-c89e-4645-aa96-1c2126345348
+            warning: null
+            width: 25
+        name: 'Sizing & Spacing'
+        uid: edbeeebe-1ab2-45a9-96e5-aa4bc8f31a90
+      -
+        elements:
+          -
+            fieldUid: 31fe6439-0333-4163-9c5c-bd5152d40064 # Button Settings
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0507a27f-277d-4d84-bd4b-deb510d60031
+            warning: null
+            width: 100
+          -
+            fieldUid: 2fe148e1-4bb3-42cc-9f5f-1df1a17b0845 # Image Settings
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7842bf21-6eee-4785-9d5d-42241d334e34
+            warning: null
+            width: 100
+        name: Styling
+        uid: 71ebe235-53b9-41c2-8b9d-dc9e373c1910
+      -
+        elements:
+          -
+            fieldUid: 40a58856-1ffc-4ba7-ae15-1c94fa971e35 # Stylesheet
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66704bbf-32b4-423b-acc3-30584d88ff3b
+            warning: null
+            width: 100
+        name: Stylesheet
+        uid: 4ae55c25-c2d7-4b90-b829-8030d014d74a
+handle: master
+name: Master
+sortOrder: 1

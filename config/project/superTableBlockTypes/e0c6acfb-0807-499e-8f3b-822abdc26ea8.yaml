@@ -1,0 +1,908 @@
+field: bdc80ea3-1873-4381-b649-ef5cbf9a80c2 # Colours
+fieldLayouts:
+  28fbbe6c-b3b9-46ed-a728-2f3246b71ff5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9eec9ee7-a8a9-47d3-b546-dd395d1797ae # Primary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 24ac181a-a5ae-43fa-8fc0-4b1f86eb7803
+            warning: null
+            width: 100
+          -
+            fieldUid: cea661da-681d-457d-aaf7-bdbcc9d2918f # Secondary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21838428-e122-40bd-9374-e299d57cb541
+            warning: null
+            width: 100
+          -
+            fieldUid: 7b308e3d-86a2-45bc-929f-3c18c542d711 # Tertiary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0508ceda-40cf-4a9b-8a78-c7a3a8effc44
+            warning: null
+            width: 100
+          -
+            fieldUid: ba940262-031b-4e04-872c-675de886558e # Quaternary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d5b18739-b4fb-40aa-9de8-e529dfe61616
+            warning: null
+            width: 100
+          -
+            fieldUid: 4e6615be-e8af-4bf4-a5c9-aa58a38d76cc # Light
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1df30834-7650-4488-bd3b-a1b0cbfeaa89
+            warning: null
+            width: 100
+          -
+            fieldUid: d21fbde3-4110-4325-aed0-eab72636f1f2 # Dark
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2bdc51a-17e5-4b16-9212-a933c28b663c
+            warning: null
+            width: 100
+          -
+            fieldUid: eaa2723b-34cd-4a8f-a95e-f431d7ed90f8 # Background
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d435a9ae-9c9a-42cc-80e2-41f81d4a9f79
+            warning: null
+            width: 100
+          -
+            fieldUid: deffdf31-8fa8-4c53-983c-89074a09962a # Font
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 999d46b4-b633-40b7-84a1-7167775915c5
+            warning: null
+            width: 100
+          -
+            fieldUid: 61522acc-0380-40de-95e0-7e44fe6ff2b7 # Button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b9f5ca42-d335-41cf-beda-13ca004b93df
+            warning: null
+            width: 100
+          -
+            fieldUid: f179e41b-3e70-4981-97d5-9acd34934778 # Base Colours
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5488b920-5b3e-41e0-a7f7-c3bc33f1cccc
+            warning: null
+            width: 100
+        name: Content
+        uid: 51f4ea31-05fd-434c-8fea-42abb4dd89b0
+fields:
+  4e6615be-e8af-4bf4-a5c9-aa58a38d76cc: # Light
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: light
+    instructions: null
+    name: Light
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Main
+                -
+                  - handle
+                  - main
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Highlight
+                -
+                  - handle
+                  - highlight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Invert
+                -
+                  - handle
+                  - invert
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - f3f3f3
+            -
+              - col2
+              - '767676'
+            -
+              - col3
+              - 1a1a1a
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  7b308e3d-86a2-45bc-929f-3c18c542d711: # Tertiary
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: tertiary
+    instructions: null
+    name: Tertiary
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Main
+                -
+                  - handle
+                  - main
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Highlight
+                -
+                  - handle
+                  - highlight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Invert
+                -
+                  - handle
+                  - invert
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - e0e4cc
+            -
+              - col2
+              - 86897a
+            -
+              - col3
+              - fcfcfa
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  9eec9ee7-a8a9-47d3-b546-dd395d1797ae: # Primary
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: primary
+    instructions: null
+    name: Primary
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Main
+                -
+                  - handle
+                  - main
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Highlight
+                -
+                  - handle
+                  - highlight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Invert
+                -
+                  - handle
+                  - invert
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - 69d2e7
+            -
+              - col2
+              - 3f7e8b
+            -
+              - col3
+              - f0fbfd
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  61522acc-0380-40de-95e0-7e44fe6ff2b7: # Button
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: button
+    instructions: null
+    name: Button
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Background Colour'
+                -
+                  - handle
+                  - backgroundColour
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Hover Background Colour'
+                -
+                  - handle
+                  - hoverBackgroundColour
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Text Colour'
+                -
+                  - handle
+                  - textColour
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col4
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Hover Text Colour'
+                -
+                  - handle
+                  - hoverTextColour
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col5
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Border Colour'
+                -
+                  - handle
+                  - borderColour
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col6
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Hover Border Colour'
+                -
+                  - handle
+                  - hoverBorderColour
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - 30b130
+            -
+              - col2
+              - f3a10b
+            -
+              - col3
+              - ffffff
+            -
+              - col4
+              - ffffff
+            -
+              - col5
+              - ffffff
+            -
+              - col6
+              - ffffff
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  ba940262-031b-4e04-872c-675de886558e: # Quaternary
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: quaternary
+    instructions: null
+    name: Quaternary
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Main
+                -
+                  - handle
+                  - main
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Highlight
+                -
+                  - handle
+                  - highlight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Invert
+                -
+                  - handle
+                  - invert
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - f38630
+            -
+              - col2
+              - 92501d
+            -
+              - col3
+              - fef3ea
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  cea661da-681d-457d-aaf7-bdbcc9d2918f: # Secondary
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: secondary
+    instructions: null
+    name: Secondary
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Main
+                -
+                  - handle
+                  - main
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Highlight
+                -
+                  - handle
+                  - highlight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Invert
+                -
+                  - handle
+                  - invert
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - a7dbd8
+            -
+              - col2
+              - '648382'
+            -
+              - col3
+              - f6fbfb
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  d21fbde3-4110-4325-aed0-eab72636f1f2: # Dark
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: dark
+    instructions: null
+    name: Dark
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Main
+                -
+                  - handle
+                  - main
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Highlight
+                -
+                  - handle
+                  - highlight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Invert
+                -
+                  - handle
+                  - invert
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - 1a1a1a
+            -
+              - col2
+              - '767676'
+            -
+              - col3
+              - f3f3f3
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  deffdf31-8fa8-4c53-983c-89074a09962a: # Font
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: font
+    instructions: null
+    name: Font
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Heading Font'
+                -
+                  - handle
+                  - headingFont
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Body Font'
+                -
+                  - handle
+                  - bodyFont
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Link
+                -
+                  - handle
+                  - link
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - 2b2b2b
+            -
+              - col2
+              - 2b2b2b
+            -
+              - col3
+              - 2b2b2b
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  eaa2723b-34cd-4a8f-a95e-f431d7ed90f8: # Background
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: background
+    instructions: null
+    name: Background
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Background
+                -
+                  - handle
+                  - background
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - f3f3f3
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  f179e41b-3e70-4981-97d5-9acd34934778: # Base Colours
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: baseColours
+    instructions: null
+    name: 'Base Colours'
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Green
+                -
+                  - handle
+                  - green
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Orange
+                -
+                  - handle
+                  - orange
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Red
+                -
+                  - handle
+                  - red
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - color
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - 30b130
+            -
+              - col2
+              - f3a10b
+            -
+              - col3
+              - de2e2e
+      maxRows: 1
+      minRows: 1
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table

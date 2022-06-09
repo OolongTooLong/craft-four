@@ -1,0 +1,20 @@
+fieldLayouts:
+  9c93b94b-1928-4d5e-b657-1f36532858a9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: bdc80ea3-1873-4381-b649-ef5cbf9a80c2 # Colours
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4cec2f5d-1005-4140-a434-f376342f5f89
+            warning: null
+            width: 100
+        name: Colours
+        uid: 4cb1a0d6-c655-4aa5-a5e2-7e4f7229103a
+handle: siteColours
+name: Colours
+sortOrder: 3

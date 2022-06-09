@@ -1,0 +1,93 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 49169920-d20d-4469-bb6a-55f9c094ae82 # Master
+handle: colours
+instructions: null
+name: Colours
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 28214307
+  columns:
+    __assoc__:
+      -
+        - 9eec9ee7-a8a9-47d3-b546-dd395d1797ae # Primary
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - cea661da-681d-457d-aaf7-bdbcc9d2918f # Secondary
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 7b308e3d-86a2-45bc-929f-3c18c542d711 # Tertiary
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - ba940262-031b-4e04-872c-675de886558e # Quaternary
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 4e6615be-e8af-4bf4-a5c9-aa58a38d76cc # Light
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - d21fbde3-4110-4325-aed0-eab72636f1f2 # Dark
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - eaa2723b-34cd-4a8f-a95e-f431d7ed90f8 # Background
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - deffdf31-8fa8-4c53-983c-89074a09962a # Font
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 61522acc-0380-40de-95e0-7e44fe6ff2b7 # Button
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - f179e41b-3e70-4981-97d5-9acd34934778 # Base Colours
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_colours}}'
+  fieldLayout: matrix
+  maxRows: 1
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

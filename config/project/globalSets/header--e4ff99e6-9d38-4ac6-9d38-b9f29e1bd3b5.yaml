@@ -1,0 +1,30 @@
+fieldLayouts:
+  cc5322a5-adc0-47c9-bb05-f58709beafa7:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 2eb56433-f7a5-4573-b1ec-84afd4399048 # Header Position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b8b4b4e-6573-4903-851a-22d4728edd23
+            warning: null
+            width: 25
+          -
+            fieldUid: 2e2f8865-b5ab-4981-8382-545983f70c5c # Header Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b9cbc76-0935-49f5-9cd7-8a9a57bcedda
+            warning: null
+            width: 100
+        name: Navigation
+        uid: 59c488a8-d3ba-4ed7-84d3-ededf1d98fbc
+handle: header
+name: Header
+sortOrder: 5

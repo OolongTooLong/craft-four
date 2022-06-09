@@ -1,0 +1,139 @@
+<div class="stack card
+    {{ cardBgColour ?? '' }}
+    {{ master.cardSettings[0].borderRadius ?? '' }}
+    {{ master.cardSettings[0].borderColour ?? '' }}
+    {{ master.cardSettings[0].titleFont ?? '' }}
+    {{ master.cardSettings[0].dropShadow ? 'drop' : ' ' }}
+    {{ block.mobileOptions ?? '' }}">
+    {% if entry.thumbnail is defined and entry.thumbnail|length > 0 %}
+        {% set imageUrl = entry.thumbnail.one() %}
+        {% if imageCrop is defined %}
+            {% switch imageCrop %}
+            {% case 'medium' %}
+                {% set imageMedium = imageUrl.getUrl('medium') ?? '' %}
+                {% set imageSmall = imageUrl.getUrl('small') ?? '' %}
+            {% case 'portrait' %}
+                {% set imageMedium = imageUrl.getUrl('portrait') ?? '' %}
+                {% set imageSmall = imageUrl.getUrl('portrait') ?? '' %}
+            {% case 'largeSquare' %}
+                {% set imageMedium = imageUrl.getUrl('largeSquare') ?? '' %}
+                {% set imageSmall = imageUrl.getUrl('square') ?? '' %}
+            {% case 'square' %}
+                {% set imageMedium = imageUrl.getUrl('square') ?? '' %}
+                {% set imageSmall = imageUrl.getUrl('square') ?? '' %}
+            {% case 'fourThree' %}
+                {% set imageMedium = imageUrl.getUrl('fourThree') ?? '' %}
+                {% set imageSmall = imageUrl.getUrl('fourThree')?? '' %}
+            {% default %}
+                {% set imageMedium = imageUrl.getUrl('medium') ?? '' %}
+                {% set imageSmall = imageUrl.getUrl('small') ?? '' %}
+            {% endswitch %}
+        {% else %}
+            {% set imageMedium = imageUrl.getUrl('medium') ?? '' %}
+            {% set imageSmall = imageUrl.getUrl('small') ?? '' %}
+        {% endif %}
+
+        {% if popup is defined and popup == 1 %}
+            <a href="#popup-{{ entry.sectionId ~ '-' ~ entry.id }}"  class="imglink open-card-popup">
+        {% elseif hideButton is defined and hideButton %}
+        {% else %}
+            <a class="imglink" href="{{ entry.url }}">
+        {% endif %}
+
+        <figure>
+            <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
+                 sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
+                 src="{{ imageMedium }}" alt="{{ imageUrl.plainText ?? '' }}"/>
+            {% if imageUrl.text %}
+                <figcaption>
+                    {{ imageUrl.text }}
+                </figcaption>
+            {% endif %}
+        </figure>
+
+        {% if popup is defined and popup == 1 %}
+            </a>
+        {% else %}
+            </a>
+        {% endif %}
+    {% endif %}
+    <div class="inner">
+        {% if entry.title is defined %}
+            <h4>{{ entry.title }}</h4>
+        {% endif %}
+
+        {% set categoryQuery = craft.categories()
+            .group('category')
+            .relatedTo(entry.id) %}
+
+        {% if showPostDate is defined %}
+            {% if showPostDate %}
+                <h6>{{ entry.postDate | date("M d, Y") }}</h6>
+            {% endif %}
+        {% endif %}
+        {% if categoryQuery|length %}
+            <hr>
+            <p><strong>Categories:</strong>
+                {% for key, category in categoryQuery.all() %}
+                    {{ category.title }},
+                {% endfor %}
+            </p>
+        {% endif %}
+        {% if entry.blogIntro|length %}
+            {% if entry.blogIntro.textArea %}
+                <hr>
+                {{ entry.blogIntro.textArea }}
+            {% endif %}
+        {% endif %}
+        {% if entry.excerpt is defined and entry.excerpt|length %}
+            {% if useExcerptLimit is defined and useExcerptLimit == 0 %}
+                <p>{{ entry.excerpt }}</p>
+            {% else %}
+                {% set excerptLength = fontSettings.excerptLimit %}
+                <p>{{ entry.excerpt|truncate(excerptLength)|raw }}</p>
+            {% endif %}
+        {% endif %}
+
+        {% if popup is defined and popup == 1 %}
+            <div id="popup-{{ entry.sectionId ~ '-' ~ entry.id }}" class="card-popup mfp-hide">
+                {% if entry.thumbnail is defined and entry.thumbnail|length > 0 %}
+                    <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
+                         sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
+                         src="{{ imageMedium }}" alt=""/>
+                {% endif %}
+                <div>
+                    <h4>{{ entry.title }}</h4>
+                    {% if categoryQuery|length %}
+                        <hr>
+                        <h6><strong>Categories:</strong>
+                            {% for key, category in categoryQuery.all() %}
+                                {{ category.title }},
+                            {% endfor %}
+                        </h6>
+                    {% endif %}
+                    {% if  entry.blogIntro.textArea %}
+                        <hr>
+                        {{ entry.blogIntro.textArea }}
+                    {% endif %}
+                    <p>
+                        {{ entry.excerpt }}
+                    </p>
+                </div>
+            </div>
+            <a href="#popup-{{ entry.sectionId ~ '-' ~ entry.id }}"
+               class="button {{ buttonStyle ?? '' }} open-card-popup">Read
+                More</a>
+        {% elseif entry.url is defined %}
+            {% if hideButton is defined and hideButton %}
+            {% else %}
+                <div class="button-wrap {{ master.buttonSettings[0].mobileOptions ?? '' }}">
+                    <a class="button {{ buttonStyle ?? '' }} {{ buttonColour ?? '' }}"
+                       href="{{ entry.url }}">{{ buttonText ?? 'Read More' }}</a>
+                </div>
+            {% endif %}
+
+
+        {% endif %}
+    </div>
+</div>
+

@@ -1,0 +1,1302 @@
+field: 4a764151-b881-4190-a8d8-e495aba359a1 # Hero Builder
+fieldLayouts:
+  8efdc985-692c-4e09-9c25-e57b6701b629:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: de63ea62-fa9d-4dc8-bcc5-063367a4d5c8 # Hero Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: afa3800d-491c-418d-9ded-fbd49f225a8e
+            warning: null
+            width: 25
+          -
+            fieldUid: eea4631d-86f7-4d76-8699-2b6a6841cd5a # Hero Height
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30abd4ea-ef30-4c7d-9cdb-b6d1b1a66ab7
+            warning: null
+            width: 25
+          -
+            fieldUid: db8dc648-39ea-4d72-8c40-8c9e1e3bf1e4 # Content Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 451de5eb-21ad-4a09-8704-774884025881
+            warning: null
+            width: 25
+          -
+            fieldUid: 105859a8-832a-4fa3-a366-6eec836d8455 # Layout
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5b0fe5d-d176-4f31-af4b-586bb228b922
+            warning: null
+            width: 25
+          -
+            fieldUid: 42c0d85e-9bf0-47d8-9f76-85d08c2b46fc # Grid Gap
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 68ebf5f2-b389-46f5-bad3-8f0d8a8891a0
+            warning: null
+            width: 25
+          -
+            fieldUid: 8cc35e2f-d3a3-4dd1-ab94-21ac5dd21047 # Padding Top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8b9a467-bfe2-4d8c-a18d-e1c06c6385fa
+            warning: null
+            width: 25
+          -
+            fieldUid: 8baca5a0-7a9d-4613-9c71-7d797b7b24de # Padding Bottom
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b77f530-62ef-4a64-a6c8-c9d2949c8ba1
+            warning: null
+            width: 25
+          -
+            fieldUid: dc6cef34-dd19-4b2b-9c80-8a611906cc45 # Overlay
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 84972b28-f229-4b82-8b3d-7170f1b6a788
+            warning: null
+            width: 25
+          -
+            fieldUid: 38c8d2e6-b872-4eca-90b4-1153cf218a2b # Overlay Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0354545-3733-4c2a-8850-34d624c68158
+            warning: null
+            width: 25
+          -
+            fieldUid: f1540631-beee-4744-af87-3c71a89521ca # Opacity
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2463e1ff-5e97-4e9b-a2ef-98ce0a415ca0
+            warning: null
+            width: 25
+          -
+            fieldUid: f15d994a-37b4-40a5-bc0e-82d17daf3d39 # Blend Mode
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f363f1cb-50ca-4a32-a2f5-6428c58ff56a
+            warning: null
+            width: 25
+          -
+            fieldUid: d8e437cb-4c8c-4e4a-830e-0ab5a148353b # Text Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a1db3ef-a254-447b-91f6-d24260bb4f52
+            warning: null
+            width: 25
+          -
+            fieldUid: 9929d701-58b0-47ac-93ff-0c97e51f295b # Media
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7558e5f2-2459-477f-a93b-d6bed947e537
+            warning: null
+            width: 50
+          -
+            fieldUid: 5cbe70f6-1a87-466e-92cd-9430a00c5a3b # Hero Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 584a5ee1-65b3-443b-ab43-b01d77498d20
+            warning: null
+            width: 100
+          -
+            fieldUid: 4e750253-4da3-4a5d-a627-2031b711d45c # Advanced Options
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce81942e-9bbe-49f0-894f-8075fd30d72e
+            warning: null
+            width: 100
+        name: Content
+        uid: 636d7a5b-4d29-44e7-92bc-5c876190a008
+fields:
+  4e750253-4da3-4a5d-a627-2031b711d45c: # Advanced Options
+    columnSuffix: leeffuzd
+    contentColumnType: text
+    fieldGroup: null
+    handle: advancedOptions
+    instructions: null
+    name: 'Advanced Options'
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Share Button'
+                -
+                  - handle
+                  - shareButton
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - lightswitch
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Contact Button'
+                -
+                  - handle
+                  - contactButton
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - lightswitch
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  5cbe70f6-1a87-466e-92cd-9430a00c5a3b: # Hero Content
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroContent
+    instructions: null
+    name: 'Hero Content'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1733443773
+      columns:
+        __assoc__:
+          -
+            - 6614ecb0-f4c5-450d-9705-20eae03231ee # Hero Block
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_10_herocontent}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  8baca5a0-7a9d-4613-9c71-7d797b7b24de: # Padding Bottom
+    columnSuffix: ltblptcw
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingBottom
+    instructions: 'Set the bottom padding'
+    name: 'Padding Bottom'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-bottom-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-bottom-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-bottom-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-bottom-300
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-bottom-400
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-bottom-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-bottom-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-bottom-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  8cc35e2f-d3a3-4dd1-ab94-21ac5dd21047: # Padding Top
+    columnSuffix: tfyuwemk
+    contentColumnType: string
+    fieldGroup: null
+    handle: paddingTop
+    instructions: 'Set the top padding'
+    name: 'Padding Top'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - pad-top-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Small'
+            -
+              - value
+              - pad-top-100
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Small'
+            -
+              - value
+              - pad-top-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - pad-top-300
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - pad-top-400
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - pad-top-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - pad-top-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - pad-top-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  38c8d2e6-b872-4eca-90b4-1153cf218a2b: # Overlay Type
+    columnSuffix: vzqdxukb
+    contentColumnType: string
+    fieldGroup: null
+    handle: overlayType
+    instructions: 'Set the type of overlay'
+    name: 'Overlay Type'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Radial
+            -
+              - value
+              - radial
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  42c0d85e-9bf0-47d8-9f76-85d08c2b46fc: # Grid Gap
+    columnSuffix: qwcofgai
+    contentColumnType: string
+    fieldGroup: null
+    handle: gridGap
+    instructions: 'Set the space between blocks'
+    name: 'Grid Gap'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - grid-gap-000
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tiny
+            -
+              - value
+              - grid-gap-200
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - grid-gap-300
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - grid-gap-400
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - grid-gap-500
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - grid-gap-600
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'XX Large'
+            -
+              - value
+              - grid-gap-700
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  9929d701-58b0-47ac-93ff-0c97e51f295b: # Media
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: media
+    instructions: 'Set the background image on the hero'
+    name: Media
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  105859a8-832a-4fa3-a366-6eec836d8455: # Layout
+    columnSuffix: cnxsghdr
+    contentColumnType: string
+    fieldGroup: null
+    handle: layout
+    instructions: 'Set advanced layout options'
+    name: Layout
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Auto
+            -
+              - value
+              - auto
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '1 Col'
+            -
+              - value
+              - has-one-column
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col'
+            -
+              - value
+              - has-two-column
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (left-wide)'
+            -
+              - value
+              - 'has-two-column left-wide'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '2 Col (right-wide)'
+            -
+              - value
+              - 'has-two-column right-wide'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  d8e437cb-4c8c-4e4a-830e-0ab5a148353b: # Text Colour
+    columnSuffix: oqjeurko
+    contentColumnType: string
+    fieldGroup: null
+    handle: textColour
+    instructions: null
+    name: 'Text Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - color-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - color-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - color-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - color-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - color-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - color-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  db8dc648-39ea-4d72-8c40-8c9e1e3bf1e4: # Content Width
+    columnSuffix: qloxwwdt
+    contentColumnType: string
+    fieldGroup: null
+    handle: contentWidth
+    instructions: 'Set the width of the content'
+    name: 'Content Width'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - xxx-narrow
+            -
+              - value
+              - xxx-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - xx-narrow
+            -
+              - value
+              - xx-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - x-narrow
+            -
+              - value
+              - x-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - narrow
+            -
+              - value
+              - narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - default
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - wide
+            -
+              - value
+              - wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - x-wide
+            -
+              - value
+              - x-wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - xx-wide
+            -
+              - value
+              - xx-wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - xxx-wide
+            -
+              - value
+              - xxx-wide
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  dc6cef34-dd19-4b2b-9c80-8a611906cc45: # Overlay
+    columnSuffix: hgyinuhq
+    contentColumnType: string
+    fieldGroup: null
+    handle: overlay
+    instructions: 'Set a overlay on hero'
+    name: Overlay
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - 'overlay bg-light-main'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - 'overlay bg-dark-main'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - 'overlay bg-primary-main'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - 'overlay bg-secondary-main'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - 'overlay bg-tertiary-main'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - 'overlay bg-quaternary-main'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  de63ea62-fa9d-4dc8-bcc5-063367a4d5c8: # Hero Width
+    columnSuffix: qpdgznfn
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroWidth
+    instructions: 'Set the width of the hero'
+    name: 'Hero Width'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - xxx-narrow
+            -
+              - value
+              - xxx-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - xx-narrow
+            -
+              - value
+              - xx-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - x-narrow
+            -
+              - value
+              - x-narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - narrow
+            -
+              - value
+              - narrow
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - default
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - wide
+            -
+              - value
+              - wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - x-wide
+            -
+              - value
+              - x-wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - xx-wide
+            -
+              - value
+              - xx-wide
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - xxx-wide
+            -
+              - value
+              - xxx-wide
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  eea4631d-86f7-4d76-8699-2b6a6841cd5a: # Hero Height
+    columnSuffix: aqdemori
+    contentColumnType: string
+    fieldGroup: null
+    handle: heroHeight
+    instructions: 'Set the height of the hero'
+    name: 'Hero Height'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - medium
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'X Large'
+            -
+              - value
+              - extra-large
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  f15d994a-37b4-40a5-bc0e-82d17daf3d39: # Blend Mode
+    columnSuffix: nnzgimki
+    contentColumnType: string
+    fieldGroup: null
+    handle: blendMode
+    instructions: 'Set the blend mode'
+    name: 'Blend Mode'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Multiply
+            -
+              - value
+              - multiply
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Overlay
+            -
+              - value
+              - overlay
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  f1540631-beee-4744-af87-3c71a89521ca: # Opacity
+    columnSuffix: yiqvswjh
+    contentColumnType: string
+    fieldGroup: null
+    handle: opacity
+    instructions: 'Set the level of opacity'
+    name: Opacity
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - '0.1'
+            -
+              - value
+              - o-01
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '0.2'
+            -
+              - value
+              - o-02
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '0.3'
+            -
+              - value
+              - o-03
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '0.4'
+            -
+              - value
+              - o-04
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '0.5'
+            -
+              - value
+              - o-05
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - '0.6'
+            -
+              - value
+              - o-06
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '0.7'
+            -
+              - value
+              - o-07
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '0.8'
+            -
+              - value
+              - o-08
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '0.9'
+            -
+              - value
+              - o-09
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: static
+name: Static
+sortOrder: 1

@@ -1,0 +1,284 @@
+columnSuffix: emoewanu
+contentColumnType: text
+fieldGroup: 49169920-d20d-4469-bb6a-55f9c094ae82 # Master
+handle: buttonSettings
+instructions: null
+name: 'Button Settings'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Button Style'
+            -
+              - handle
+              - buttonStyle
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Square
+                    -
+                      - value
+                      - 0px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(5)
+                    -
+                      - value
+                      - 5px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(10)
+                    -
+                      - value
+                      - 10px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(15)
+                    -
+                      - value
+                      - 15px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(20)
+                    -
+                      - value
+                      - 20px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Lozenge(50)
+                    -
+                      - value
+                      - 50px
+                    -
+                      - default
+                      - false
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Border Weight'
+            -
+              - handle
+              - borderWeight
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - None
+                    -
+                      - value
+                      - none
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 1px
+                    -
+                      - value
+                      - 1px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 2px
+                    -
+                      - value
+                      - 2px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 3px
+                    -
+                      - value
+                      - 3px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 4px
+                    -
+                      - value
+                      - 4px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 5px
+                    -
+                      - value
+                      - 5px
+                    -
+                      - default
+                      - false
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Button Font'
+            -
+              - handle
+              - buttonFont
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Body Font'
+                    -
+                      - value
+                      - body-font
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Heading Font'
+                    -
+                      - value
+                      - heading-font
+                    -
+                      - default
+                      - false
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Mobile Options'
+            -
+              - handle
+              - mobileOptions
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Default
+                    -
+                      - value
+                      - default
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 'Full Width'
+                    -
+                      - value
+                      - fullWidthMobile
+                    -
+                      - default
+                      - false
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - 0px
+        -
+          - col2
+          - none
+        -
+          - col3
+          - body-font
+        -
+          - col4
+          - default
+  maxRows: 1
+  minRows: 1
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

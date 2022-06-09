@@ -1,0 +1,141 @@
+columnSuffix: lbytpcmw
+contentColumnType: text
+fieldGroup: 49169920-d20d-4469-bb6a-55f9c094ae82 # Master
+handle: imageSettings
+instructions: null
+name: 'Image Settings'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Border Radius'
+            -
+              - handle
+              - borderRadius
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Square
+                    -
+                      - value
+                      - 0px
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(5)
+                    -
+                      - value
+                      - 5px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(10)
+                    -
+                      - value
+                      - 10px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(15)
+                    -
+                      - value
+                      - 15px
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Rounded(20)
+                    -
+                      - value
+                      - 20px
+                    -
+                      - default
+                      - false
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Hover Effect'
+            -
+              - handle
+              - hoverEffect
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - None
+                    -
+                      - value
+                      - '1'
+                    -
+                      - default
+                      - true
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Scale
+                    -
+                      - value
+                      - '1.2'
+                    -
+                      - default
+                      - false
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - 0px
+        -
+          - col2
+          - '1'
+  maxRows: 1
+  minRows: 1
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

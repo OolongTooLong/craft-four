@@ -1,0 +1,45 @@
+columnSuffix: nmpqdlxy
+contentColumnType: string
+fieldGroup: 04c6669e-c111-4486-981d-d607c6b7bdd5 # Header
+handle: headerPosition
+instructions: null
+name: 'Header Position'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Default
+        -
+          - value
+          - default
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Sticky
+        -
+          - value
+          - sticky
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Fixed
+        -
+          - value
+          - fixed
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,103 @@
+fieldLayouts:
+  5a34755f-b089-4ac8-b136-cbe02513d6d5:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 95148ab2-e7f3-4b4d-b97c-96defcc00d33
+            warning: null
+            width: 100
+          -
+            fieldUid: 4a764151-b881-4190-a8d8-e495aba359a1 # Hero Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f2605d3-9f9d-497f-84d4-900bc00249db
+            warning: null
+            width: 100
+          -
+            fieldUid: ffc2b89f-46b4-4c4f-9ca6-71feacca2d27 # Page Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2ef3288-f22a-47df-bacf-1f13329a9a99
+            warning: null
+            width: 100
+        name: Content
+        uid: dc1d4172-0d37-442f-925e-284ad0d98869
+      -
+        elements:
+          -
+            fieldUid: 267977e5-f578-4ff7-9d0b-b087274b6935 # Header Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a56aa243-bb70-4d88-b8d6-1cfb2896effc
+            warning: null
+            width: 25
+          -
+            fieldUid: 2eb56433-f7a5-4573-b1ec-84afd4399048 # Header Position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e12316b7-2d9b-414b-a82f-061c1cfb61c4
+            warning: null
+            width: 25
+          -
+            fieldUid: a36b009a-497d-4ad7-9a64-e0850703f0e2 # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a80a41b9-e40a-44a8-8434-03dc1a623a5a
+            warning: null
+            width: 100
+          -
+            fieldUid: bdc80ea3-1873-4381-b649-ef5cbf9a80c2 # Colours
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 595c4fbb-7b8f-4df0-aeb7-f8c58b2e5aed
+            warning: null
+            width: 100
+        name: 'Page Theme'
+        uid: 3e187d30-c81a-4b80-9637-0db543fb4406
+handle: page
+hasTitleField: true
+name: Page
+section: 9457bfd7-02d6-4b29-b3e2-c19f2c024b44 # Pages
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,369 @@
+field: 2b752466-a680-4956-b353-c24d023b4612 # Blocks
+fieldLayouts:
+  35ee39a5-aed4-4b23-80c1-515759fe84e1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9d337e52-fa3a-4814-b004-00f558b48a97 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0d5fcf97-8433-4cfa-8b0a-89396092990a
+            warning: null
+            width: 25
+          -
+            fieldUid: 1f7e7b4a-81c1-4981-b905-c443514810e2 # Crop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 02bce28c-c810-4c06-bdb9-d29f3b37ad1b
+            warning: null
+            width: 25
+          -
+            fieldUid: fd1dbfbc-b772-4c46-9815-bd51ef1a3b96 # Orientation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80b06038-3c26-43db-bb87-814de8877b65
+            warning: null
+            width: 25
+        name: Content
+        uid: ead733f5-7c90-4a55-a059-d2592a3f1caf
+fields:
+  1f7e7b4a-81c1-4981-b905-c443514810e2: # Crop
+    columnSuffix: qubovdrb
+    contentColumnType: string
+    fieldGroup: null
+    handle: crop
+    instructions: null
+    name: Crop
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Original
+            -
+              - value
+              - original
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Extra Large (1920 × 1080)'
+            -
+              - value
+              - extraLarge
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Large (1536 × 864)'
+            -
+              - value
+              - large
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Letter-box (1920 x 800)'
+            -
+              - value
+              - letterBox
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Small Letter-box (1920 x 600)'
+            -
+              - value
+              - smallLetterBox
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Larger (768 x 432)'
+            -
+              - value
+              - larger
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Portrait (450 × 600)'
+            -
+              - value
+              - portrait
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4:3 (600 × 450)'
+            -
+              - value
+              - fourThree
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Medium (576 × 324)'
+            -
+              - value
+              - medium
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Large Square (1000x1000)'
+            -
+              - value
+              - largeSquare
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Square( 500 × 500)'
+            -
+              - value
+              - square
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Small (384 × 216)'
+            -
+              - value
+              - small3
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Tiny (216 x 121)'
+            -
+              - value
+              - tiny
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  9d337e52-fa3a-4814-b004-00f558b48a97: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: 'Main image asset'
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources:
+        - 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  fd1dbfbc-b772-4c46-9815-bd51ef1a3b96: # Orientation
+    columnSuffix: bgwtgevt
+    contentColumnType: string
+    fieldGroup: null
+    handle: orientation
+    instructions: null
+    name: Orientation
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Stretch
+            -
+              - value
+              - stretch
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'Top Left'
+            -
+              - value
+              - topLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Top Centre'
+            -
+              - value
+              - topCentre
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Top Right'
+            -
+              - value
+              - topRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Left'
+            -
+              - value
+              - centreLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Centre'
+            -
+              - value
+              - centreCentre
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Right'
+            -
+              - value
+              - centreRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bottom Left'
+            -
+              - value
+              - bottomLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bottom Centre'
+            -
+              - value
+              - bottomCentre
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bottom Right'
+            -
+              - value
+              - bottomRight
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: imageBlock
+name: Image
+sortOrder: 2

@@ -1,0 +1,19 @@
+columnSuffix: xgndvvnd
+contentColumnType: text
+fieldGroup: 49169920-d20d-4469-bb6a-55f9c094ae82 # Master
+handle: stylesheet
+instructions: 'Enter CSS code here. Entered into <head> insides <style>'
+name: Stylesheet
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 10
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

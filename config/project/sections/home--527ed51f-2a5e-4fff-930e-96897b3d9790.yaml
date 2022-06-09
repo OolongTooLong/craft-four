@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  0f153ab3-0b96-4f89-82fd-cd94590bc9b7: # Craft Four
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
+type: single

@@ -116,16 +116,13 @@ exports.scssProd = scssProd
 
 /******** Watch Tasks *********/
 function watchStylesTask() {
-    watch('web/assets/SCSS/**/*.scss',
-        series([scssTask]));
+    watch('web/assets/scss/**/*.scss', scssTask);
 }
 
 exports.watchStyles = watchStylesTask
 
 function watchScriptsTask() {
-    watch('web/assets/JS/_components/*.js',
-        series(jsDeps, jsBuild, jsConcat),
-    )
+    watch('web/assets/js/_components/*.js', jsTasks)
 }
 
 exports.watchScripts = watchScriptsTask

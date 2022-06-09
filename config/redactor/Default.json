@@ -4,16 +4,137 @@
     "formatting",
     "bold",
     "italic",
+    "underline",
     "unorderedlist",
     "orderedlist",
     "link",
-    "image",
-    "video"
+    "blockquote",
+    "image"
+
   ],
   "plugins": [
-    "fullscreen",
-    "video"
+    "alignment",
+    "customstyles"
   ],
+  "formattingAdd": {
+    "introText": {
+      "title": "Intro Text",
+      "args": ["p", "class", "intro"]
+    },
+    "bigText": {
+      "title": "Big Text",
+      "args": ["p", "class", "big"]
+    }
+  },
   "linkNewTab": true,
-  "toolbarFixed": true
+  "toolbarFixed": true,
+  "customStyles": {
+    "buttonStyle": {
+      "dropdown": {
+        "primaryButton": {
+          "args": {
+            "tag": "span",
+            "class": "button primary",
+            "type": "toggle"
+          }
+        },
+        "secondaryButton": {
+          "args": {
+            "tag": "span",
+            "class": "button secondary",
+            "type": "toggle"
+          }
+        },
+        "ghostButton": {
+          "args": {
+            "tag": "span",
+            "class": "button ghost",
+            "type": "toggle"
+          }
+        },
+        "clearStyles": {
+          "api": "module.inline.clearformat"
+        }
+      }
+    },
+    "fontStyle": {
+      "dropdown": {
+        "headingFont": {
+          "args": {
+            "tag": "span",
+            "class": "heading-font",
+            "type": "toggle"
+          }
+        },
+        "bodyFont": {
+          "args": {
+            "tag": "span",
+            "class": "body-font",
+            "type": "toggle"
+          }
+        },
+        "clearStyles": {
+          "api": "module.inline.clearformat"
+        }
+
+      }
+    },
+    "fontColor": {
+      "dropdown": {
+        "Primary": {
+          "args": {
+            "tag": "span",
+            "class": "color-primary-main",
+            "type": "toggle"
+          }
+        },
+        "Secondary": {
+          "args": {
+            "tag": "span",
+            "class": "color-secondary-main",
+            "type": "toggle"
+          }
+        },
+        "Tertiary": {
+          "args": {
+            "tag": "span",
+            "class": "color-tertiary-main",
+            "type": "toggle"
+          }
+        },
+        "Quaternary": {
+          "args": {
+            "tag": "span",
+            "class": "color-quaternary-main",
+            "type": "toggle"
+          }
+        },
+        "Green": {
+          "args": {
+            "tag": "span",
+            "class": "color-base-green",
+            "type": "toggle"
+          }
+        },
+        "Orange": {
+          "args": {
+            "tag": "span",
+            "class": "color-base-orange",
+            "type": "toggle"
+          }
+        },
+        "Red": {
+          "args": {
+            "tag": "span",
+            "class": "color-base-red",
+            "type": "toggle"
+          }
+        },
+        "clearStyles": {
+          "api": "module.inline.clearformat"
+        }
+
+      }
+    }
+  }
 }

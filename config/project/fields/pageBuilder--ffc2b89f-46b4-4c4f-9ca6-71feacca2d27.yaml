@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 0caf853a-57c2-4d4d-857e-ec44f683607d # Page Builder
+handle: pageBuilder
+instructions: 'The page builder allows you to create rows, which can then be filled with blocks of content.'
+name: 'Page Builder'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_pagebuilder}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

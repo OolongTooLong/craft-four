@@ -1,0 +1,789 @@
+field: 954f3e11-2f00-41ba-b31e-e5777b252a9c # Header Content
+fieldLayouts:
+  cc8e3443-1446-4736-b77d-6fd0a39fd594:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 660c2ca7-47d9-43e4-9066-dbcda437a65f # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c914f8b-ba6c-4906-817b-a9b838348b6e
+            warning: null
+            width: 100
+          -
+            fieldUid: ce4b2896-0da2-41fc-b609-3820c8295bd0 # Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4da5e630-4492-4035-8934-ef54c5b36d6e
+            warning: null
+            width: 25
+          -
+            fieldUid: 70368293-4413-4cf5-8278-cfc6249e6ac9 # Min Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1f8158b3-25a7-43b4-b0b2-c6727f6df9cb
+            warning: null
+            width: 25
+          -
+            fieldUid: f1ad2f45-909e-4f63-b2a3-ff88bb09f7aa # Max Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 50f0709b-791d-409f-9df1-62d32858a03e
+            warning: null
+            width: 25
+          -
+            fieldUid: f2116f06-d2a8-431a-b9ab-2cebe9c96686 # Crop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 87202b29-79ff-4e56-8325-daec8e885cb7
+            warning: null
+            width: 25
+          -
+            fieldUid: 18ba12ff-278e-4d2f-93d4-13d757f4566e # Icon Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fa972a00-c684-4c21-b28b-07a21a5b0eda
+            warning: null
+            width: 25
+          -
+            fieldUid: 08c0c472-c476-40f7-86bc-8e8d35cbc620 # Padding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 475bd80a-c70b-4638-b4cb-3cc4f9f626ec
+            warning: null
+            width: 100
+        name: Content
+        uid: 66e1740e-5d8c-40ae-965a-4c8f8690def3
+fields:
+  08c0c472-c476-40f7-86bc-8e8d35cbc620: # Padding
+    columnSuffix: igwqbydz
+    contentColumnType: text
+    fieldGroup: null
+    handle: padding
+    instructions: null
+    name: Padding
+    searchable: false
+    settings:
+      addRowLabel: 'Add padding'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Padding Top'
+                -
+                  - handle
+                  - paddingTop
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - None
+                        -
+                          - value
+                          - pad-top-000
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Small'
+                        -
+                          - value
+                          - pad-top-100
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Small'
+                        -
+                          - value
+                          - pad-top-200
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Small
+                        -
+                          - value
+                          - pad-top-3300
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Medium
+                        -
+                          - value
+                          - pad-top-400
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Large
+                        -
+                          - value
+                          - pad-top-500
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Large'
+                        -
+                          - value
+                          - pad-top-600
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Large'
+                        -
+                          - value
+                          - pad-top-700
+                        -
+                          - default
+                          - false
+          -
+            - col4
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Padding Right'
+                -
+                  - handle
+                  - paddingRight
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - None
+                        -
+                          - value
+                          - pad-right-000
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Small'
+                        -
+                          - value
+                          - pad-right-100
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Small'
+                        -
+                          - value
+                          - pad-right-200
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Small
+                        -
+                          - value
+                          - pad-right-300
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Medium
+                        -
+                          - value
+                          - pad-right-400
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Large
+                        -
+                          - value
+                          - pad-right-500
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Large'
+                        -
+                          - value
+                          - pad-right-600
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Large'
+                        -
+                          - value
+                          - pad-right-700
+                        -
+                          - default
+                          - false
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Padding Bottom'
+                -
+                  - handle
+                  - paddingBottom
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - None
+                        -
+                          - value
+                          - pad-bottom-000
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Small'
+                        -
+                          - value
+                          - pad-bottom-100
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Small'
+                        -
+                          - value
+                          - pad-bottom-200
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Small
+                        -
+                          - value
+                          - pad-bottom-300
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Medium
+                        -
+                          - value
+                          - pad-bottom-400
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Large
+                        -
+                          - value
+                          - pad-bottom-500
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Large'
+                        -
+                          - value
+                          - pad-bottom-600
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Large'
+                        -
+                          - value
+                          - pad-bottom-700
+                        -
+                          - default
+                          - false
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Padding Left'
+                -
+                  - handle
+                  - paddingLeft
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - None
+                        -
+                          - value
+                          - pad-left-000
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Small'
+                        -
+                          - value
+                          - pad-left-100
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Small'
+                        -
+                          - value
+                          - pad-left-200
+                        -
+                          - default
+                          - true
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Small
+                        -
+                          - value
+                          - pad-left-300
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Medium
+                        -
+                          - value
+                          - pad-left-400
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Large
+                        -
+                          - value
+                          - pad-left-500
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'X Large'
+                        -
+                          - value
+                          - pad-left-600
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - 'XX Large'
+                        -
+                          - value
+                          - pad-left-700
+                        -
+                          - default
+                          - false
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - pad-top-000
+            -
+              - col4
+              - pad-right-000
+            -
+              - col2
+              - pad-bottom-000
+            -
+              - col3
+              - pad-left-000
+      maxRows: 1
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  18ba12ff-278e-4d2f-93d4-13d757f4566e: # Icon Colour
+    columnSuffix: uwiqeksu
+    contentColumnType: string
+    fieldGroup: null
+    handle: iconColour
+    instructions: null
+    name: 'Icon Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - fill-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - fill-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - fill-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - fill-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - fill-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - fill-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  660c2ca7-47d9-43e4-9066-dbcda437a65f: # Logo
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: logo
+    instructions: null
+    name: Logo
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  70368293-4413-4cf5-8278-cfc6249e6ac9: # Min Width
+    columnSuffix: gveilbvb
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: minWidth
+    instructions: null
+    name: 'Min Width'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  ce4b2896-0da2-41fc-b609-3820c8295bd0: # Width
+    columnSuffix: azjedokn
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: width
+    instructions: null
+    name: Width
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: 10
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  f1ad2f45-909e-4f63-b2a3-ff88bb09f7aa: # Max Width
+    columnSuffix: zoeltrzp
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: maxWidth
+    instructions: null
+    name: 'Max Width'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  f2116f06-d2a8-431a-b9ab-2cebe9c96686: # Crop
+    columnSuffix: taldreer
+    contentColumnType: string
+    fieldGroup: null
+    handle: crop
+    instructions: null
+    name: Crop
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Original
+            -
+              - value
+              - original
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Square
+            -
+              - value
+              - thumbnail
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '16:9'
+            -
+              - value
+              - small
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: logoBlock
+name: 'Logo Block'
+sortOrder: 2

@@ -1,0 +1,65 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 577b4a42-725d-4f41-a0a6-f312ca733dba # Fonts
+handle: fontSettings
+instructions: null
+name: 'Font Settings'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 709273872
+  columns:
+    __assoc__:
+      -
+        - 2992db8f-4111-4e7e-a62d-08fca2fd07f3 # H1
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - e5acf52a-27e6-48fb-90fc-3174c8dc568f # H2
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 1143c3c4-88f6-43e0-8e88-0f4e260f2797 # H3
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 9d6312fe-3385-4a1f-9cac-39039ee12fc1 # H4
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - b7ca91cb-b26b-4571-82b1-b0e903bc327d # H5
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 197377fe-bae5-464e-9ec8-5299569c86c2 # H6
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_fontsettings}}'
+  fieldLayout: table
+  maxRows: 1
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: 'Customise Fonts'
+  staticField: null
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

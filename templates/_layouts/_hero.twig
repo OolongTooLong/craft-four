@@ -1,0 +1,150 @@
+{% if entry.heroBuilder|length %}
+    <section id="hero" class="grid-row">
+        {% for heroKey, row in entry.heroBuilder.all() %}
+
+            {% set width = row.heroWidth ?? '' %}
+            {% set contentWidth = row.contentWidth ?? '' %}
+            {% set height = row.heroHeight ?? '' %}
+            {% set gridGap = row.gridGap ?? '' %}
+
+            {% set overlay = row.overlay ?? '' %}
+            {% set overlayType = row.overlayType ?? '' %}
+            {% set opacity = row.opacity ?? '' %}
+            {% set blendMode = row.blendMode ?? '' %}
+            {% set textColour = row.textColour ?? '' %}
+            {% set paddingTop = row.paddingTop ?? '' %}
+            {% set paddingBottom = row.paddingBottom ?? '' %}
+            {% set layout = row.layout  ?? '' %}
+
+            {% switch row.type.handle %}
+            {% case 'static' %}
+
+                {# {% dd paddingTop %} #}
+                <div class="grid hero-content
+                    {{ row.type.handle }}
+                    {{ contentWidth }}
+                    {{ layout }}
+                    {{ height }}
+                    {{ gridGap }}
+                    {{ paddingTop }}
+                    {{ paddingBottom }}
+                    ">
+                    {% if row.heroContent|length %}
+                        {% set repeater = row.heroContent.one().heroBlock %}
+                        {% for blockKey, block in repeater.all() %}
+                            {% include '_layouts/_hero-blocks/_'~ block.type.handle~'.twig' %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="grid hero-media
+                    {{ row.type.handle }}
+                    {{ width }}
+                    {{ height }}
+                    {{ overlay }}
+                    {{ opacity }}
+                    {{ overlayType }}
+                    {{ blendMode }}
+                    {{ paddingTop }}
+                    {{ paddingBottom }}
+                    ">
+                    {% set media = row.media.one() %}
+                    {% if media %}
+                        {% if media.extension == 'jpg' or media.extension == 'png' or media.extension == 'jpeg' %}
+                            {% set image = media %}
+                            {% include '_layouts/_block-partials/_hero-image.twig' %}
+                        {% endif %}
+                        {% if media.extension == 'json' %}
+                            {% include '_layouts/_block-partials/_hero-video.twig' %}
+                        {% endif %}
+                    {% endif %}
+                </div>
+
+
+            {% case 'heroSlides' %}
+
+                {% set arrowsOptions = row.arrows ?? ' ' %}
+                {% set navigation = row.navigation ?? '' %}
+                {% set autoplay = row.autoplay ? 'true' : 'false' %}
+                {% if navigation == 'false' %}{% set dots = 'false' %}{% else %}{% set dots = 'true' %}{% endif %}
+                {% if arrowsOptions == 'false' %}{% set arrows = 'false' %}{% else %}{% set arrows = 'true' %}{% endif %}
+
+                {% set repeater = row.slides.all() %}
+                <div class="no-grid slides hero-slider
+                            {{ row.type.handle }}
+                            {{ width }}
+                            {{ height }}
+                            {{ overlay }}
+                            {{ opacity }}
+                            {{ overlayType }}
+                            {{ blendMode }}
+                            {{ navigation }}
+                            {{ arrowsOptions }}
+                            {{ contentWidth }}
+                            "
+                     data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":{{ arrows }},"dots":{{ dots }},"autoplay":{{ autoplay }} }'
+                >
+                    {% for slideBlock in repeater %}
+                        <div title="{{ slideBlock.slideTitle }}"
+                             class="{{ paddingTop }} {{ paddingBottom }}">
+                            <div class="slide-content {{ gridGap }} ">
+                                {% if slideBlock.slideContent|length %}
+                                    {% set repeater = slideBlock.slideContent.all() %}
+                                    {% for blockKey, block in repeater %}
+                                        {% include '_layouts/_hero-blocks/_'~ block.type.handle~'.twig' %}
+                                    {% endfor %}
+                                {% endif %}
+                            </div>
+                            <div class="slide-media">
+                                {% set media = slideBlock.slideMedia.one() %}
+                                {% if media|length %}
+                                    {% if media.extension == 'jpg' or media.extension == 'png' or media.extension == 'jpeg' %}
+                                        {% set image = media %}
+                                        {% include '_layouts/_block-partials/_hero-image.twig' %}
+                                    {% endif %}
+                                    {% if media.extension == 'json' %}
+                                        {% include '_layouts/_block-partials/_hero-video.twig' %}
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endswitch %}
+
+            {% if row.advancedOptions %}
+                {% set share = row.advancedOptions[0].shareButton ? true : false %}
+                {% if share == 'true' %}
+                    <!-- AddToAny BEGIN -->
+                    <div class="hero-share">
+                        <a class="a2a_dd" href="https://www.addtoany.com/share">Share</a>
+                        <script>
+                            var a2a_config = a2a_config || {};
+                            a2a_config.onclick = 1;
+                        </script>
+                        <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    </div>
+                    <!-- AddToAny END -->
+                {% endif %}
+            {% endif %}
+            {% if row.advancedOptions %}
+                {% set contact = row.advancedOptions[0].contactButton ? true : false %}
+                {% if contact == 'true' %}
+                    <div class="hero-contact">
+                        <a href="#popup-contact" class="open-contact-popup"><span class="fa fa-phone"></span></a>
+                    </div>
+                    <div id="popup-contact" class="contact-popup mfp-hide">
+                        <div class="stack">
+                            {{ siteMeta.contactPopupContent ?? '' }}
+                            {% if siteMeta.email %}
+                                <p>Email: <a href="tel:{{ siteMeta.email }}" target="_blank">{{ siteMeta.email }}</a></p>
+                            {% endif %}
+                            {% if siteMeta.phone %}
+                                <p>Tel: <a href="tel:{{ siteMeta.phone }}" target="_blank">{{ siteMeta.phone }}</a></p>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </section>
+{% endif %}

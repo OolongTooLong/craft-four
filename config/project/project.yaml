@@ -1,13 +1,204 @@
-dateModified: 1654686821
+dateModified: 1654761295
 email:
   fromEmail: bluemonkey1130@gmail.com
   fromName: 'Craft Four'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
 meta:
   __names__:
-    0f153ab3-0b96-4f89-82fd-cd94590bc9b7: 'Craft Four'
-    58d2395d-8abf-4cd8-b657-a18274b1d213: 'Craft Four'
-    631b9b16-38f9-4b9a-869b-5940194a85d3: Common
+    0caf853a-57c2-4d4d-857e-ec44f683607d: 'Page Builder' # Page Builder
+    00d2f4c9-0319-4c4f-b79b-7ba4b48dfd76: Favicon # Favicon
+    0eba0f98-71e7-4c34-bb31-e19fdba9c8b2: 'Testimonial Limit' # Testimonial Limit
+    0f153ab3-0b96-4f89-82fd-cd94590bc9b7: 'Craft Four' # Craft Four
+    1aec37eb-c5a2-4748-8651-b022d8ebf9aa: 'Button Colour' # Button Colour
+    1e83fbac-1563-47cf-8abd-875ff8f93084: Text # Text
+    1f7e7b4a-81c1-4981-b905-c443514810e2: Crop # Crop
+    2ace682f-9b12-4f81-9569-fca5c2367038: 'Navigation Block' # Navigation Block
+    2b752466-a680-4956-b353-c24d023b4612: Blocks # Blocks
+    2e2f8865-b5ab-4981-8382-545983f70c5c: 'Header Builder' # Header Builder
+    2eb56433-f7a5-4573-b1ec-84afd4399048: 'Header Position' # Header Position
+    2f15c21b-4432-47cd-b4a1-2721a518e75a: Small # Small
+    2fb90cbc-02cb-44b2-9969-845a86f1dad0: 'Hover Style' # Hover Style
+    2fe148e1-4bb3-42cc-9f5f-1df1a17b0845: 'Image Settings' # Image Settings
+    3a961845-2204-42ef-a6f9-80df8eac8948: 'Logo Block' # Logo Block
+    3b677e46-e357-4538-a917-c725463103fb: Text # Text
+    3f6bbd2e-4add-4aad-85a5-fe7d0d9dd7a8: 'Small Letterbox' # Small Letterbox
+    4a764151-b881-4190-a8d8-e495aba359a1: 'Hero Builder' # Hero Builder
+    04c6669e-c111-4486-981d-d607c6b7bdd5: Header # Header
+    4e6615be-e8af-4bf4-a5c9-aa58a38d76cc: Light # Light
+    4e750253-4da3-4a5d-a627-2031b711d45c: 'Advanced Options' # Advanced Options
+    4fddff1a-b4fd-48a2-b695-c7fe78876db8: 'Anchor Label' # Anchor Label
+    5b8f19b4-42b1-4cd8-b6ee-6aae07f675e0: Image # Image
+    5cbe70f6-1a87-466e-92cd-9430a00c5a3b: 'Hero Content' # Hero Content
+    05fcb163-bb22-4ded-a2be-4559de99c102: 'Button Style' # Button Style
+    6a742b7a-0b37-471a-8153-33c99d87cb01: Video # Video
+    6cb0de74-7800-4a1a-b268-3bfb08862a30: Colours # Colours
+    6cf15cd1-3417-4858-b110-8a1a68b9398e: 'Hero Slides' # Hero Slides
+    6e64c222-4cd2-47c0-bce8-3d13cdd2e25d: Static # Static
+    6e80093e-0979-4bf3-8948-92023cc12f24: 'Form Label' # Form Label
+    6f8a946a-4548-4a88-b0a0-dea4138a6f05: Image # Image
+    7b308e3d-86a2-45bc-929f-3c18c542d711: Tertiary # Tertiary
+    8af246ce-4e48-48e3-9a3b-957c04300b61: Medium # Medium
+    8baca5a0-7a9d-4613-9c71-7d797b7b24de: 'Padding Bottom' # Padding Bottom
+    08c0c472-c476-40f7-86bc-8e8d35cbc620: Padding # Padding
+    8c30050d-91af-47ad-8d79-0ba398707cab: 'Font Settings' # Font Settings
+    8cc35e2f-d3a3-4dd1-ab94-21ac5dd21047: 'Padding Top' # Padding Top
+    8f8bdbd3-02b4-44c4-a855-e46684f47565: 'Space Ratio' # Space Ratio
+    8f3762b8-c75d-4f3e-b157-ca44c6c8a3b0: 'Advanced Settings' # Advanced Settings
+    9c5fe45d-aad4-4ec0-9c74-10ad871a84ed: 'Site Meta' # Site Meta
+    9c48e60a-a2da-4387-bec9-4b85dd781d83: Text # Text
+    9d337e52-fa3a-4814-b004-00f558b48a97: Image # Image
+    9d6312fe-3385-4a1f-9cac-39039ee12fc1: H4 # H4
+    9e3df4ed-be41-4808-a956-c9765837aa93: Video # Video
+    9eec9ee7-a8a9-47d3-b546-dd395d1797ae: Primary # Primary
+    9f0071b4-e766-4652-a639-3680344daff5: 'CTA Block' # CTA Block
+    10db7aae-6270-451e-9f2f-c279cc5e3af0: __blank__ # __blank__
+    18ba12ff-278e-4d2f-93d4-13d757f4566e: 'Icon Colour' # Icon Colour
+    31fe6439-0333-4163-9c5c-bd5152d40064: 'Button Settings' # Button Settings
+    33d1a914-c7c0-4798-8fb6-a73c7c1bdcb2: Width # Width
+    38c8d2e6-b872-4eca-90b4-1153cf218a2b: 'Overlay Type' # Overlay Type
+    39d17119-09b7-42a3-a8ff-2c3d93154af7: 'Block Colour' # Block Colour
+    40a58856-1ffc-4ba7-ae15-1c94fa971e35: Stylesheet # Stylesheet
+    41f3c60f-5f33-492c-a9b2-8e748e201c3f: 'Nav Items' # Nav Items
+    42c0d85e-9bf0-47d8-9f76-85d08c2b46fc: 'Grid Gap' # Grid Gap
+    50c5e757-5660-4c36-9fbe-bddd4c355da4: 'Font Settings' # Font Settings
+    54b52fe6-5ff6-47ab-badd-b53ff1a14014: 'Row Width' # Row Width
+    58d2395d-8abf-4cd8-b657-a18274b1d213: 'Craft Four' # Craft Four
+    62f8f711-32b2-47ef-9280-8fe1b9f3e687: Image # Image
+    67feaa93-8391-4d4f-ac26-2246849ddbee: Email # Email
+    74fe585d-1796-49d0-a07c-1fd605a990cd: '4:3' # 4:3
+    78becef9-903e-4b4d-84b8-a7bdacc2b0aa: Text # Text
+    98bbaa10-b9f3-4b19-8f34-d79a520ba9ad: 'Max Line Length' # Max Line Length
+    527ed51f-2a5e-4fff-930e-96897b3d9790: Home # Home
+    577b4a42-725d-4f41-a0a6-f312ca733dba: Fonts # Fonts
+    631b9b16-38f9-4b9a-869b-5940194a85d3: Common # Common
+    653c18f3-0735-478d-8078-c017a86b6d49: 'Padding Bottom' # Padding Bottom
+    660c2ca7-47d9-43e4-9066-dbcda437a65f: Logo # Logo
+    716b5fa5-2351-44f4-85d7-59ae9da03d74: 'Font Ratio' # Font Ratio
+    775b6036-ce26-4871-9b9c-9fac53b77806: 'Button Style' # Button Style
+    847b56e5-4c36-41fc-8741-8fb9128d08b7: Medium-Large # Medium-Large
+    954f3e11-2f00-41ba-b31e-e5777b252a9c: 'Header Content' # Header Content
+    994a644d-f0eb-4228-ab75-24ba97d52e1c: 'Header Settings' # Header Settings
+    1143c3c4-88f6-43e0-8e88-0f4e260f2797: H3 # H3
+    2605faf8-5a41-4885-9202-42af4117dc63: 'Padding Top' # Padding Top
+    2992db8f-4111-4e7e-a62d-08fca2fd07f3: H1 # H1
+    3125d32f-3f3e-476e-be41-570a311f535d: Overlay # Overlay
+    6614ecb0-f4c5-450d-9705-20eae03231ee: 'Hero Block' # Hero Block
+    6631b04d-3a12-4002-88a3-38445c3e8578: 'Nav Gap' # Nav Gap
+    8198fa56-c374-4bf1-a89b-e12f9424c957: 'Overlay Type' # Overlay Type
+    9457bfd7-02d6-4b29-b3e2-c19f2c024b44: Pages # Pages
+    9929d701-58b0-47ac-93ff-0c97e51f295b: Media # Media
+    28275dea-cfe4-4e28-8e47-2142e75368b8: 'Image Crop' # Image Crop
+    29714cd5-ff47-440a-91df-d7740a610af1: 'Large Square' # Large Square
+    39787c30-84be-4c6a-ae7a-a151a282e596: Phone # Phone
+    61522acc-0380-40de-95e0-7e44fe6ff2b7: Button # Button
+    65157ff9-c335-43fb-8fe6-c55b6a446515: Opacity # Opacity
+    67059cb2-ed25-4838-a8ee-755ccdedcf78: 'Font Import' # Font Import
+    70240ddc-d4eb-4057-9b53-8afd9c1923d7: 'Text Orientation' # Text Orientation
+    105859a8-832a-4fa3-a366-6eec836d8455: Layout # Layout
+    197377fe-bae5-464e-9ec8-5299569c86c2: H6 # H6
+    267977e5-f578-4ff7-9d0b-b087274b6935: 'Header Colour' # Header Colour
+    557102c2-5739-4921-9133-a92da4d59f7a: Thumbnail # Thumbnail
+    586277bc-e20d-4eac-85ca-13a586b2ebe9: 'Heading Font' # Heading Font
+    740993e9-cf8c-4c35-a886-61aad1c26978: 'Button Repeater' # Button Repeater
+    1972811f-e087-4a63-9665-fd3232c22f36: 'Grid Row' # Grid Row
+    4409035e-fcc1-41e5-9517-8916da2aeb3e: P # P
+    5165520f-c260-4c6e-9cac-fdc7adc456d8: 'Grid Gap' # Grid Gap
+    49169920-d20d-4469-bb6a-55f9c094ae82: Master # Master
+    70368293-4413-4cf5-8278-cfc6249e6ac9: 'Min Width' # Min Width
+    77238032-8a6e-4be7-9aa6-16ee006332d7: 'Image Fit' # Image Fit
+    94176719-9813-4cb4-8f37-678a616686da: 'Sub Nav' # Sub Nav
+    a32a7114-1926-42af-9c39-e96729cd70e4: Square # Square
+    a36b009a-497d-4ad7-9a64-e0850703f0e2: Logo # Logo
+    a686e391-2753-431a-a3c4-f15c1e695691: Width # Width
+    aa12fe59-31f9-43c5-a68a-ea0f41cd32ff: Letterbox # Letterbox
+    b3d66a47-c862-4659-8953-f90d60906b0f: 'Padding Top' # Padding Top
+    b7ca91cb-b26b-4571-82b1-b0e903bc327d: H5 # H5
+    b12af4cb-33ee-45d8-839f-cc631bdec7aa: 'Background Image' # Background Image
+    b54a1a1e-3e10-4cb8-82a0-3d2fe94b6ff7: 'Body Font' # Body Font
+    b788c841-0001-4b6a-ad4e-67b68af2fd0a: Blockquote # Blockquote
+    ba940262-031b-4e04-872c-675de886558e: Quaternary # Quaternary
+    bb261ea6-1a7d-4a69-aa23-60051b43e1d3: 'Space Top' # Space Top
+    bd2db3e8-8561-4d76-9400-a513fbbb358c: Portrait # Portrait
+    bdc80ea3-1873-4381-b649-ef5cbf9a80c2: Colours # Colours
+    c003b187-eed0-43cf-81eb-5ce21ce2ad3e: Home # Home
+    c04a28cc-e246-4b2f-abb9-bcea43868edb: 'Row Colour' # Row Colour
+    c2a6272c-ce4f-4332-896b-96c2e99c4ef8: 'Padding Right' # Padding Right
+    c19f1ba5-3c56-42a1-bc4c-81a3b24b269b: 'Block Layout' # Block Layout
+    c53f9eae-76f9-4d5a-93be-1a662f470edb: Text # Text
+    c86c67e1-384e-4226-bc08-27ed89875a9d: 'Padding Bottom' # Padding Bottom
+    c4100103-0b95-4960-bee7-74876c13e673: 'General Uploads' # General Uploads
+    cbee3d5b-1a4f-4f34-b892-61b436e3f632: 'Excerpt Limit' # Excerpt Limit
+    cd60c9a4-91bc-4215-87d7-5359356626fe: Page # Page
+    ce4b2896-0da2-41fc-b609-3820c8295bd0: Width # Width
+    cea661da-681d-457d-aaf7-bdbcc9d2918f: Secondary # Secondary
+    d6e9b9e5-1c7e-4947-8cbc-5826fd08dbc7: Master # Master
+    d8e437cb-4c8c-4e4a-830e-0ab5a148353b: 'Text Colour' # Text Colour
+    d21fbde3-4110-4325-aed0-eab72636f1f2: Dark # Dark
+    d74f9483-c834-4872-836e-15b04e612784: 'Button Colour' # Button Colour
+    da3a6e67-61d1-48e6-9abf-099982a09541: 'Master Grid Gap' # Master Grid Gap
+    db8dc648-39ea-4d72-8c40-8c9e1e3bf1e4: 'Content Width' # Content Width
+    dc08a4ab-5fa4-44d6-ba58-5881bc075598: 'Blend Mode' # Blend Mode
+    dc6cef34-dd19-4b2b-9c80-8a611906cc45: Overlay # Overlay
+    ddc3d8bb-bc9e-49fe-abf6-25665792d0b1: 'Button Orientation' # Button Orientation
+    de63ea62-fa9d-4dc8-bcc5-063367a4d5c8: 'Hero Width' # Hero Width
+    deffdf31-8fa8-4c53-983c-89074a09962a: Font # Font
+    e4d5325a-fdd0-4791-9abe-279b9b1e19df: 'Media Queries' # Media Queries
+    e4ff99e6-9d38-4ac6-9d38-b9f29e1bd3b5: Header # Header
+    e5acf52a-27e6-48fb-90fc-3174c8dc568f: H2 # H2
+    e6970a2e-a0cd-4716-8697-40806cd1a9be: 'Padding Left' # Padding Left
+    e788994d-3fcc-41be-bfeb-0773114574ad: 'Extra Large' # Extra Large
+    e6787659-8762-438e-9d5b-f250484899e1: Image # Image
+    eaa2723b-34cd-4a8f-a95e-f431d7ed90f8: Background # Background
+    ec1fac76-8dfc-42a3-90e9-e62088fe32b5: Button # Button
+    eddda089-9ff9-4c66-852c-a689551934f5: Large # Large
+    ee01fd66-4c07-46d3-921e-b7276d49e2a5: 'Site Identity ' # Site Identity 
+    eea4631d-86f7-4d76-8699-2b6a6841cd5a: 'Hero Height' # Hero Height
+    f1ad2f45-909e-4f63-b2a3-ff88bb09f7aa: 'Max Width' # Max Width
+    f2f08d3c-65a2-4bec-8cac-bfb6e498b841: 'Master Row Spacing' # Master Row Spacing
+    f15d994a-37b4-40a5-bc0e-82d17daf3d39: 'Blend Mode' # Blend Mode
+    f153d80d-bd33-4dc7-b41e-e79873b001aa: Button # Button
+    f179e41b-3e70-4981-97d5-9acd34934778: 'Base Colours' # Base Colours
+    f2116f06-d2a8-431a-b9ab-2cebe9c96686: Crop # Crop
+    f1540631-beee-4744-af87-3c71a89521ca: Opacity # Opacity
+    fa7fa0a6-7d39-499d-acbd-5952299df1cc: 'Block Padding' # Block Padding
+    fb472fa9-0cd9-4224-9af7-3771ce3a80ed: Tiny # Tiny
+    fc9cd23d-6117-4c13-8b54-f18a14823c53: 'Nav Item' # Nav Item
+    fd1dbfbc-b772-4c46-9815-bd51ef1a3b96: Orientation # Orientation
+    ffbd6503-405e-47a3-baae-e83ecfa38b7c: 'Nav Orientation' # Nav Orientation
+    ffc2b89f-46b4-4c4f-9ca6-71feacca2d27: 'Page Builder' # Page Builder
+plugins:
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  redactor-custom-styles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
 system:
   edition: solo
   live: true

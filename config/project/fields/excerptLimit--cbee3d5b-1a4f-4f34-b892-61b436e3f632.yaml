@@ -1,0 +1,20 @@
+columnSuffix: fxoosiip
+contentColumnType: integer(10)
+fieldGroup: 577b4a42-725d-4f41-a0a6-f312ca733dba # Fonts
+handle: excerptLimit
+instructions: null
+name: 'Excerpt Limit'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 300
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

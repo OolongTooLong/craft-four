@@ -1,0 +1,19 @@
+columnSuffix: vwxikize
+contentColumnType: text
+fieldGroup: 577b4a42-725d-4f41-a0a6-f312ca733dba # Fonts
+handle: fontImport
+instructions: 'This field is used to import fonts from a 3rd party source, such as Google Fonts or Adobe Fonts.'
+name: 'Font Import'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: '@import url(''https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'');'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

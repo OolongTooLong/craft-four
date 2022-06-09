@@ -28,4 +28,16 @@ return [
 
     // Whether crawlers should be allowed to index pages and following links
     'disallowRobots' => !$isProd,
+
+
+    'aliases' => [
+        '@web' => getenv('PRIMARY_SITE_URL'),
+        '@assetsUrl' => '@web/assets',
+        '@siteURL' => getenv('PRIMARY_SITE_URL'),
+        '@siteName' => getenv('SITE_NAME'),
+        '@mapApi' => getenv('MAPS_API'),
+        '@mapId' => getenv('MAP_ID'),
+        '@gtm' => getenv('GTM'),
+        '@email' => getenv('SITE_EMAIL'),
+    ],
 ];

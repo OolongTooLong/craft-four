@@ -1,0 +1,89 @@
+columnSuffix: sbktgoln
+contentColumnType: string
+fieldGroup: 04c6669e-c111-4486-981d-d607c6b7bdd5 # Header
+handle: headerColour
+instructions: null
+name: 'Header Colour'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Default
+        -
+          - value
+          - default
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Light
+        -
+          - value
+          - bg-light-main
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Dark
+        -
+          - value
+          - bg-dark-main
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Primary
+        -
+          - value
+          - bg-primary-main
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Secondary
+        -
+          - value
+          - bg-secondary-main
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Tertiary
+        -
+          - value
+          - bg-tertiary-main
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Quaternary
+        -
+          - value
+          - bg-quaternary-main
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

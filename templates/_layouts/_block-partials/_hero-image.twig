@@ -1,0 +1,11 @@
+{% if image %}
+    {% set imageExtraLarge = image.getUrl('extraLarge')?? '' %}
+    {% set imageLarge = image.getUrl('large')?? '' %}
+    {% set imageMediumLarge = image.getUrl('mediumLarge')?? '' %}
+    {% set imageMedium = image.getUrl('medium')?? '' %}
+    {% set imageSmall = image.getUrl('small')?? '' %}
+        <img class="hero-banner"
+             srcset="{{ imageExtraLarge }} 1920w, {{ imageLarge }} 1536w, {{ imageMediumLarge }} 768w, {{ imageMedium }} 576w, {{ imageSmall }} 384w"
+             sizes="100vw"
+             src="{{ imageLarge }}" alt="{{ image.title }}"/>
+{% endif %}

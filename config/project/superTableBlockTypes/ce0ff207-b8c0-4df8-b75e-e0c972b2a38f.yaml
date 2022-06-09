@@ -1,0 +1,126 @@
+field: 41f3c60f-5f33-492c-a9b2-8e748e201c3f # Nav Items
+fieldLayouts:
+  42fff604-1c06-4b4c-a6b8-350439363831:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: fc9cd23d-6117-4c13-8b54-f18a14823c53 # Nav Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 235a4315-7a56-433c-acc4-b56095380525
+            warning: null
+            width: 100
+          -
+            fieldUid: 94176719-9813-4cb4-8f37-678a616686da # Sub Nav
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7aad0ba6-873d-4493-90bc-6108f07abb8c
+            warning: null
+            width: 100
+        name: Content
+        uid: 2b9ea494-6704-4e03-a431-bb182c942b7a
+fields:
+  94176719-9813-4cb4-8f37-678a616686da: # Sub Nav
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: subNav
+    instructions: null
+    name: 'Sub Nav'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  fc9cd23d-6117-4c13-8b54-f18a14823c53: # Nav Item
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: navItem
+    instructions: null
+    name: 'Nav Item'
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField

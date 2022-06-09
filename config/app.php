@@ -23,6 +23,9 @@ return [
     'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
     'modules' => [
         'my-module' => \modules\Module::class,
+        'enhancements-module' => [
+            'class' => \modules\enhancementsmodule\EnhancementsModule::class,
+        ],
     ],
-    //'bootstrap' => ['my-module'],
+    'bootstrap' => ['my-module','enhancements-module'],
 ];

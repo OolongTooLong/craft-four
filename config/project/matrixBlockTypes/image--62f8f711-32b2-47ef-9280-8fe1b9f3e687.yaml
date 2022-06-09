@@ -1,0 +1,258 @@
+field: 6614ecb0-f4c5-450d-9705-20eae03231ee # Hero Block
+fieldLayouts:
+  a4e7a685-2178-4fc8-abae-6c8b1c530e79:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 6f8a946a-4548-4a88-b0a0-dea4138a6f05 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 04fddf91-af93-47b8-80cf-aadb5c4ec2a5
+            warning: null
+            width: 50
+          -
+            fieldUid: 28275dea-cfe4-4e28-8e47-2142e75368b8 # Image Crop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 76d4d611-b884-4b4b-bb58-da5f53ef4ef8
+            warning: null
+            width: 25
+          -
+            fieldUid: 77238032-8a6e-4be7-9aa6-16ee006332d7 # Image Fit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 894011a1-a058-4679-903d-a4cd110386eb
+            warning: null
+            width: 25
+        name: Content
+        uid: c9422959-b788-4cf3-bcd6-4cde2306cc1a
+fields:
+  6f8a946a-4548-4a88-b0a0-dea4138a6f05: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageAsset
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  28275dea-cfe4-4e28-8e47-2142e75368b8: # Image Crop
+    columnSuffix: drvopyco
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageCrop
+    instructions: null
+    name: 'Image Crop'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Original
+            -
+              - value
+              - original
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Portrait
+            -
+              - value
+              - portrait
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4:3'
+            -
+              - value
+              - fourThree
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '16:9'
+            -
+              - value
+              - medium
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Square
+            -
+              - value
+              - square
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  77238032-8a6e-4be7-9aa6-16ee006332d7: # Image Fit
+    columnSuffix: ahjvbqch
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageFit
+    instructions: null
+    name: 'Image Fit'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Stretch
+            -
+              - value
+              - stretch
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'Top Left'
+            -
+              - value
+              - topLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Top Right'
+            -
+              - value
+              - topRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bottom Left'
+            -
+              - value
+              - bottomLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bottom Right'
+            -
+              - value
+              - bottomRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Right'
+            -
+              - value
+              - centreRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Left'
+            -
+              - value
+              - centreLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Centre'
+            -
+              - value
+              - centreCentre
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: image
+name: Image
+sortOrder: 2

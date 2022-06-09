@@ -1,0 +1,229 @@
+field: 954f3e11-2f00-41ba-b31e-e5777b252a9c # Header Content
+fieldLayouts:
+  cd0841da-7a1f-47b7-85a7-07c561f2f6bb:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ec1fac76-8dfc-42a3-90e9-e62088fe32b5 # Button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 75a11153-94bd-4ebd-94a1-f17dba758c19
+            warning: null
+            width: 100
+          -
+            fieldUid: 33d1a914-c7c0-4798-8fb6-a73c7c1bdcb2 # Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c96d7238-f638-48bb-891e-43ce95a76e2d
+            warning: null
+            width: 25
+          -
+            fieldUid: 05fcb163-bb22-4ded-a2be-4559de99c102 # Button Style
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f5334511-6fc7-464c-bd5e-62d47229dd42
+            warning: null
+            width: 25
+          -
+            fieldUid: 1aec37eb-c5a2-4748-8651-b022d8ebf9aa # Button Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c8dad93-2d23-4208-892d-ee5e5c15a1d3
+            warning: null
+            width: 25
+        name: Content
+        uid: 8825aed9-8f53-4ccd-bcce-a4d7c57fe595
+fields:
+  1aec37eb-c5a2-4748-8651-b022d8ebf9aa: # Button Colour
+    columnSuffix: jcyiaabe
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonColour
+    instructions: null
+    name: 'Button Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Master
+            -
+              - value
+              - master
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Inherit
+            -
+              - value
+              - inherit
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  05fcb163-bb22-4ded-a2be-4559de99c102: # Button Style
+    columnSuffix: ztwxokhd
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonStyle
+    instructions: null
+    name: 'Button Style'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - primary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Ghost
+            -
+              - value
+              - ghost
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  33d1a914-c7c0-4798-8fb6-a73c7c1bdcb2: # Width
+    columnSuffix: czyffuzw
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: width
+    instructions: null
+    name: Width
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: 10
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  ec1fac76-8dfc-42a3-90e9-e62088fe32b5: # Button
+    columnSuffix: spgtwyxh
+    contentColumnType: text
+    fieldGroup: null
+    handle: button
+    instructions: null
+    name: Button
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: ctaBlock
+name: 'CTA Block'
+sortOrder: 3

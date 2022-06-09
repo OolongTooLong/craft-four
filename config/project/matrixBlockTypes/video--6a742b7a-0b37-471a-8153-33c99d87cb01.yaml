@@ -1,0 +1,71 @@
+field: 6614ecb0-f4c5-450d-9705-20eae03231ee # Hero Block
+fieldLayouts:
+  9547f3a6-7503-4d17-9b97-1210abac2927:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9e3df4ed-be41-4808-a956-c9765837aa93 # Video
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe6c47dc-1ff5-444c-aa64-3c8d6e531b5c
+            warning: null
+            width: 100
+        name: Content
+        uid: ac470dea-fb38-4009-b51e-068d28c5112c
+fields:
+  9e3df4ed-be41-4808-a956-c9765837aa93: # Video
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: videoAsset
+    instructions: null
+    name: Video
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - json
+        - video
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: video
+name: Video
+sortOrder: 3

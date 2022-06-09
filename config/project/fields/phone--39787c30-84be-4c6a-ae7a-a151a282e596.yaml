@@ -1,0 +1,19 @@
+columnSuffix: apyinvti
+contentColumnType: text
+fieldGroup: ee01fd66-4c07-46d3-921e-b7276d49e2a5 # Site Identity 
+handle: phone
+instructions: null
+name: Phone
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

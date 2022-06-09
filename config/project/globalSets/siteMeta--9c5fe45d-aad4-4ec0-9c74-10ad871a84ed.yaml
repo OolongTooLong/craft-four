@@ -1,0 +1,44 @@
+fieldLayouts:
+  b4de35be-4da7-4f57-b39d-db4ce36bad7f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 67feaa93-8391-4d4f-ac26-2246849ddbee # Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 304c0598-5af2-41b4-8e89-b943627dfe30
+            warning: null
+            width: 25
+          -
+            fieldUid: 39787c30-84be-4c6a-ae7a-a151a282e596 # Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ee39861a-370e-4c14-a9f3-98020430d47e
+            warning: null
+            width: 25
+        name: 'Site Meta'
+        uid: 9ce445bd-fc84-4aac-91d7-f4e15bdbbb77
+      -
+        elements:
+          -
+            fieldUid: 00d2f4c9-0319-4c4f-b79b-7ba4b48dfd76 # Favicon
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b71a40c1-7d98-42f6-aacc-c27673950459
+            warning: null
+            width: 25
+        name: Favicon
+        uid: db146bd9-d44d-4566-9cf8-e641355be567
+handle: siteMeta
+name: 'Site Meta'
+sortOrder: 2
