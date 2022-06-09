@@ -532,7 +532,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1869882462
+      changedFieldIndicator: 1208032403
       columns:
         __assoc__:
           -
@@ -549,7 +549,7 @@ fields:
       propagationKeyFormat: null
       propagationMethod: all
       selectionLabel: 'Add a block'
-      staticField: null
+      staticField: true
     translationKeyFormat: null
     translationMethod: site
     type: verbb\supertable\fields\SuperTableField
@@ -1011,7 +1011,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1666355167
+      changedFieldIndicator: 891583377
       columns:
         __assoc__:
           -

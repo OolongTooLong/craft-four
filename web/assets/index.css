@@ -8906,6 +8906,17 @@ div[class*=bg], figure[class*=bg] {
   padding: var(--s4);
 }
 
+p[style*="text-align:center"],
+h1[style*="text-align:center"],
+h2[style*="text-align:center"],
+h3[style*="text-align:center"],
+h4[style*="text-align:center"],
+h5[style*="text-align:center"],
+h6[style*="text-align:center"],
+blockquote[style*="text-align:center"] {
+  max-width: unset;
+}
+
 .left {
   margin-left: 0;
   margin-right: auto;
@@ -10745,10 +10756,6 @@ p, .p {
   margin-bottom: var(--f1);
   max-width: var(--max-character-length);
   color: var(--base-body);
-}
-
-p[style*="text-align: center"] {
-  max-width: unset;
 }
 
 ol, ul {

@@ -5,6 +5,16 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 7fdff696-109b-4df0-8732-365efe2ab544
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d93c2706-e20e-4693-abea-b1d813b78444
+            warning: null
+            width: 25
+          -
             fieldUid: c53f9eae-76f9-4d5a-93be-1a662f470edb # Text
             instructions: null
             label: null
@@ -17,6 +27,96 @@ fieldLayouts:
         name: Content
         uid: 7b431ab7-4a7c-4be5-af4f-d235d4007a5b
 fields:
+  7fdff696-109b-4df0-8732-365efe2ab544:
+    columnSuffix: puqgozxx
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockColour
+    instructions: 'Set block background colour'
+    name: 'Block Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
   c53f9eae-76f9-4d5a-93be-1a662f470edb: # Text
     columnSuffix: wxbahukt
     contentColumnType: text
