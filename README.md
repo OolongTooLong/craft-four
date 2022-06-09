@@ -5,7 +5,6 @@
     - [Gulp 4](https://codeburst.io/switching-to-gulp-4-0-271ae63530c0) syntax
 - **3rd party** scripts are managed as npm dependencies where possible, scripts are bundled by Gulp, & styles are handled in SCSS using ``@import``
     - [jQuery](https://jquery.com/) scripts are included using gulp via node_modules 
-    - [Gorko](https://developer.aliyun.com/mirror/npm/package/gorko) Styles are used to create utility classes it is included in the global.scss
     - [Slick Slider](https://kenwheeler.github.io/slick/) scripts are included using gulp & styles using global.scss, via node_modules
     - [Plyr.io](https://plyr.io/) is used to enhance iframe embeds & local videos
     - [Ihavecookies](https://github.com/ketanmistry/ihavecookies) is used to allow users to control cookie policy inline with GDPR regulation
