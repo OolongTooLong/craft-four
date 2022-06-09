@@ -47,12 +47,12 @@ function jsDeps(done) {
     const files = [
         "node_modules/jquery/dist/jquery.min.js",
         "node_modules/slick-carousel/slick/slick.min.js",
-        // "node_modules/gsap/dist/gsap.min.js",
+        "node_modules/gsap/dist/gsap.min.js",
         // "node_modules/barba.js/dist/barba.min.js",
-        "./web/assets/JS/_vendor/jquery.ihavecookies.min.js",
-        "./web/assets/JS/_vendor/jquery.magnific-popup.js",
-        "./web/assets/JS/_vendor/plyr.js",
-        "./web/assets/JS/_vendor/jquery-ui.js",
+        "./web/assets/js/_vendor/jquery.ihavecookies.min.js",
+        "node_modules/magnific-popup/dist/jquery.magnific-popup.js",
+        "node_modules/plyr/dist/plyr.js",
+        "node_modules/jquery-ui-dist/jquery-ui.js",
     ]
     return (
         src(files)

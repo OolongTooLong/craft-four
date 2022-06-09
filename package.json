@@ -61,6 +61,10 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
-    "jquery-ui": "^1.12.1"
+    "gsap": "^3.10.4",
+    "jquery-ui": "^1.13.1",
+    "jquery-ui-dist": "^1.13.1",
+    "magnific-popup": "^1.1.0",
+    "plyr": "^3.7.2"
   }
 }

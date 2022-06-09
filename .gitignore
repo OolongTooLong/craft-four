@@ -5,3 +5,6 @@
 /node_modules
 /web/assets/index.css
 /web/assets/index.css.map
+/tmp/main.build.js
+/tmp/main.deps.js
+/web/assets/scripts.min.js
