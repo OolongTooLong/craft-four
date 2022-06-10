@@ -1,0 +1,101 @@
+{
+    "title": "Sony 4K Demo: Another World",
+    "description": "Video 4K Demo by Sony.",
+    "url": "https://www.youtube.com/watch?v=xcJtL7QggTI",
+    "type": "video",
+    "tags": [
+        "4K",
+        "Demo",
+        "4K Resolution",
+        "Sony Corporation (Computer Manufacturer/Brand)",
+        "Another",
+        "Wild",
+        "Nature",
+        "World",
+        "4K Demo",
+        "4K Test",
+        "4K Video",
+        "Demonstration",
+        "2160p",
+        "UHD",
+        "Ultra HD",
+        "Sony 4K",
+        "5K",
+        "TV 4K"
+    ],
+    "feeds": [],
+    "images": [
+        {
+            "url": "https://i.ytimg.com/vi/xcJtL7QggTI/hqdefault.jpg",
+            "width": 480,
+            "height": 360,
+            "size": 172800,
+            "mime": "image/jpeg"
+        },
+        {
+            "url": "https://i.ytimg.com/vi/xcJtL7QggTI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720,
+            "size": 921600,
+            "mime": "image/jpeg"
+        }
+    ],
+    "image": "https://i.ytimg.com/vi/xcJtL7QggTI/hqdefault.jpg",
+    "imageWidth": 480,
+    "imageHeight": 360,
+    "code": "<iframe width=\"1920\" height=\"1080\" src=\"https://www.youtube.com/embed/xcJtL7QggTI?start=3&feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": 56.25,
+    "authorName": "Quang Nguyen",
+    "authorUrl": "https://www.youtube.com/channel/UC_3n6GTFuC4tTAojueLBTHg",
+    "providerIcons": [
+        {
+            "url": "https://www.youtube.com/favicon.ico",
+            "width": 16,
+            "height": 16,
+            "size": 256,
+            "mime": "image/x-icon"
+        },
+        {
+            "url": "https://www.youtube.com/s/desktop/d4eb50c8/img/favicon.ico",
+            "width": 16,
+            "height": 16,
+            "size": 256,
+            "mime": "image/x-icon"
+        },
+        {
+            "url": "https://www.youtube.com/s/desktop/d4eb50c8/img/favicon_32x32.png",
+            "width": 32,
+            "height": 32,
+            "size": 1024,
+            "mime": "image/png"
+        },
+        {
+            "url": "https://www.youtube.com/s/desktop/d4eb50c8/img/favicon_48x48.png",
+            "width": 48,
+            "height": 48,
+            "size": 2304,
+            "mime": "image/png"
+        },
+        {
+            "url": "https://www.youtube.com/s/desktop/d4eb50c8/img/favicon_96x96.png",
+            "width": 96,
+            "height": 96,
+            "size": 9216,
+            "mime": "image/png"
+        },
+        {
+            "url": "https://www.youtube.com/s/desktop/d4eb50c8/img/favicon_144x144.png",
+            "width": 144,
+            "height": 144,
+            "size": 20736,
+            "mime": "image/png"
+        }
+    ],
+    "providerIcon": "https://www.youtube.com/s/desktop/d4eb50c8/img/favicon_144x144.png",
+    "providerName": "YouTube",
+    "providerUrl": "https://www.youtube.com/",
+    "publishedTime": "2015-07-22",
+    "license": ""
+}

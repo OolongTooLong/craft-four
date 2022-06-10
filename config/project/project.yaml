@@ -1,4 +1,4 @@
-dateModified: 1654767120
+dateModified: 1654848725
 email:
   fromEmail: bluemonkey1130@gmail.com
   fromName: 'Craft Four'
@@ -18,6 +18,7 @@ meta:
     0eba0f98-71e7-4c34-bb31-e19fdba9c8b2: 'Testimonial Limit' # Testimonial Limit
     0f153ab3-0b96-4f89-82fd-cd94590bc9b7: 'Craft Four' # Craft Four
     1aec37eb-c5a2-4748-8651-b022d8ebf9aa: 'Button Colour' # Button Colour
+    1b1a3b10-3db4-44e0-ac32-ead119455a47: Thumbnail # Thumbnail
     1e83fbac-1563-47cf-8abd-875ff8f93084: Text # Text
     1f7e7b4a-81c1-4981-b905-c443514810e2: Crop # Crop
     2ace682f-9b12-4f81-9569-fca5c2367038: 'Navigation Block' # Navigation Block
@@ -45,7 +46,7 @@ meta:
     6e80093e-0979-4bf3-8948-92023cc12f24: 'Form Label' # Form Label
     6f8a946a-4548-4a88-b0a0-dea4138a6f05: Image # Image
     7b308e3d-86a2-45bc-929f-3c18c542d711: Tertiary # Tertiary
-    7fdff696-109b-4df0-8732-365efe2ab544: 'Block Colour'
+    7fdff696-109b-4df0-8732-365efe2ab544: 'Block Colour' # Block Colour
     8af246ce-4e48-48e3-9a3b-957c04300b61: Medium # Medium
     8baca5a0-7a9d-4613-9c71-7d797b7b24de: 'Padding Bottom' # Padding Bottom
     08c0c472-c476-40f7-86bc-8e8d35cbc620: Padding # Padding
@@ -69,6 +70,7 @@ meta:
     40a58856-1ffc-4ba7-ae15-1c94fa971e35: Stylesheet # Stylesheet
     41f3c60f-5f33-492c-a9b2-8e748e201c3f: 'Nav Items' # Nav Items
     42c0d85e-9bf0-47d8-9f76-85d08c2b46fc: 'Grid Gap' # Grid Gap
+    49e05cea-cdb0-4b12-b696-82886959e0b0: 'Block Colour' # Block Colour
     50c5e757-5660-4c36-9fbe-bddd4c355da4: 'Font Settings' # Font Settings
     54b52fe6-5ff6-47ab-badd-b53ff1a14014: 'Row Width' # Row Width
     58d2395d-8abf-4cd8-b657-a18274b1d213: 'Craft Four' # Craft Four
@@ -77,6 +79,7 @@ meta:
     74fe585d-1796-49d0-a07c-1fd605a990cd: '4:3' # 4:3
     78becef9-903e-4b4d-84b8-a7bdacc2b0aa: Text # Text
     98bbaa10-b9f3-4b19-8f34-d79a520ba9ad: 'Max Line Length' # Max Line Length
+    299e70a7-80ad-455e-8e85-616c5bd2014f: Lightbox
     527ed51f-2a5e-4fff-930e-96897b3d9790: Home # Home
     577b4a42-725d-4f41-a0a6-f312ca733dba: Fonts # Fonts
     631b9b16-38f9-4b9a-869b-5940194a85d3: Common # Common
@@ -124,11 +127,13 @@ meta:
     b7ca91cb-b26b-4571-82b1-b0e903bc327d: H5 # H5
     b12af4cb-33ee-45d8-839f-cc631bdec7aa: 'Background Image' # Background Image
     b54a1a1e-3e10-4cb8-82a0-3d2fe94b6ff7: 'Body Font' # Body Font
+    b81e63ce-b4f6-4084-9fe7-feb0a6a50cb9: Video # Video
     b788c841-0001-4b6a-ad4e-67b68af2fd0a: Blockquote # Blockquote
     ba940262-031b-4e04-872c-675de886558e: Quaternary # Quaternary
     bb261ea6-1a7d-4a69-aa23-60051b43e1d3: 'Space Top' # Space Top
     bd2db3e8-8561-4d76-9400-a513fbbb358c: Portrait # Portrait
     bdc80ea3-1873-4381-b649-ef5cbf9a80c2: Colours # Colours
+    bffb9d04-250e-4428-9262-45a214095c40: Orientation # Orientation
     c003b187-eed0-43cf-81eb-5ce21ce2ad3e: Home # Home
     c04a28cc-e246-4b2f-abb9-bcea43868edb: 'Row Colour' # Row Colour
     c2a6272c-ce4f-4332-896b-96c2e99c4ef8: 'Padding Right' # Padding Right
@@ -143,6 +148,7 @@ meta:
     d6e9b9e5-1c7e-4947-8cbc-5826fd08dbc7: Master # Master
     d8e437cb-4c8c-4e4a-830e-0ab5a148353b: 'Text Colour' # Text Colour
     d21fbde3-4110-4325-aed0-eab72636f1f2: Dark # Dark
+    d54c01c0-f7a6-4cdb-b038-53d2f5085dca: Video # Video
     d74f9483-c834-4872-836e-15b04e612784: 'Button Colour' # Button Colour
     da3a6e67-61d1-48e6-9abf-099982a09541: 'Master Grid Gap' # Master Grid Gap
     db8dc648-39ea-4d72-8c40-8c9e1e3bf1e4: 'Content Width' # Content Width
@@ -176,6 +182,10 @@ meta:
     ffbd6503-405e-47a3-baae-e83ecfa38b7c: 'Nav Orientation' # Nav Orientation
     ffc2b89f-46b4-4c4f-9ca6-71feacca2d27: 'Page Builder' # Page Builder
 plugins:
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   matrixmate:
     edition: standard
     enabled: true

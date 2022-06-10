@@ -47,6 +47,9 @@
             {% set imageSmall = image.getUrl('small') ?? '' %}
         {% endif %}
 
+        {% if block.lightbox %}
+            <a class="gallery-item mfp-fade" href="{{ image.url() }}">
+        {% endif %}
         <figure class="{{ blockType }} {{ block.orientation }}">
             <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
                  sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
@@ -57,6 +60,8 @@
                 </figcaption>
             {% endif %}
         </figure>
-
+        {% if block.lightbox %}
+            </a>
+        {% endif %}
     {% endfor %}
 {% endif %}

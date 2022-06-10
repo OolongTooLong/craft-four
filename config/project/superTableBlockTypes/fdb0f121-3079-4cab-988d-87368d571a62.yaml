@@ -11,7 +11,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 73b5a4d7-003a-4a04-8377-2955e5de5162
+            uid: 27da1859-8a5b-411e-b9f4-f767a5d41a16
             warning: null
             width: 100
           -
@@ -21,7 +21,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: de9d12e0-89b9-4903-a29a-4cb07082fd31
+            uid: a3e79eb8-9ce6-41aa-afa6-1940e9be5cd8
             warning: null
             width: 100
           -
@@ -31,7 +31,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ad211457-0af9-4086-bd33-afab574a0f51
+            uid: d5d26186-b067-48bd-9423-5cbd0841bdb0
             warning: null
             width: 100
           -
@@ -41,7 +41,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 943401d7-a18a-4938-9944-0a3822e7119d
+            uid: 0fc0e4d2-6b2d-420c-9d1f-b5870856c9de
             warning: null
             width: 100
           -
@@ -51,7 +51,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5a278ccf-53fb-4938-8887-1f88d6f93ce4
+            uid: e1840a97-eeae-43d1-a40d-0ac288be129a
             warning: null
             width: 100
         name: Content

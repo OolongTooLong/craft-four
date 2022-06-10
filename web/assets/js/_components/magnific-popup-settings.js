@@ -3,35 +3,55 @@
 // This will create a single gallery from all elements that have class "gallery-item"
     $('.gallery-item').magnificPopup({
         type: 'image',
-        gallery:{
-            enabled:true
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1]
         }
     });
     $('.popup-video').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
+        type: 'inline',
+        mainClass: 'mfp-fade video-plyr',
+        midClick: true,
+        gallery: {
+            enabled: true
+        },
+        callbacks: {
+            open: function () {
+                video();
+                var mfp = $.magnificPopup.instance;
+                var proto = $.magnificPopup.proto;
+                mfp.next = function () {
+                    video();
+                    proto.next.call(mfp);
+                };
+                mfp.prev = function () {
+                    proto.prev.call(mfp);
+                };
+            },
+            close: function () {
+
+            }
+        }
     });
     $('.open-card-popup').magnificPopup({
-        type:'inline',
+        type: 'inline',
         midClick: false // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
     });
     $('.open-contact-popup').magnificPopup({
-        type:'inline',
+        type: 'inline',
         midClick: false // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
     });
     $('.popup-tweet').magnificPopup({
         type: 'inline',
-        gallery:{
-            enabled:true
+        gallery: {
+            enabled: true
         }
     });
     $('.open-popup-link').magnificPopup({
-        type:'inline',
-        gallery:{
-            enabled:true
+        type: 'inline',
+        gallery: {
+            enabled: true
         },
         midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
     });

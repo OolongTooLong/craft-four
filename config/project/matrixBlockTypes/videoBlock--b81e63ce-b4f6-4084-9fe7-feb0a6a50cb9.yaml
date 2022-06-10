@@ -1,215 +1,59 @@
 field: 2b752466-a680-4956-b353-c24d023b4612 # Blocks
 fieldLayouts:
-  35ee39a5-aed4-4b23-80c1-515759fe84e1:
+  ad1c3c36-75bf-4710-bddf-00e70c8cd5bd:
     tabs:
       -
         elements:
           -
-            fieldUid: 9d337e52-fa3a-4814-b004-00f558b48a97 # Image
+            fieldUid: 49e05cea-cdb0-4b12-b696-82886959e0b0 # Block Colour
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0d5fcf97-8433-4cfa-8b0a-89396092990a
+            uid: f4ab3bc0-bcba-4a74-959c-d10951292f7f
             warning: null
             width: 25
           -
-            fieldUid: 1f7e7b4a-81c1-4981-b905-c443514810e2 # Crop
+            fieldUid: bffb9d04-250e-4428-9262-45a214095c40 # Orientation
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 02bce28c-c810-4c06-bdb9-d29f3b37ad1b
+            uid: fa7c4d14-c040-482e-a433-a891e6abeb8e
             warning: null
             width: 25
           -
-            fieldUid: fd1dbfbc-b772-4c46-9815-bd51ef1a3b96 # Orientation
+            fieldUid: 1b1a3b10-3db4-44e0-ac32-ead119455a47 # Thumbnail
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 80b06038-3c26-43db-bb87-814de8877b65
+            uid: f9d24533-5ef3-44c0-bf7f-67bd99785a62
             warning: null
             width: 25
           -
-            fieldUid: 299e70a7-80ad-455e-8e85-616c5bd2014f
+            fieldUid: d54c01c0-f7a6-4cdb-b038-53d2f5085dca # Video
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 667c1445-33f7-4cac-aa63-8f63a3a08e07
+            uid: fad25336-7f9f-463e-9871-533603a987b9
             warning: null
-            width: 25
+            width: 100
         name: Content
-        uid: ead733f5-7c90-4a55-a059-d2592a3f1caf
+        uid: e597887a-532f-4333-9ecf-9d54f64fce66
 fields:
-  1f7e7b4a-81c1-4981-b905-c443514810e2: # Crop
-    columnSuffix: qubovdrb
-    contentColumnType: string
-    fieldGroup: null
-    handle: crop
-    instructions: null
-    name: Crop
-    searchable: false
-    settings:
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - Original
-            -
-              - value
-              - original
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Extra Large (1920 × 1080)'
-            -
-              - value
-              - extraLarge
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Large (1536 × 864)'
-            -
-              - value
-              - large
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Letter-box (1920 x 800)'
-            -
-              - value
-              - letterBox
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Small Letter-box (1920 x 600)'
-            -
-              - value
-              - smallLetterBox
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Larger (768 x 432)'
-            -
-              - value
-              - larger
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Portrait (450 × 600)'
-            -
-              - value
-              - portrait
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - '4:3 (600 × 450)'
-            -
-              - value
-              - fourThree
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Medium (576 × 324)'
-            -
-              - value
-              - medium
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Large Square (1000x1000)'
-            -
-              - value
-              - largeSquare
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Square( 500 × 500)'
-            -
-              - value
-              - square
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Small (384 × 216)'
-            -
-              - value
-              - small3
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - 'Tiny (216 x 121)'
-            -
-              - value
-              - tiny
-            -
-              - default
-              - ''
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Dropdown
-  9d337e52-fa3a-4814-b004-00f558b48a97: # Image
+  1b1a3b10-3db4-44e0-ac32-ead119455a47: # Thumbnail
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
-    handle: image
-    instructions: 'Main image asset'
-    name: Image
+    handle: thumbnail
+    instructions: null
+    name: Thumbnail
     searchable: false
     settings:
       allowSelfRelations: false
@@ -219,7 +63,7 @@ fields:
       defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
       defaultUploadLocationSubpath: null
       localizeRelations: false
-      maxRelations: null
+      maxRelations: 1
       minRelations: null
       previewMode: full
       restrictFiles: false
@@ -243,35 +87,109 @@ fields:
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       source: null
-      sources:
-        - 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      sources: '*'
       targetSiteId: null
       validateRelatedElements: false
       viewMode: large
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  299e70a7-80ad-455e-8e85-616c5bd2014f:
-    columnSuffix: rligpyfw
-    contentColumnType: boolean
+  49e05cea-cdb0-4b12-b696-82886959e0b0: # Block Colour
+    columnSuffix: vbauqtgy
+    contentColumnType: string
     fieldGroup: null
-    handle: lightbox
-    instructions: 'Optionally open in popup'
-    name: Lightbox
+    handle: blockColour
+    instructions: 'Set block background colour'
+    name: 'Block Colour'
     searchable: false
     settings:
-      default: false
-      offLabel: null
-      onLabel: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - ''
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\Lightswitch
-  fd1dbfbc-b772-4c46-9815-bd51ef1a3b96: # Orientation
-    columnSuffix: bgwtgevt
+    type: craft\fields\Dropdown
+  bffb9d04-250e-4428-9262-45a214095c40: # Orientation
+    columnSuffix: lqsrrfax
     contentColumnType: string
     fieldGroup: null
     handle: orientation
-    instructions: null
+    instructions: 'Set block oreintation'
     name: Orientation
     searchable: false
     settings:
@@ -389,6 +307,55 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
-handle: imageBlock
-name: Image
-sortOrder: 2
+  d54c01c0-f7a6-4cdb-b038-53d2f5085dca: # Video
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: video
+    instructions: null
+    name: Video
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - json
+        - video
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: videoBlock
+name: Video
+sortOrder: 3

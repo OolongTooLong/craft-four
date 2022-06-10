@@ -4,9 +4,11 @@
   background: transparent;
   cursor: zoom-in;
   position: relative;
+
   img {
     width: 100%;
   }
+
   i.fas {
     position: absolute;
     top: 0;
@@ -31,6 +33,31 @@
 
     &:hover, &:active {
       transform: scale(0.95);
+    }
+  }
+}
+
+.mfp-bg {
+  &.video-plyr + .mfp-wrap {
+    grid-column-start: 5;
+    grid-column-end: 23;
+    --plyr-video-controls-background: transparent;
+    --plyr-video-control-background-hover: var(--light-main);
+    --plyr-video-control-color: var(--light-main);
+    --plyr-video-control-color-hover: var(--dark-main);
+    --plyr-range-thumb-height: 0px;
+    --plyr-range-fill-background: var(--light-main);
+    .plyr__controls {
+      display: grid;
+      grid-template-columns: auto auto 1fr auto auto;
+      grid-gap: var(--s1);
+      button {
+        margin-bottom: 0;
+        margin-right: 0;
+      }
+      .plyr__time {
+        letter-spacing: 0;
+      }
     }
   }
 }

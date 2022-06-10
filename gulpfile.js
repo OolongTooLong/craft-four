@@ -48,11 +48,10 @@ function jsDeps(done) {
         "node_modules/jquery/dist/jquery.min.js",
         "node_modules/slick-carousel/slick/slick.min.js",
         "node_modules/gsap/dist/gsap.min.js",
-        // "node_modules/barba.js/dist/barba.min.js",
-        "./web/assets/js/_vendor/jquery.ihavecookies.min.js",
         "node_modules/magnific-popup/dist/jquery.magnific-popup.js",
         "node_modules/plyr/dist/plyr.js",
         "node_modules/jquery-ui-dist/jquery-ui.js",
+        "./web/assets/js/_vendor/jquery.ihavecookies.min.js",
     ]
     return (
         src(files)
@@ -78,14 +77,13 @@ function jsConcat(done) {
         src(files)
             .pipe(plumber({errorHandler: onError}))
             .pipe(concat("scripts.min.js"))
-            .pipe(uglify())
+            // .pipe(uglify())
             .pipe(dest(jsPath.dest))
     )
 }
 
-exports.js = series(jsDeps, jsBuild, jsConcat)
-exports.jsbuild = jsBuild
-
+let jsTasks = series(jsDeps, jsBuild, jsConcat)
+exports.js = jsTasks
 /******** SCSS Tasks *********/
 
 sass.compiler = require('sass');

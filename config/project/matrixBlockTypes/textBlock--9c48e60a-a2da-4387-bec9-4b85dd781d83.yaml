@@ -5,7 +5,7 @@ fieldLayouts:
       -
         elements:
           -
-            fieldUid: 7fdff696-109b-4df0-8732-365efe2ab544
+            fieldUid: 7fdff696-109b-4df0-8732-365efe2ab544 # Block Colour
             instructions: null
             label: null
             required: false
@@ -27,7 +27,7 @@ fieldLayouts:
         name: Content
         uid: 7b431ab7-4a7c-4be5-af4f-d235d4007a5b
 fields:
-  7fdff696-109b-4df0-8732-365efe2ab544:
+  7fdff696-109b-4df0-8732-365efe2ab544: # Block Colour
     columnSuffix: puqgozxx
     contentColumnType: string
     fieldGroup: null

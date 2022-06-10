@@ -1,0 +1,49 @@
+{% if block.video|length %}
+    {% set adminThumbnail = block.thumbnail.one() %}
+
+    {% for video in block.video.all() %}
+
+        {% if craft.embeddedAssets.get(video) != null %}
+            {% set vid = craft.embeddedAssets.get(video) %}
+
+            {% set id = vid.getVideoId()  %}
+            {% set vidThumbnail = vid.image %}
+            {% set vidThumbnailCrop = vid.getImageToSize(1080) %}
+            {% set providerName = vid.providerName %}
+
+            {% if providerName == 'Vimeo' %}
+                {% set href = 'https://player.vimeo.com/video/' %}
+                {% set string = '?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media' %}
+            {% elseif providerName == 'YouTube' %}
+                {% set href = 'https://www.youtube.com/watch?v=' %}
+                {% set string = '?origin='~ siteUrl~'&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1' %}
+            {% endif %}
+
+            <div class="{{ providerName }}" style="position: relative">
+                <img src="{{ adminThumbnail.url() ?? vidThumbnailCrop.url }}" alt="video">
+                <a href="#test-popup-{{ rowKey ~ blockKey }}" class="popup-video abs"></a>
+            </div>
+
+            <div id="test-popup-{{  rowKey ~ blockKey }}" class="white-popup mfp-hide">
+                <div class="plyr__video-embed js-player">
+                    <iframe
+                            src="{{ href }}{{ id }}"
+                            allowfullscreen
+                            allowtransparency
+                            allow="autoplay"
+                    ></iframe>
+                </div>
+            </div>
+
+        {% else %}
+
+            {% set vid = video.getUrl() %}
+
+            <video class="js-player" controls poster="" width="100%">
+                <source src="{{ vid }}" type="video/mp4"/>
+                <source src="{{ vid }}" type="video/webm"/>
+            </video>
+
+        {% endif %}
+    {% endfor %}
+{% endif %}
