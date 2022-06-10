@@ -8,7 +8,6 @@
     - [Slick Slider](https://kenwheeler.github.io/slick/) scripts are included using gulp & styles using global.scss, via node_modules
     - [Plyr.io](https://plyr.io/) is used to enhance iframe embeds & local videos
     - [Ihavecookies](https://github.com/ketanmistry/ihavecookies) is used to allow users to control cookie policy inline with GDPR regulation
-    - [Modal-video](https://appleple.github.io/modal-video/) A lightweight jQuery plugin that displays a cookie consent message as required by EU regulation.
     - [Google Tag](https://tagmanager.google.com/#/home) / [Google Analytics](https://analytics.google.com/analytics/web/#/p258171687/reports/defaulthome) are used to manage tags added to the site, logic is applied on GTM admin to respect cookie policy choices
 - **Craft Plugins** are used to support certain functionality such as maps & Video embeds
     - [Maps](https://plugins.craftcms.com/simplemap) allows google map locations to be selected in admin
