@@ -86,7 +86,20 @@ p,.p {
   margin-bottom: var(--f1);
   max-width: var(--max-character-length);
   color: var(--base-body);
+  &.intro {
+    font-size: clamp(var(--f0), 2vw, var(--f1));
+    line-height: 1.2;
+  }
 
+  &.big {
+    font-size: clamp(var(--f1), 5vw, var(--f2));
+    line-height: 1.2;
+  }
+
+  &.sub-text {
+    letter-spacing: 3px;
+    font-size: 0.6rem;
+  }
 }
 
 

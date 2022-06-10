@@ -44,27 +44,11 @@
               </button>
             </div>
         `;
-    // videoPopUp = () => {
-    //     const players = Array.from(
-    //         document.querySelectorAll('.mfp-iframe-scaler'))
-    //         .map(
-    //             p => new Plyr(p,
-    //                 {
-    //                     controls: controls,
-    //                     invertTime: true
-    //                 }
-    //             )
-    //         );
-    //
-    // }
-    video = (destroy) => {
-        const player = new Plyr('.js-player', {
+    video = () => {
+        const playerPopUp = new Plyr('.js-player', {
             controls: controls,
-            invertTime: true
+            invertTime: true,
+            hideControls: false
         });
-        if(destroy === 1){
-            console.log('destroy')
-        }
     }
-
 })(jQuery); // Fully reference jQuery after this point.
