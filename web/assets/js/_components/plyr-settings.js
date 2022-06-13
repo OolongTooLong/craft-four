@@ -48,6 +48,7 @@
         const playerPopUp = new Plyr('.js-player', {
             controls: controls,
             invertTime: true,
+            autoplay: true,
             hideControls: false
         });
     }

@@ -18,7 +18,7 @@
                 {% set href = 'https://player.vimeo.com/video/' %}
                 {% set string = '?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media' %}
             {% elseif providerName == 'YouTube' %}
-                {% set href = 'https://www.youtube.com/watch?v=' %}
+                {% set href = 'https://www.youtube.com/embed/' %}
                 {% set string = '?origin='~ siteUrl~'&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1' %}
             {% endif %}
 
@@ -30,7 +30,7 @@
             <figure id="test-popup-{{ rowKey ~ blockKey }}" class="vid-popup mfp-hide">
                 <div class="plyr__video-embed js-player">
                     <iframe
-                            src="{{ href }}{{ id }}"
+                            src="{{ href }}{{ id }}{{ string }}"
                             allowfullscreen
                             allowtransparency
                             allow="autoplay"
