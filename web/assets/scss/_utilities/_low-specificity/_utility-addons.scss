@@ -1,11 +1,12 @@
 @use '../_mixins/media-query' as *;
 
-
+.grid-row:not(#hero){
 section[class*="bg"]:not(#inner-header){
   padding: var(--s4) 0;
 }
 div[class*="bg"],figure[class*="bg"] {
   padding: var(--s4);
+}
 }
 p[style*="text-align:center"],
 h1[style*="text-align:center"],

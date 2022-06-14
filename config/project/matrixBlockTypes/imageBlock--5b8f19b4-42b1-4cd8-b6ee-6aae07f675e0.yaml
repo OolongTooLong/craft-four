@@ -35,7 +35,7 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            fieldUid: 299e70a7-80ad-455e-8e85-616c5bd2014f
+            fieldUid: 299e70a7-80ad-455e-8e85-616c5bd2014f # Lightbox
             instructions: null
             label: null
             required: false
@@ -251,7 +251,7 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  299e70a7-80ad-455e-8e85-616c5bd2014f:
+  299e70a7-80ad-455e-8e85-616c5bd2014f: # Lightbox
     columnSuffix: rligpyfw
     contentColumnType: boolean
     fieldGroup: null

@@ -1,0 +1,67 @@
+field: 4a764151-b881-4190-a8d8-e495aba359a1 # Hero Builder
+fieldLayouts:
+  fd242460-aeec-4c3a-bdf4-f608d44bb29c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 41c55787-ff12-482d-af38-9868f8c335e7 # Slides
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4aa78570-2021-40be-a624-9c7106631c71
+            warning: null
+            width: 100
+        name: Content
+        uid: dfa75740-718a-4f6a-820a-be4b40116202
+fields:
+  41c55787-ff12-482d-af38-9868f8c335e7: # Slides
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: slides
+    instructions: null
+    name: Slides
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 834033471
+      columns:
+        __assoc__:
+          -
+            - 8da4d033-4196-4d0a-9287-adae0f07b662 # Slide Media
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 80e7cca9-4de4-4189-a0a7-cac3d6cc6f92 # Slide Title
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 60aec010-884e-4c3f-8b1b-70e0bf5be4e2 # Slide Link
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_19_slides}}'
+      fieldLayout: matrix
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: angleSlider
+name: 'Angle Slider'
+sortOrder: 3

@@ -1,0 +1,42 @@
+defaultPlacement: end
+fieldLayouts:
+  6adef5ea-828a-4b89-8e9e-3d4edd8701be:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 621cde44-9f1b-4581-bb42-fa4ecd79b590
+            warning: null
+            width: 100
+        name: Content
+        uid: 0c7fb36a-5203-4b0c-9a3b-fc92f6d2dd9e
+handle: category
+name: Category
+siteSettings:
+  0f153ab3-0b96-4f89-82fd-cd94590bc9b7: # Craft Four
+    hasUrls: true
+    template: null
+    uriFormat: 'category/{slug}'
+structure:
+  maxLevels: null
+  uid: 78178e36-7e5e-46eb-aed6-97a7e562a1a5

@@ -1,0 +1,412 @@
+field: 5257ad8b-ba8e-472f-9b95-1ee64ecb69c1 # Slide Content
+fieldLayouts:
+  062a2303-49ea-496a-920e-791fcbcb29d7:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: bd02837b-9e68-404b-808a-86cac9e7618b # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2ea8c68-8d5e-4d0f-9cb4-87e6d054e3f6
+            warning: null
+            width: 100
+          -
+            fieldUid: 19b7e44a-3c66-4c41-addf-bfcba839b80c # Block Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06a988b1-b058-4c51-8f2a-00665b80a50b
+            warning: null
+            width: 25
+          -
+            fieldUid: 74cb6beb-393b-427c-a4e3-33f74e44d425 # Text Orientation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7ebaf83e-d42c-419e-8569-01079c8a1797
+            warning: null
+            width: 25
+          -
+            fieldUid: 60f6737b-00d1-4c63-8542-9ee3464ac9f0 # Button Orientation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2656cc54-77f1-4ea2-96e2-21a7070b0249
+            warning: null
+            width: 25
+          -
+            fieldUid: d00e43e8-e394-4421-a44f-a09ca074e60a # Button Repeater
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2a7dc83f-9780-4d7f-8edc-cfc71de5be26
+            warning: null
+            width: 100
+          -
+            fieldUid: 3df733a4-42bf-4034-acef-695c32d3621f # Block Padding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d80fb928-aa3f-48e6-92a0-db3ff3d1215e
+            warning: null
+            width: 100
+        name: Content
+        uid: eb8e229e-8de8-4af4-95db-974d1e5330fe
+fields:
+  3df733a4-42bf-4034-acef-695c32d3621f: # Block Padding
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockPadding
+    instructions: null
+    name: 'Block Padding'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1109396672
+      columns:
+        __assoc__:
+          -
+            - 0d121e7c-d4a2-4a48-b818-cbc33f94503a # Padding Top
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - c965388f-26a1-4e92-a645-ea04ce831c47 # Padding Bottom
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 64c5ac63-de46-47a4-8926-b0124c066e5b # Padding Left
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 104bdd9f-939f-46a2-be2b-c1261cd5a355 # Padding Right
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_16_blockpadding}}'
+      fieldLayout: table
+      maxRows: 1
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  19b7e44a-3c66-4c41-addf-bfcba839b80c: # Block Colour
+    columnSuffix: qinerane
+    contentColumnType: string
+    fieldGroup: null
+    handle: blockColour
+    instructions: null
+    name: 'Block Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - none
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  60f6737b-00d1-4c63-8542-9ee3464ac9f0: # Button Orientation
+    columnSuffix: ahaxgomo
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonOrientation
+    instructions: null
+    name: 'Button Orientation'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Center
+            -
+              - value
+              - center
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Space Evenly'
+            -
+              - value
+              - space-evenly
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Even Space'
+            -
+              - value
+              - evenStretch
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  74cb6beb-393b-427c-a4e3-33f74e44d425: # Text Orientation
+    columnSuffix: cwcdldvu
+    contentColumnType: string
+    fieldGroup: null
+    handle: textOrientation
+    instructions: null
+    name: 'Text Orientation'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Top
+            -
+              - value
+              - start
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Center
+            -
+              - value
+              - center
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Bottom
+            -
+              - value
+              - end
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Stretch
+            -
+              - value
+              - stretch
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  bd02837b-9e68-404b-808a-86cac9e7618b: # Text
+    columnSuffix: smhrdbce
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  d00e43e8-e394-4421-a44f-a09ca074e60a: # Button Repeater
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonRepeater
+    instructions: null
+    name: 'Button Repeater'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 472132058
+      columns:
+        __assoc__:
+          -
+            - 3310083c-c8a5-446f-bcc7-f4903beba3e6 # Button
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 57e1e1e6-b078-4779-8594-e017bb4aeefc # Button Style
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 6ae1b8eb-d1c9-41f0-93a8-e57a2ac8c6e4 # Button Colour
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_16_buttonrepeater}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: text
+name: Text
+sortOrder: 1

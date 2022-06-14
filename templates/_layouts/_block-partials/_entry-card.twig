@@ -40,17 +40,20 @@
             <a class="imglink" href="{{ entry.url }}">
         {% endif %}
 
-        <figure>
-            <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
-                 sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
-                 src="{{ imageMedium }}" alt="{{ imageUrl.plainText ?? '' }}"/>
-            {% if imageUrl.text %}
-                <figcaption>
-                    {{ imageUrl.text }}
-                </figcaption>
-            {% endif %}
-        </figure>
-
+        {% if imageUrl is defined %}
+            <figure>
+                <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
+                     sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
+                     src="{{ imageMedium }}" alt="{{ imageUrl.alt ?? '' }}"/>
+                {% if imageUrl.text is defined %}
+                    {% if imageUrl.text|length %}
+                        <figcaption>
+                            {{ imageUrl.text }}
+                        </figcaption>
+                    {% endif %}
+                {% endif %}
+            </figure>
+        {% endif %}
         {% if popup is defined and popup == 1 %}
             </a>
         {% else %}
@@ -71,7 +74,7 @@
                 <h6>{{ entry.postDate | date("M d, Y") }}</h6>
             {% endif %}
         {% endif %}
-        {% if categoryQuery|length %}
+        {% if categoryQuery.all()|length %}
             <hr>
             <p><strong>Categories:</strong>
                 {% for key, category in categoryQuery.all() %}
@@ -89,7 +92,7 @@
             {% if useExcerptLimit is defined and useExcerptLimit == 0 %}
                 <p>{{ entry.excerpt }}</p>
             {% else %}
-                {% set excerptLength = fontSettings.excerptLimit %}
+                {% set excerptLength = fontSettings.excerptLimit ?? '300'%}
                 <p>{{ entry.excerpt|truncate(excerptLength)|raw }}</p>
             {% endif %}
         {% endif %}
@@ -103,7 +106,7 @@
                 {% endif %}
                 <div>
                     <h4>{{ entry.title }}</h4>
-                    {% if categoryQuery|length %}
+                    {% if categoryQuery.all()|length %}
                         <hr>
                         <h6><strong>Categories:</strong>
                             {% for key, category in categoryQuery.all() %}
@@ -111,7 +114,7 @@
                             {% endfor %}
                         </h6>
                     {% endif %}
-                    {% if  entry.blogIntro.textArea %}
+                    {% if  entry.blogIntro.textArea is defined %}
                         <hr>
                         {{ entry.blogIntro.textArea }}
                     {% endif %}

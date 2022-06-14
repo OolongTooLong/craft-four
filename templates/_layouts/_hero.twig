@@ -79,14 +79,14 @@
                             {{ blendMode }}
                             {{ navigation }}
                             {{ arrowsOptions }}
-                            {{ contentWidth }}
+
                             "
                      data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "arrows":{{ arrows }},"dots":{{ dots }},"autoplay":{{ autoplay }} }'
                 >
                     {% for slideBlock in repeater %}
                         <div title="{{ slideBlock.slideTitle }}"
                              class="{{ paddingTop }} {{ paddingBottom }}">
-                            <div class="slide-content {{ gridGap }} ">
+                            <div class="slide-content {{ gridGap }} {{ contentWidth }}">
                                 {% if slideBlock.slideContent|length %}
                                     {% set repeater = slideBlock.slideContent.all() %}
                                     {% for blockKey, block in repeater %}
@@ -109,6 +109,48 @@
                         </div>
                     {% endfor %}
                 </div>
+
+            {% case 'angleSlider' %}
+                <div class="no-grid slides angle-slider large xxx-wide
+                    ">
+                    {% set repeater = row.slides.all() %}
+                    {% for slideKey, slideBlock in repeater %}
+                        <div title="" class="">
+                            <div class="slide-content bg-light-main">
+
+                                <div>
+                                    {{ slideBlock.slideTitle }}
+                                    <div class="button-wrap right">
+                                        <a class="ghost button " href="{{ slideBlock.slideLink.getUrl() }}"
+                                           target="{{ slideBlock.slideLink.getTarget() }}">{{ slideBlock.slideLink.customText ? slideBlock.slideLinkcustomText : slideBlock.slideLink.defaultText }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-media">
+                                {% set media = slideBlock.slideMedia.one() %}
+                                {% if media|length %}
+                                    {% if media.extension == 'jpg' or media.extension == 'png' or media.extension == 'jpeg' %}
+                                        {% set image = media %}
+                                        {% include '_layouts/_block-partials/_hero-image.twig' %}
+                                    {% endif %}
+                                    {% if media.extension == 'json' %}
+                                        {% include '_layouts/_block-partials/_hero-video.twig' %}
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}
+
+                </div>
+                <div class="progressBarContainer">
+                    {% for slideKey, slideBlock in repeater %}
+                        <div class="item">
+                            <p>{{ slideKey }}</p>
+                            <span data-slick-index="{{ slideKey }}" class="progressBar"></span>
+                        </div>
+                    {% endfor %}
+                </div>
+
             {% endswitch %}
 
             {% if row.advancedOptions %}
@@ -136,7 +178,8 @@
                         <div class="stack">
                             {{ siteMeta.contactPopupContent ?? '' }}
                             {% if siteMeta.email %}
-                                <p>Email: <a href="tel:{{ siteMeta.email }}" target="_blank">{{ siteMeta.email }}</a></p>
+                                <p>Email: <a href="tel:{{ siteMeta.email }}" target="_blank">{{ siteMeta.email }}</a>
+                                </p>
                             {% endif %}
                             {% if siteMeta.phone %}
                                 <p>Tel: <a href="tel:{{ siteMeta.phone }}" target="_blank">{{ siteMeta.phone }}</a></p>

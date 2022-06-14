@@ -1,32 +1,34 @@
 {% if block.imageAsset %}
-    {% if block.imageCrop is defined %}
-        {% switch block.imageCrop %}
-        {% case 'original' %}
-            {% set imageMedium = block.imageAsset[0].url() ?? '' %}
-            {% set imageSmall = block.imageAsset[0].url() ?? '' %}
-        {% case 'medium' %}
-            {% set imageMedium = block.imageAsset[0].getUrl('medium') ?? '' %}
-            {% set imageSmall = block.imageAsset[0].getUrl('small') ?? '' %}
-        {% case 'portrait' %}
-            {% set imageMedium = block.imageAsset[0].getUrl('portrait') ?? '' %}
-            {% set imageSmall = block.imageAsset[0].getUrl('portrait') ?? '' %}
-        {% case 'square' %}
-            {% set imageMedium = block.imageAsset[0].getUrl('square') ?? '' %}
-            {% set imageSmall = block.imageAsset[0].getUrl('square') ?? '' %}
-        {% case 'fourThree' %}
-            {% set imageMedium = block.imageAsset[0].getUrl('fourThree') ?? '' %}
-            {% set imageSmall = block.imageAsset[0].getUrl('fourThree')?? '' %}
-        {% default %}
-            {% set imageMedium = block.imageAsset[0].getUrl('medium') ?? '' %}
-            {% set imageSmall = block.imageAsset[0].getUrl('small') ?? '' %}
-        {% endswitch %}
-    {% else %}
-        {% set imageMedium = block.imageAsset[0].url() ?? '' %}
-        {% set imageSmall = block.imageAsset[0].url() ?? '' %}
-    {% endif %}
-    <figure class="{{ block.imageFit }}">
-        <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
-             sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
-             src="{{ imageMedium }}" alt="{{ block.imageAsset[0].title }}"/>
-    </figure>
+    {% for image in block.imageAsset.all() %}
+        {% if block.imageCrop is defined %}
+            {% switch block.imageCrop %}
+            {% case 'original' %}
+                {% set imageMedium = image.url() ?? '' %}
+                {% set imageSmall = image.url() ?? '' %}
+            {% case 'medium' %}
+                {% set imageMedium = image.getUrl('medium') ?? '' %}
+                {% set imageSmall = image.getUrl('small') ?? '' %}
+            {% case 'portrait' %}
+                {% set imageMedium = image.getUrl('portrait') ?? '' %}
+                {% set imageSmall = image.getUrl('portrait') ?? '' %}
+            {% case 'square' %}
+                {% set imageMedium = image.getUrl('square') ?? '' %}
+                {% set imageSmall = image.getUrl('square') ?? '' %}
+            {% case 'fourThree' %}
+                {% set imageMedium = image.getUrl('fourThree') ?? '' %}
+                {% set imageSmall = image.getUrl('fourThree')?? '' %}
+            {% default %}
+                {% set imageMedium = image.getUrl('medium') ?? '' %}
+                {% set imageSmall = image.getUrl('small') ?? '' %}
+            {% endswitch %}
+        {% else %}
+            {% set imageMedium = image.url() ?? '' %}
+            {% set imageSmall = image.url() ?? '' %}
+        {% endif %}
+        <figure class="{{ block.imageFit }}">
+            <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
+                 sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
+                 src="{{ imageMedium }}" alt="{{ block.imageAsset.title }}"/>
+        </figure>
+    {% endfor %}
 {% endif %}

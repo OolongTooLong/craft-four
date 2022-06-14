@@ -28,6 +28,20 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 3d0f34fc-321b-4382-a86b-98aebbfa2530 # Global SEO Fields
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf491343-bc9a-427f-a0ff-0482f77dfb87
+            warning: null
+            width: 100
+        name: 'Site SEO'
+        uid: 40fc1e1e-fe0d-4bd5-99f4-f12f8e790243
+      -
+        elements:
+          -
             fieldUid: 00d2f4c9-0319-4c4f-b79b-7ba4b48dfd76 # Favicon
             instructions: null
             label: null
@@ -36,7 +50,7 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             uid: b71a40c1-7d98-42f6-aacc-c27673950459
             warning: null
-            width: 25
+            width: 100
         name: Favicon
         uid: db146bd9-d44d-4566-9cf8-e641355be567
 handle: siteMeta

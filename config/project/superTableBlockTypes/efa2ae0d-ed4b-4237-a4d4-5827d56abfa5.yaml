@@ -1,0 +1,272 @@
+field: fef8920f-76b7-43f0-aee0-8ec1b5e46813 # Blog Intro
+fieldLayouts:
+  697053ba-1390-4da9-b5cf-f9f1fa68f1ee:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: aa757297-bda8-4dbd-8c8f-e7bc2f668f58 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ec88d3d5-be81-4fcc-8b7c-616cf181a753
+            warning: null
+            width: 100
+          -
+            fieldUid: c1d1dfa0-54db-4679-a904-b95f115dfc44 # Sidebar Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9869fe9e-b325-43b5-9fdd-8ce228d082ca
+            warning: null
+            width: 100
+          -
+            fieldUid: ed119d24-ed57-4de4-b144-ace7c9f1c824 # Sidebar Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65bdcf70-f2cb-4b32-b0d3-0b6cdfe47733
+            warning: null
+            width: 100
+          -
+            fieldUid: 790b5de4-f4eb-462a-a975-4e4096eb62cb # Text Area
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dca97b05-66f6-4f1e-a6e9-0dbde567e310
+            warning: null
+            width: 100
+          -
+            fieldUid: 72f169b7-eca9-4535-9a80-984f2a48b60c # Sidebar Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c90b7539-597c-4d43-b5ba-5f4457732718
+            warning: null
+            width: 100
+        name: Content
+        uid: b2d148bc-91c4-4d3b-b13b-5ab4138e501a
+fields:
+  72f169b7-eca9-4535-9a80-984f2a48b60c: # Sidebar Colour
+    columnSuffix: imyxxiwv
+    contentColumnType: string
+    fieldGroup: null
+    handle: sidebarColour
+    instructions: null
+    name: 'Sidebar Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  790b5de4-f4eb-462a-a975-4e4096eb62cb: # Text Area
+    columnSuffix: ubckdgsb
+    contentColumnType: text
+    fieldGroup: null
+    handle: textArea
+    instructions: null
+    name: 'Text Area'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  aa757297-bda8-4dbd-8c8f-e7bc2f668f58: # Text
+    columnSuffix: hpzbotot
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  c1d1dfa0-54db-4679-a904-b95f115dfc44: # Sidebar Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: sidebarImage
+    instructions: null
+    name: 'Sidebar Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  ed119d24-ed57-4de4-b144-ace7c9f1c824: # Sidebar Title
+    columnSuffix: pnfrwnns
+    contentColumnType: text
+    fieldGroup: null
+    handle: sidebarTitle
+    instructions: null
+    name: 'Sidebar Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

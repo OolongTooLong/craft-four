@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: b3327bc1-1736-4c75-a021-01e4db079496 # Posts
+handle: blogIntro
+instructions: null
+name: 'Blog Intro'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 273662464
+  contentTable: '{{%stc_blogintro}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

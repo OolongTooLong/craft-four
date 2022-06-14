@@ -28,16 +28,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 4a764151-b881-4190-a8d8-e495aba359a1 # Hero Builder
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3f2605d3-9f9d-497f-84d4-900bc00249db
-            warning: null
-            width: 100
-          -
             fieldUid: ffc2b89f-46b4-4c4f-9ca6-71feacca2d27 # Page Builder
             instructions: null
             label: null
@@ -49,6 +39,54 @@ fieldLayouts:
             width: 100
         name: Content
         uid: dc1d4172-0d37-442f-925e-284ad0d98869
+      -
+        elements:
+          -
+            fieldUid: 4a764151-b881-4190-a8d8-e495aba359a1 # Hero Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f2605d3-9f9d-497f-84d4-900bc00249db
+            warning: null
+            width: 100
+        name: Hero
+        uid: 82ace763-e79c-4877-bad6-396756b2a7e9
+      -
+        elements:
+          -
+            fieldUid: a667ef8e-346d-4874-be12-13759ee2e4e4 # Thumbnail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18b23306-3cc5-4b5b-b343-7cbe49a41510
+            warning: null
+            width: 25
+          -
+            fieldUid: 700ff3bf-9ed3-4b79-a679-641cbe9b20de # Excerpt
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40065c1c-8742-4a22-a057-f628c3e70e9d
+            warning: null
+            width: 75
+          -
+            fieldUid: 3dca56ab-24df-48a9-b454-76ebe88b93c1 # SEO Fields
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c538341-1580-47b0-9eb4-43720c049493
+            warning: null
+            width: 100
+        name: 'Page Meta'
+        uid: 71cf2cd4-761d-42ca-afdc-f2b084439f42
       -
         elements:
           -

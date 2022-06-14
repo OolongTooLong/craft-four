@@ -1,0 +1,500 @@
+field: 2b752466-a680-4956-b353-c24d023b4612 # Blocks
+fieldLayouts:
+  915a5ec9-6e53-4d56-949b-b8aa81431efc:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: e84a8308-763b-47b1-9f67-d92c52577869 # Related Entry
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c63e773-341e-46a6-b5f0-6ac725be936c
+            warning: null
+            width: 100
+          -
+            fieldUid: 8a24e991-5719-496e-b40c-0a5ea9ab6dc8 # Card Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d72840e3-1e55-4edd-89d8-53c165487e13
+            warning: null
+            width: 25
+          -
+            fieldUid: 26a7d4c1-576f-46e8-ac8c-ba235814d113 # Image Crop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 834d961b-f4aa-4a01-a45f-3e3129d40572
+            warning: null
+            width: 25
+          -
+            fieldUid: ef7ea08d-71b9-4d19-aaa5-3dae6b240c6c # Mobile Options
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fc3c03d6-8a21-4dd6-afbe-c5f0b61d4608
+            warning: null
+            width: 25
+          -
+            fieldUid: 601753f2-fb90-4aa8-88f6-d8aceecbe945 # Button Style
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 75857139-f305-4c2a-b7e3-8e821fa779c2
+            warning: null
+            width: 25
+          -
+            fieldUid: 803ca8db-d966-4cdc-a536-97b0adcd0a76 # Button Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d7e6bc18-b8f5-4860-8e65-3e5007c04183
+            warning: null
+            width: 25
+          -
+            fieldUid: 98420b02-3a94-4288-90f2-11c31a28389b # Use Excerpt Limit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96bc0103-740a-4e42-aa0b-19f281d9069c
+            warning: null
+            width: 25
+        name: Content
+        uid: 12c99723-3212-4d0f-86ab-9e156feac175
+fields:
+  8a24e991-5719-496e-b40c-0a5ea9ab6dc8: # Card Background Colour
+    columnSuffix: qwtblafx
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardBackgroundColour
+    instructions: null
+    name: 'Card Background Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  26a7d4c1-576f-46e8-ac8c-ba235814d113: # Image Crop
+    columnSuffix: sskkunlj
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageCrop
+    instructions: null
+    name: 'Image Crop'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - '16:9'
+            -
+              - value
+              - medium
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 'Square (500)'
+            -
+              - value
+              - square
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Large Square (1000)'
+            -
+              - value
+              - largeSquare
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Portrait
+            -
+              - value
+              - portrait
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4:3'
+            -
+              - value
+              - fourThree
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  803ca8db-d966-4cdc-a536-97b0adcd0a76: # Button Colour
+    columnSuffix: ptfrdgod
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonColour
+    instructions: null
+    name: 'Button Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Master
+            -
+              - value
+              - master
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Inherit
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quaternary
+            -
+              - value
+              - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  98420b02-3a94-4288-90f2-11c31a28389b: # Use Excerpt Limit
+    columnSuffix: yicilnkf
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: useExcerptLimit
+    instructions: null
+    name: 'Use Excerpt Limit'
+    searchable: false
+    settings:
+      default: true
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  601753f2-fb90-4aa8-88f6-d8aceecbe945: # Button Style
+    columnSuffix: opnedtyk
+    contentColumnType: string
+    fieldGroup: null
+    handle: buttonStyle
+    instructions: null
+    name: 'Button Style'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - primary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Ghost
+            -
+              - value
+              - ghost
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - secondary
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Full Width'
+            -
+              - value
+              - 'primary full-width'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  e84a8308-763b-47b1-9f67-d92c52577869: # Related Entry
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: relatedEntry
+    instructions: null
+    name: 'Related Entry'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1844597087
+      columns:
+        __assoc__:
+          -
+            - ead3f394-0828-4cfa-a4a2-7d1b8c40c192 # Entry
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - d02337d8-3537-4841-87b1-61c5d157e58c # Popup
+            -
+              __assoc__:
+                -
+                  - width
+                  - 10%
+          -
+            - 03e10793-6434-4680-8eda-9f5c82acbaa0 # Button Text
+            -
+              __assoc__:
+                -
+                  - width
+                  - 20%
+          -
+            - d44b3f6f-7eb7-424d-a7d0-862c53334fe1 # Hide Button
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_13_relatedentry}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: true
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  ef7ea08d-71b9-4d19-aaa5-3dae6b240c6c: # Mobile Options
+    columnSuffix: vgrqonlq
+    contentColumnType: string
+    fieldGroup: null
+    handle: mobileOptions
+    instructions: null
+    name: 'Mobile Options'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Stack
+            -
+              - value
+              - stack
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: entryBlock
+name: Entry
+sortOrder: 4

@@ -1,0 +1,215 @@
+field: 3dca56ab-24df-48a9-b454-76ebe88b93c1 # SEO Fields
+fieldLayouts:
+  ad25b872-30bc-4169-88d9-d42294f7e515:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: dc92ec96-f376-44ed-9215-095b54327514 # Alternative Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5d30eb0a-3292-49da-ab75-0925ff9baaf3
+            warning: null
+            width: 100
+          -
+            fieldUid: 412c0f0f-f317-49f6-a1d3-05c9aa30cbe1 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4cbfcc2d-e8bf-4cae-8965-c18ebeaf3f04
+            warning: null
+            width: 100
+          -
+            fieldUid: b1981414-597a-4220-a3d4-8579525221fe # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 223cc2c7-0b65-4bf7-83d2-97ebd6b6a19d
+            warning: null
+            width: 100
+          -
+            fieldUid: 7f21bcb6-fa44-49b8-bfb2-fa42f0455d62 # Robots
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fac697bf-98cd-4a12-a951-f1e44f625dac
+            warning: null
+            width: 100
+          -
+            fieldUid: 2656afe5-94bf-4416-b303-52c4a40506ff # Keywords
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96cd1356-a6d3-4cef-a61f-f72e49562fd8
+            warning: null
+            width: 100
+        name: Content
+        uid: 140840c4-8938-491a-880f-9aed44886933
+fields:
+  7f21bcb6-fa44-49b8-bfb2-fa42f0455d62: # Robots
+    columnSuffix: paeujhet
+    contentColumnType: string
+    fieldGroup: null
+    handle: robots
+    instructions: null
+    name: Robots
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - all
+            -
+              - value
+              - all
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - noindex
+            -
+              - value
+              - noindex
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - nofollow
+            -
+              - value
+              - nofollow
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  412c0f0f-f317-49f6-a1d3-05c9aa30cbe1: # Description
+    columnSuffix: ytyyhofa
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: "\"a brief summary of the website\"\r\n\r\n- 50–160 characters long, including spaces\r\n- A page's meta description should intelligently (read: in a natural, active, non-spammy way) employ the keywords that page is targeting, but also create a compelling description that a searcher will want to click.\r\n- Search engines bold keywords in the description when they match search queries. This can draw the eyes of searchers, so match your descriptions to search terms as closely as possible"
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  2656afe5-94bf-4416-b303-52c4a40506ff: # Keywords
+    columnSuffix: uthrlwoi
+    contentColumnType: text
+    fieldGroup: null
+    handle: keywords
+    instructions: null
+    name: Keywords
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b1981414-597a-4220-a3d4-8579525221fe: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  dc92ec96-f376-44ed-9215-095b54327514: # Alternative Title
+    columnSuffix: kpcmxljh
+    contentColumnType: text
+    fieldGroup: null
+    handle: alternativeTitle
+    instructions: "\"Primary Keyword – Secondary Keyword | Brand Name\"\r\n\r\n- 50-60 characters long, including spaces\r\n- Although this should be formatted to some degree for search engines, it’s vital that the tag makes perfect sense to humans and reads like a legible sentence."
+    name: 'Alternative Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: settings
+name: Settings
+sortOrder: 1

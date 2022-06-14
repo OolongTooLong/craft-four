@@ -11,7 +11,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 10c60819-606d-44b1-ae73-92cb5c5a3a9a
+            uid: 8399f3dc-a206-479a-ac22-2de15e1babbf
             warning: null
             width: 100
           -
@@ -21,7 +21,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7d1a8a8a-5f0a-4ed4-9d19-88ff98bb17d7
+            uid: 3ff93796-5d39-43e0-9d34-ee91a9dc463d
             warning: null
             width: 100
         name: Content
@@ -283,6 +283,17 @@ fields:
                       __assoc__:
                         -
                           - label
+                          - 'All Sizes'
+                        -
+                          - value
+                          - '10000'
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
                           - Large
                         -
                           - value
@@ -468,6 +479,47 @@ fields:
                 -
                   - type
                   - lightswitch
+          -
+            - col6
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Burger location'
+                -
+                  - handle
+                  - burgerLocation
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - select
+                -
+                  - options
+                  -
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Right
+                        -
+                          - value
+                          - right
+                        -
+                          - default
+                          - false
+                    -
+                      __assoc__:
+                        -
+                          - label
+                          - Left
+                        -
+                          - value
+                          - left
+                        -
+                          - default
+                          - false
       defaults:
         -
           __assoc__:
@@ -486,6 +538,9 @@ fields:
             -
               - col5
               - ''
+            -
+              - col6
+              - right
       maxRows: 1
       minRows: 1
     translationKeyFormat: null

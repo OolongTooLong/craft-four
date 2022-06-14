@@ -17,6 +17,7 @@
 
                 {% set gap = row.headerSettings[0].gap ?? '' %}
                 {% set mobileContact = row.headerSettings[0].mobileContact ?? '' %}
+                {% set burgerLocation = row.headerSettings[0].burgerLocation ?? '' %}
 
             {% endif %}
             {% if row.headerContent|length %}
@@ -75,7 +76,7 @@
 
                             {% endswitch %}
                         {% endfor %}
-                        <button id="menu-icon">
+                        <button class="{{ burgerLocation }}" id="menu-icon">
                             <span></span>
                         </button>
                     </div>

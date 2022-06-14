@@ -14,7 +14,7 @@
         // $(sideNav).html(navItems);
         trigger.on("click", function (e) {
             e.stopPropagation();
-            $(this).toggleClass('active')
+            $(this).addClass('active')
             // $(this).parent('.nav-link').siblings().children('.sub-nav').slideUp();
             $(this).next('.sub-nav').slideToggle("fast").animate({easing: 'linear'});
         });
@@ -23,7 +23,11 @@
     menuButton.on("click", function (e) {
         $(this).toggleClass('active');
         e.stopPropagation();
-        $('#header').toggleClass(headerPosition + ' active');
+        e.preventDefault();
+
+        // $('#header').toggleClass(headerPosition + ' active');
+        $('#header').toggleClass('active');
+
         sideNav.slideToggle('fast', function () {
             if ($(this).is(':visible'))
                 $(this).css('display', 'flex');

@@ -1,0 +1,258 @@
+field: 5257ad8b-ba8e-472f-9b95-1ee64ecb69c1 # Slide Content
+fieldLayouts:
+  cb9c5e0b-c7d8-4db8-8f2b-594d691314d9:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 34b252b9-e2ab-4c13-a454-25580b5ca278 # Image Asset
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0dc8cd9d-cd04-4f58-9b4c-220bfcfeaaf8
+            warning: null
+            width: 100
+          -
+            fieldUid: 2c785d75-4c76-4565-968a-27a816226d9f # Image Crop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66d190ac-7afc-4780-86d9-699294d7f8d1
+            warning: null
+            width: 100
+          -
+            fieldUid: c8cbf296-ee37-4c3a-8561-2ed1507c7626 # Image Fit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f32f2b98-e4cd-45dd-8be9-2e91d369a233
+            warning: null
+            width: 100
+        name: Content
+        uid: 81ee94cd-832d-4fc5-b37f-6958eafa882a
+fields:
+  2c785d75-4c76-4565-968a-27a816226d9f: # Image Crop
+    columnSuffix: dsqkyrzr
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageCrop
+    instructions: null
+    name: 'Image Crop'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Original
+            -
+              - value
+              - original
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Portrait
+            -
+              - value
+              - portrait
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '4:3'
+            -
+              - value
+              - fourThree
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - '16:9'
+            -
+              - value
+              - medium
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Square
+            -
+              - value
+              - square
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  34b252b9-e2ab-4c13-a454-25580b5ca278: # Image Asset
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageAsset
+    instructions: null
+    name: 'Image Asset'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c8cbf296-ee37-4c3a-8561-2ed1507c7626: # Image Fit
+    columnSuffix: xwvpvcbj
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageFit
+    instructions: null
+    name: 'Image Fit'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Stretch
+            -
+              - value
+              - stretch
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Top Left'
+            -
+              - value
+              - topLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Top Right'
+            -
+              - value
+              - topRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bottom Left'
+            -
+              - value
+              - bottomLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Bottom Right'
+            -
+              - value
+              - bottomRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Right'
+            -
+              - value
+              - centreRight
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Left'
+            -
+              - value
+              - centreLeft
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'Centre Centre'
+            -
+              - value
+              - centreCentre
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: image
+name: Image
+sortOrder: 2

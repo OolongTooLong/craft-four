@@ -5,6 +5,7 @@ header {
   z-index: 5;
   width: 100%;
   position: relative;
+  border-bottom: 1px solid var(--base-grey);
 
   &.sticky {
     position: sticky;
