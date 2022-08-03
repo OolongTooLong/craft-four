@@ -3,8 +3,10 @@ fieldLayouts:
   915a5ec9-6e53-4d56-949b-b8aa81431efc:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: e84a8308-763b-47b1-9f67-d92c52577869 # Related Entry
             instructions: null
             label: null
@@ -12,9 +14,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 2c63e773-341e-46a6-b5f0-6ac725be936c
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 8a24e991-5719-496e-b40c-0a5ea9ab6dc8 # Card Background Colour
             instructions: null
             label: null
@@ -22,9 +26,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: d72840e3-1e55-4edd-89d8-53c165487e13
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 26a7d4c1-576f-46e8-ac8c-ba235814d113 # Image Crop
             instructions: null
             label: null
@@ -32,9 +38,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 834d961b-f4aa-4a01-a45f-3e3129d40572
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: ef7ea08d-71b9-4d19-aaa5-3dae6b240c6c # Mobile Options
             instructions: null
             label: null
@@ -42,9 +50,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: fc3c03d6-8a21-4dd6-afbe-c5f0b61d4608
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 601753f2-fb90-4aa8-88f6-d8aceecbe945 # Button Style
             instructions: null
             label: null
@@ -52,9 +62,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 75857139-f305-4c2a-b7e3-8e821fa779c2
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 803ca8db-d966-4cdc-a536-97b0adcd0a76 # Button Colour
             instructions: null
             label: null
@@ -62,9 +74,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: d7e6bc18-b8f5-4860-8e65-3e5007c04183
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 98420b02-3a94-4288-90f2-11c31a28389b # Use Excerpt Limit
             instructions: null
             label: null
@@ -72,10 +86,12 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 96bc0103-740a-4e42-aa0b-19f281d9069c
+            userCondition: null
             warning: null
             width: 25
         name: Content
         uid: 12c99723-3212-4d0f-86ab-9e156feac175
+        userCondition: null
 fields:
   8a24e991-5719-496e-b40c-0a5ea9ab6dc8: # Card Background Colour
     columnSuffix: qwtblafx
@@ -418,7 +434,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1844597087
+      changedFieldIndicator: 1616612006
       columns:
         __assoc__:
           -

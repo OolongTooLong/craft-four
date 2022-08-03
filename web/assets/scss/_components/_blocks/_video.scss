@@ -1,15 +1,12 @@
-.popup-video {
-  border: none;
-  padding: 0;
-  background: transparent;
-  cursor: zoom-in;
-  position: relative;
+.videoBlock{
+  cursor: pointer;
+  img{
+    border-radius: 0;
 
-  img {
-    width: 100%;
   }
 
   i.fas {
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -30,13 +27,35 @@
       position: relative;
       text-shadow: 0 0 7px var(--dark-main);
     }
-
-    &:hover, &:active {
-      transform: scale(0.95);
-    }
   }
 }
+.popup-video {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: zoom-in;
+  position: relative;
 
+  img {
+    width: 100%;
+  }
+}
+.plyr__controls {
+  position: relative;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: auto auto 1fr auto auto;
+  grid-gap: var(--s1);
+
+  button {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .plyr__time {
+    letter-spacing: 0;
+  }
+}
 .mfp-bg {
   background: #222;
   opacity: 1;
@@ -76,19 +95,6 @@
 
             .plyr__controls {
               position: relative;
-              grid-row: 2;
-              display: grid;
-              grid-template-columns: auto auto 1fr auto auto;
-              grid-gap: var(--s1);
-
-              button {
-                margin-bottom: 0;
-                margin-right: 0;
-              }
-
-              .plyr__time {
-                letter-spacing: 0;
-              }
             }
 
           }
@@ -174,4 +180,42 @@
       }
     }
   }
+}
+.inner_video_wrapper{
+  --plyr-video-controls-background: transparent;
+  --plyr-video-control-background-hover: var(--dark-main);
+  --plyr-video-control-color: var(--dark-main);
+  --plyr-video-control-color-hover: var(--light-main);
+  --plyr-range-thumb-height: 0px;
+  --plyr-range-fill-background: var(--dark-main);
+  .plyr{
+    background: transparent;
+
+  }
+  .plyr__controls{
+    position: relative;
+    order: 2;
+    width: 100%;
+  }
+  .plyr__video-wrapper{
+    iframe{}
+  }
+  figcaption{
+    background: transparent;
+    max-width: unset;
+  }
+  .plyr--html5{
+
+    .plyr__video-wrapper{
+      height: auto;
+      video{
+        height: auto;
+        //aspect-ratio: 16 / 9;
+      }
+    }
+  }
+}
+
+video.js-player{
+
 }

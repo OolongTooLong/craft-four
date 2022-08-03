@@ -22,10 +22,9 @@ use craft\helpers\App;
 return [
     'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
     'modules' => [
-        'my-module' => \modules\Module::class,
-        'enhancements-module' => [
-            'class' => \modules\enhancementsmodule\EnhancementsModule::class,
+        'upgrade-module' => [
+            'class' => \modules\upgrademodule\UpgradeModule::class,
         ],
     ],
-    'bootstrap' => ['my-module','enhancements-module'],
+    'bootstrap' => ['upgrade-module'],
 ];

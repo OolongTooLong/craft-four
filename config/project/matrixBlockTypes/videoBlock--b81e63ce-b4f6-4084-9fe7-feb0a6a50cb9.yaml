@@ -3,8 +3,10 @@ fieldLayouts:
   ad1c3c36-75bf-4710-bddf-00e70c8cd5bd:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 49e05cea-cdb0-4b12-b696-82886959e0b0 # Block Colour
             instructions: null
             label: null
@@ -12,9 +14,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: f4ab3bc0-bcba-4a74-959c-d10951292f7f
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: bffb9d04-250e-4428-9262-45a214095c40 # Orientation
             instructions: null
             label: null
@@ -22,9 +26,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: fa7c4d14-c040-482e-a433-a891e6abeb8e
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 1b1a3b10-3db4-44e0-ac32-ead119455a47 # Thumbnail
             instructions: null
             label: null
@@ -32,9 +38,23 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: f9d24533-5ef3-44c0-bf7f-67bd99785a62
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
+            fieldUid: 261ad08a-0e3d-4a77-bb12-a5eebd5d4a2b # View Options
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29ee08ac-e7cd-475b-8f35-0f5a9459eee4
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: d54c01c0-f7a6-4cdb-b038-53d2f5085dca # Video
             instructions: null
             label: null
@@ -42,10 +62,12 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: fad25336-7f9f-463e-9871-533603a987b9
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: e597887a-532f-4333-9ecf-9d54f64fce66
+        userCondition: null
 fields:
   1b1a3b10-3db4-44e0-ac32-ead119455a47: # Thumbnail
     columnSuffix: null
@@ -178,6 +200,41 @@ fields:
             -
               - value
               - bg-quaternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  261ad08a-0e3d-4a77-bb12-a5eebd5d4a2b: # View Options
+    columnSuffix: kklbfzkw
+    contentColumnType: string
+    fieldGroup: null
+    handle: viewOptions
+    instructions: null
+    name: 'View Options'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Modal
+            -
+              - value
+              - modal
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Inline
+            -
+              - value
+              - inline
             -
               - default
               - ''

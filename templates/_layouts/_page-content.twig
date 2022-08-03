@@ -58,7 +58,7 @@ as such all blocks in a matrix layout live in the same folder.
 
             <section id="{{ anchorLabel|kebab }}"
                      class="grid-row {{ rowSpace }} {{ row.rowColour ?? '' }} {{ row.paddingTop ?? '' }} {{ row.paddingBottom ?? '' }} {{ overlay }} {{ overlayType }} {{ opacity }} {{ blendMode }}" {% if backgroundImage %} style="background: url({{ backgroundImage }}) center center/cover no-repeat"{% endif %}>
-                <div class="grid {{ row.type.handle }} {{ row.rowWidth ?? '' }} {{ row.blockLayout ?? '' }} {{ gridGap }} {{ widthMod ?? '' }} {{ blockSize ?? '' }} {{ slider ?? '' }} {{ arrowsOptions ?? '' }} {{ arrowColour ?? '' }} {% for option in mediaQueries %}{{ option.value~' ' }}{% endfor %}"{% if slider == 'slider' %} id="slider-{{ rowKey }}" data-slick='{"slidesToShow": {{ slidesToShow|raw }}, "slidesToScroll": 1, "arrows":{{ arrows }},"dots":{{ dots }}, "responsive": [ { "breakpoint": 768, "settings": { "slidesToShow": 2 } }, { "breakpoint": 480, "settings": {"slidesToShow": 1 } }]}'{% endif %}>
+                <div class="grid {{ row.type.handle }} {{ row.rowWidth ?? '' }} {{ row.maxWidth ?? '' }} {{ row.blockLayout ?? '' }} {{ gridGap }} {{ widthMod ?? '' }} {{ blockSize ?? '' }} {{ slider ?? '' }} {{ arrowsOptions ?? '' }} {{ arrowColour ?? '' }} {% for option in mediaQueries %}{{ option.value~' ' }}{% endfor %}"{% if slider == 'slider' %} id="slider-{{ rowKey }}" data-slick='{"slidesToShow": {{ slidesToShow|raw }}, "slidesToScroll": 1, "arrows":{{ arrows }},"dots":{{ dots }}, "responsive": [ { "breakpoint": 768, "settings": { "slidesToShow": 2 } }, { "breakpoint": 480, "settings": {"slidesToShow": 1 } }]}'{% endif %}>
                     {% if row.blockRepeater.one() %}
                         {% set repeater = row.blockRepeater.one().blocks %}
                         {% for blockKey, block in repeater.all() %}
@@ -68,6 +68,29 @@ as such all blocks in a matrix layout live in the same folder.
                 </div>
             </section>
 
+        {# Channel Row #}
+        {% case 'channelRow' %}
+            {% set channelSelectionID = row.channelSelect ?? '0' %}
+            {% set section = craft.app.sections.getSectionById(channelSelectionID).handle ?? '' %}
+            {% set limit = row.limit ?? -1 %}
+            {% set popup = row.popup ?? 0 %}
+            {% set rowLayout = row.rowLayout ?? '' %}
+            {% set imageCrop = row.imageCrop ?? '' %}
+
+            {% set repeater = row.layouts.one() %}
+            {% set cardBgColour = repeater.cardBackgroundColour ?? '' %}
+            {% set order = repeater.order ?? '' %}
+            {% set buttonColour = repeater.buttonColour ?? '' %}
+            {% set buttonStyle = repeater.buttonStyle ?? '' %}
+            {% set hideButton = row.hideButtons ?? '' %}
+            {% set showPostDate = row.showPostDate ?? '' %}
+            {% set useExcerptLimit = row.useExcerptLimit ?? '' %}
+
+            {% for blockKey, block in repeater.layout.all() %}
+                {# Channel Blocks #}
+                {% include '_layouts/_channel-blocks/_'~ block.type.handle~'.twig' %}
+            {% endfor %}
+            {{ sprig.script }}
         {% endswitch %}
 
     {% endfor %}

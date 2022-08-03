@@ -18,7 +18,7 @@ return [
                         ],
                         [
                             'label' => 'Row Settings',
-                            'fields' => ['rowWidth', 'blockLayout', 'gridGap', 'spaceTop', 'rowColour', 'paddingBottom', 'paddingTop', 'anchorLabel'],
+                            'fields' => ['rowWidth', 'maxWidth', 'blockLayout', 'gridGap', 'spaceTop', 'rowColour', 'paddingBottom', 'paddingTop', 'anchorLabel'],
                         ],
                         [
                             'label' => 'Advanced Settings',
@@ -26,7 +26,18 @@ return [
                         ],
                     ],
                 ],
-
+                'channelRow' => [
+                    'tabs' => [
+                        [
+                            'label' => 'Content',
+                            'fields' => ['layouts', 'channelSelect', 'limit', 'options', 'popup', 'buttonStyle', 'imageCrop','hideButtons', 'showPostDate','useExcerptLimit'],
+                        ],
+                        [
+                            'label' => 'Settings',
+                            'fields' => ['rowWidth', 'rowLayout', 'gridGap', 'spaceTop', 'rowColour', 'paddingBottom', 'paddingTop', 'advancedSettings'],
+                        ],
+                    ],
+                ],
             ],
         ],
         'heroBuilder' => [

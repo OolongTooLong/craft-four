@@ -2,6 +2,7 @@
 @use '../_utilities/_mixins/family-mixin' as *;
 @use "../_abstracts/breakpoints" as *;
 
+
 @supports (display: grid) {
   .grid-row {
     align-items: stretch;
@@ -123,6 +124,15 @@
     &.xxx-wide {
       grid-column-start: 1;
       grid-column-end: 27;
+    }
+
+    &.narrow-row{
+      max-width: var(--narrow);
+      margin: 0 auto;
+    }
+    &.wide-row{
+      //max-width: var(--wide);
+      margin: 0 auto;
     }
 
     &.right-full {

@@ -1,5 +1,7 @@
 {% if block.video|length %}
+    <div class="{{ blockType }}">
     {% set adminThumbnail = block.thumbnail.one() %}
+    {% set viewOptions = block.viewOptions.value %}
 
     {% for video in block.video.all() %}
 
@@ -22,35 +24,48 @@
                 {% set string = '?origin='~ siteUrl~'&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1' %}
             {% endif %}
 
-            <div class="{{ providerName }}" style="position: relative">
-                <img src="{{ adminThumbnail.url() ?? vidThumbnailCrop.url }}" alt="video">
-                <a href="#test-popup-{{ rowKey ~ blockKey }}" class="popup-video abs"></a>
-            </div>
 
-            <figure id="test-popup-{{ rowKey ~ blockKey }}" class="vid-popup mfp-hide">
-                <div class="plyr__video-embed js-player">
-                    <iframe
-                            src="{{ href }}{{ id }}{{ string }}"
-                            allowfullscreen
-                            allowtransparency
-                            allow="autoplay"
-                    ></iframe>
+            {% if viewOptions == 'modal' %}
+                <div class="{{ providerName }}" style="position: relative">
+                    <img src="{{ adminThumbnail.url() ?? vidThumbnailCrop.url }}" alt="video">
+                    <i class="fas fa-solid fa-circle-play"></i>
+                    <a href="#test-popup-{{ rowKey ~ blockKey }}" class="popup-video abs"></a>
                 </div>
+                <figure id="test-popup-{{ rowKey ~ blockKey }}" class="vid-popup mfp-hide">
+            {% endif %}
+            {% if viewOptions == 'inline' %}
+                <div class="inner_video_wrapper">
+            {% endif %}
+                    <div class="plyr__video-embed js-player">
+                        <iframe
+                                src="{{ href }}{{ id }}{{ string }}"
+                                allowfullscreen
+                                allowtransparency
+                                allow="autoplay"
+                        ></iframe>
+                    </div>
+
+            {% if viewOptions == 'inline' %}
+                </div>
+            {% endif %}
+            {% if viewOptions == 'modal' %}
                 <figcaption class="stack stack-large">
                     <h2>{{ title }}</h2>
                     <p class="big">{{ description }}</p>
                 </figcaption>
-            </figure>
-
+                </figure>
+            {% endif %}
         {% else %}
 
             {% set vid = video.getUrl() %}
-
-            <video class="js-player" controls poster="" width="100%">
-                <source src="{{ vid }}" type="video/mp4"/>
-                <source src="{{ vid }}" type="video/webm"/>
-            </video>
-
+            <div class="inner_video_wrapper">
+                <video class="js-player" controls poster="" width="100%">
+                    <source src="{{ vid }}" type="video/mp4"/>
+                    <source src="{{ vid }}" type="video/webm"/>
+                </video>
+            </div>
         {% endif %}
+
     {% endfor %}
+    </div>
 {% endif %}

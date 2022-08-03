@@ -10,7 +10,9 @@ Struture:
 
     <article>
         {% include "_layouts/_hero.twig" %}
-        {% include "_layouts/_page-content.twig" with {pageBuilder:entry.pageBuilder} %}
+        <div id="page-content">
+            {% include "_layouts/_page-content.twig" with {pageBuilder:entry.pageBuilder} %}
+        </div>
     </article>
 
 {% endblock %}

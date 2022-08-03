@@ -1,0 +1,105 @@
+field: ccb1c890-467d-4e54-9954-92b1d979b4ac # Accordion Content
+fieldLayouts:
+  73fdc0fd-323c-4b0d-99f4-692d5b2fbfa5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2e354494-9740-4551-87be-d684b1a91729 # File Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99bbd3aa-6f29-4f9f-888f-37c689e4ef6f
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: a8d85fee-356e-4563-a763-57b07a5f7509 # Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c09b079-1260-490a-8cc3-17a20e869831
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: 87672f1c-a034-47d9-beb8-250b8bd3edc1
+        userCondition: null
+fields:
+  2e354494-9740-4551-87be-d684b1a91729: # File Content
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: fileContent
+    instructions: null
+    name: 'File Content'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  a8d85fee-356e-4563-a763-57b07a5f7509: # Link Text
+    columnSuffix: xfqjikbk
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: null
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: file
+name: File
+sortOrder: 2

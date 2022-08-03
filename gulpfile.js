@@ -48,6 +48,8 @@ function jsDeps(done) {
         "node_modules/jquery/dist/jquery.min.js",
         "node_modules/slick-carousel/slick/slick.min.js",
         "node_modules/gsap/dist/gsap.min.js",
+        "node_modules/gsap/dist/ScrollTrigger.js",
+        "node_modules/gsap/dist/CSSRulePlugin.js",
         "node_modules/magnific-popup/dist/jquery.magnific-popup.js",
         "node_modules/plyr/dist/plyr.js",
         "node_modules/jquery-ui-dist/jquery-ui.js",

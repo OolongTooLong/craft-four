@@ -39,6 +39,5 @@ class Module extends \yii\base\Module
 
         parent::init();
 
-        // Custom initialization code goes here...
     }
 }

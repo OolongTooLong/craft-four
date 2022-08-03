@@ -6,6 +6,7 @@ header {
   width: 100%;
   position: relative;
   border-bottom: 1px solid var(--base-grey);
+  //background-color: var(--light-main);
 
   &.sticky {
     position: sticky;
@@ -24,8 +25,8 @@ header {
 
   &.fixed:not(.scrolled) {
     section {
-      transition: background 0.5s ease;
-      background: transparent;
+      //transition: background 0.5s ease;
+      //background: transparent;
     }
   }
 

@@ -1,0 +1,104 @@
+field: 37b10ad2-1a23-4c38-8077-0b83551e9492 # Layout
+fieldLayouts:
+  24fc0940-6525-4ab9-869b-ba257d3f1842:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1e428ebd-feed-498d-b0e9-f58bc8904a71 # Slider Settings
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9330a2a3-b7c3-4c3d-8b17-2b03a658ee6e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fbb9e6bd-6112-461a-b76a-4228cba77de3
+        userCondition: null
+fields:
+  1e428ebd-feed-498d-b0e9-f58bc8904a71: # Slider Settings
+    columnSuffix: daflkbge
+    contentColumnType: text
+    fieldGroup: null
+    handle: sliderSettings
+    instructions: null
+    name: 'Slider Settings'
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Slides to show'
+                -
+                  - handle
+                  - slidesToShow
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - number
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Arrows
+                -
+                  - handle
+                  - arrows
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - lightswitch
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Dots
+                -
+                  - handle
+                  - dots
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - lightswitch
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - '3'
+            -
+              - col2
+              - ''
+            -
+              - col3
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: slider
+name: Slider
+sortOrder: 5

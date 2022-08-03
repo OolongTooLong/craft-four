@@ -1,9 +1,11 @@
 @use "../_abstracts/font-scale";
+@use '../_utilities/_mixins/media-query' as *;
 
 body {
   font-family: var(--body-font);
   font-weight: var(--body-weight);
-  //font-size: var(--f0);
+  font-size: var(--f0);
+  line-height: var(--body-line-height);
 }
 
 .heading-font {
@@ -17,16 +19,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
   min-height: 0.000001vw;
   color: var(--base-heading);
-  line-height: 1.2;
   margin-bottom: var(--f2);
   font-family: var(--heading-font);
   font-weight: var(--heading-weight);
   max-width: var(--max-character-length);
+  line-height: var(--heading-line-height);
 }
 
 //PLEASE NOTE ALL THESE ARE OVERIDDEN BY THEME SETTINGS -> located in templates
 h1, .h1 {
-  font-size: clamp(var(--f3), 10vw, var(--f5));
+  font-size: clamp(var(--f4), 4vw, var(--f7));
+  @include mq(large-tablet){
+    font-size: clamp(var(--f4), 10vw, var(--f7));
+  }
 }
 
 h2, .h2 {
@@ -87,7 +92,7 @@ p,.p {
   max-width: var(--max-character-length);
   color: var(--base-body);
   &.intro {
-    font-size: clamp(var(--f0), 2vw, var(--f1));
+    font-size: clamp(var(--f1), 2vw, var(--f1));
     line-height: 1.2;
   }
 
@@ -102,8 +107,6 @@ p,.p {
   }
 }
 
-
-
 ol, ul {
   color: var(--base-body);
   padding-left: 13px;
@@ -114,23 +117,15 @@ ol, ul {
 }
 
 blockquote {
-  font-size: clamp(var(--f0), 5vw, var(--f2));
+  font-size: clamp(var(--f0), 5vw, var(--f3));
   color: var(--base-heading);
   font-family: var(--heading-font);
-
-  &:before, &:after {
-    color: var(--tertiary-main);
-    font-size: var(--s2);
-
-  }
-
-  &:before {
-    content: "\201C";
-  }
-
-  &:after {
-    content: "\201D";
-  }
+  font-weight: 900;
+  line-height: 1.2;
+  font-style: italic;
+  text-align: left;
+  margin: var(--f3) 0;
+  padding: 0 var(--f1);
 }
 
 strong {

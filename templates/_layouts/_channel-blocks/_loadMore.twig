@@ -1,0 +1,16 @@
+<section class="grid-row {{ rowSpace }} {{ row.rowColour ?? '' }}  {{ row.paddingTop ?? '' }} {{ row.paddingBottom ?? '' }}">
+    <div class="grid {{ rowLayout }} {{ row.rowWidth ?? '' }} {{ gridGap }} {{ blockSize ?? '' }}"
+
+    {{ sprig('_layouts/_sprig-components/_load-more',{
+        'limit': limit,
+        'popup': popup,
+        'order': order.value,
+        'section': section,
+        'buttonStyle': buttonStyle.value,
+        'offset': 0,
+        'popup': popup,
+        'imageCrop': imageCrop.value,
+        'showPostDate': showPostDate,
+    }) }}
+    </div>
+</section>

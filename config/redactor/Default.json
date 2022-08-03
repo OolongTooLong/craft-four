@@ -19,11 +19,19 @@
   "formattingAdd": {
     "introText": {
       "title": "Intro Text",
-      "args": ["p", "class", "intro"]
+      "api": "module.block.format",
+      "args": {
+        "tag": "p",
+        "class": "intro"
+      }
     },
     "bigText": {
       "title": "Big Text",
-      "args": ["p", "class", "big"]
+      "api": "module.block.format",
+      "args": {
+        "tag": "p",
+        "class": "big"
+      }
     }
   },
   "linkNewTab": true,

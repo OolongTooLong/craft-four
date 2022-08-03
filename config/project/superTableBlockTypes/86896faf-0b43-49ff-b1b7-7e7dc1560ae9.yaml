@@ -3,49 +3,59 @@ fieldLayouts:
   97f07937-fd3e-4003-b339-5ff92e3c3670:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: ead3f394-0828-4cfa-a4a2-7d1b8c40c192 # Entry
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bab2c973-014c-4bde-8781-c32361043e74
+            uid: 38695e8a-a633-458e-a850-dad8a39fa061
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d02337d8-3537-4841-87b1-61c5d157e58c # Popup
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 28944dda-b77a-4cbc-905a-1717aa7dbd37
+            uid: 9a0b3597-473f-44cc-b23a-ab0e6bb82378
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 03e10793-6434-4680-8eda-9f5c82acbaa0 # Button Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 28cd2b2d-04c8-4cf6-80db-4d3a5cecf625
+            uid: 0c412a2a-9ffb-47da-9c43-4c7962d81bb6
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: d44b3f6f-7eb7-424d-a7d0-862c53334fe1 # Hide Button
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9211dec7-9ebe-49c2-a157-e06fd7719269
+            uid: 31e76c71-bc03-448a-b384-bfcb8618189f
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: f797021d-c9c1-444f-a81d-f716d4892535
+        userCondition: null
 fields:
   03e10793-6434-4680-8eda-9f5c82acbaa0: # Button Text
     columnSuffix: null

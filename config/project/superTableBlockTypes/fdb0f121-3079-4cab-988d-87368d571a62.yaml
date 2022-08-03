@@ -3,59 +3,71 @@ fieldLayouts:
   71fbe73e-025e-4393-a31a-3ef3168238ca:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: e6787659-8762-438e-9d5b-f250484899e1 # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b3f9d2d7-e648-4cc8-9f0d-26d5bcc0adfd
+            uid: cc020cfd-e119-4110-9584-a77d514de3c2
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 3125d32f-3f3e-476e-be41-570a311f535d # Overlay
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8ca8cd69-76e2-498f-b32c-4edade916198
+            uid: 0b103dac-3510-4e38-a47a-97ee8718f534
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 8198fa56-c374-4bf1-a89b-e12f9424c957 # Overlay Type
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c497b55e-06de-4ae4-9bf3-33b0f8d61ebb
+            uid: 7940bcb5-683e-4931-9c6d-e7c9bd20cc67
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 65157ff9-c335-43fb-8fe6-c55b6a446515 # Opacity
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9b886c2f-2e67-4744-9e1e-c9a45f0f5269
+            uid: 5ee5ebc2-a64d-4075-883a-2e6e72c2b6f0
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: dc08a4ab-5fa4-44d6-ba58-5881bc075598 # Blend Mode
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0ee63daa-19e1-48ee-a8ca-da54ce920c60
+            uid: d58af468-8f5d-4b3d-bca9-8422fb2175e2
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: 8fa95921-a2dc-40ea-b89d-fbedaeacb68d
+        userCondition: null
 fields:
   3125d32f-3f3e-476e-be41-570a311f535d: # Overlay
     columnSuffix: null

@@ -1,0 +1,18 @@
+.channelRow{
+  .grid{
+    &.has-one-column{
+      &.featuredPost{
+        --wide: 70rem;
+        --narrow:40rem;
+        .card{
+          flex-direction: row;
+          margin:0 auto;
+          max-width: var(--narrow);
+          &:nth-child(1){
+            max-width: var(--wide);
+          }
+        }
+      }
+    }
+  }
+}

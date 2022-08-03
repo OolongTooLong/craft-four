@@ -2,8 +2,16 @@
 
 html{
   background-color: var(--base-background);
+  font-size: 16px;
+  body{
+    main{
+      #page-content{
+        background-color: var(--base-background);
+        position:relative;
+      }
+    }
+  }
 }
-
 /* Box sizing rules */
 *,
 *::before,

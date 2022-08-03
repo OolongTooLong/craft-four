@@ -3,8 +3,10 @@ fieldLayouts:
   4f781bf8-9fda-4781-b1c3-3f16825d230b:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 10db7aae-6270-451e-9f2f-c279cc5e3af0 # __blank__
             instructions: null
             label: null
@@ -12,9 +14,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 312dd9f9-a435-41ae-a7bf-cf17f37177d8
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 4fddff1a-b4fd-48a2-b695-c7fe78876db8 # Anchor Label
             instructions: null
             label: null
@@ -22,9 +26,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 3a46c837-1020-4c3c-b017-1b2894cc0714
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 54b52fe6-5ff6-47ab-badd-b53ff1a14014 # Row Width
             instructions: null
             label: null
@@ -32,9 +38,23 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 6770fd7b-8e08-40a6-9278-a1a63812c715
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
+            fieldUid: 4bbf6e32-ecc6-4cde-b345-c40e89cffcc1 # Max Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22a9f96b-4f6f-4ba0-be61-e22285ff8dc4
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: c19f1ba5-3c56-42a1-bc4c-81a3b24b269b # Block Layout
             instructions: null
             label: null
@@ -42,9 +62,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 43aab89d-c2be-40a7-ac99-80a7ab65d559
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 5165520f-c260-4c6e-9cac-fdc7adc456d8 # Grid Gap
             instructions: null
             label: null
@@ -52,9 +74,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 3d8d4e79-119b-42ad-892e-bef3ee120a2a
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: bb261ea6-1a7d-4a69-aa23-60051b43e1d3 # Space Top
             instructions: null
             label: null
@@ -62,9 +86,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: e09d0389-02cc-4ab0-8de5-b5a29c513609
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: c04a28cc-e246-4b2f-abb9-bcea43868edb # Row Colour
             instructions: null
             label: null
@@ -72,9 +98,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 47df079d-a757-4b91-bce3-7498f6d76afe
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 2605faf8-5a41-4885-9202-42af4117dc63 # Padding Top
             instructions: null
             label: null
@@ -82,9 +110,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 12eba303-154f-4f4f-9fd2-ba3deac40d06
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 653c18f3-0735-478d-8078-c017a86b6d49 # Padding Bottom
             instructions: null
             label: null
@@ -92,9 +122,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: a59ec5b1-4467-43fe-93ad-1225ef6d45e8
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: b12af4cb-33ee-45d8-839f-cc631bdec7aa # Background Image
             instructions: null
             label: null
@@ -102,9 +134,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 5b6e3d7a-b375-4775-80a8-fe7cc7e3dec5
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: e4d5325a-fdd0-4791-9abe-279b9b1e19df # Media Queries
             instructions: null
             label: null
@@ -112,9 +146,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: efb80959-58eb-4475-a0fd-16c04e7b80b1
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 8f3762b8-c75d-4f3e-b157-ca44c6c8a3b0 # Advanced Settings
             instructions: null
             label: null
@@ -122,11 +158,59 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 4d0f49bf-4458-49d3-b796-ed2bb37e1840
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: b3fe0e14-a09c-4724-a063-b4aa0a41cc6c
+        userCondition: null
 fields:
+  4bbf6e32-ecc6-4cde-b345-c40e89cffcc1: # Max Width
+    columnSuffix: xgttmjxp
+    contentColumnType: string
+    fieldGroup: null
+    handle: maxWidth
+    instructions: null
+    name: 'Max Width'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Unset
+            -
+              - value
+              - unset
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Wide
+            -
+              - value
+              - wide-row
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Narrow
+            -
+              - value
+              - narrow-row
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
   4fddff1a-b4fd-48a2-b695-c7fe78876db8: # Anchor Label
     columnSuffix: onuaseee
     contentColumnType: text
@@ -532,7 +616,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1666772059
+      changedFieldIndicator: 283349815
       columns:
         __assoc__:
           -
@@ -1011,7 +1095,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 1149734668
+      changedFieldIndicator: 1531876587
       columns:
         __assoc__:
           -

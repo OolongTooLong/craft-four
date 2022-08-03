@@ -1,7 +1,7 @@
-<div class="{{ block.type.handle ?? '' }} {{ block.blockColour ?? '' }}">
-    <div class="stack">
-        {% if block.text|length %}
+{% if block.text|length %}
+    <div class="{{ block.type.handle ?? '' }} {{ block.blockColour ?? '' }}">
+        <div class="stack">
             {{ block.text }}
-        {% endif %}
+        </div>
     </div>
-</div>
+{% endif %}

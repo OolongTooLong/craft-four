@@ -1,0 +1,54 @@
+field: ccb1c890-467d-4e54-9954-92b1d979b4ac # Accordion Content
+fieldLayouts:
+  ae9cfe18-5b0d-42f8-bf8a-95c629a49e51:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 674c2129-6fd3-4a43-ae77-bcac8bd0b04c # Text Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0d50d2d-b620-4b2a-8683-ecc9dddb8715
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dbc55744-7671-401b-aaca-c1d4eeef2bd6
+        userCondition: null
+fields:
+  674c2129-6fd3-4a43-ae77-bcac8bd0b04c: # Text Content
+    columnSuffix: vlzlnpha
+    contentColumnType: text
+    fieldGroup: null
+    handle: textContent
+    instructions: null
+    name: 'Text Content'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: text
+name: Text
+sortOrder: 1

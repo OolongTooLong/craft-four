@@ -27,7 +27,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 834033471
+      changedFieldIndicator: 1055271861
       columns:
         __assoc__:
           -
@@ -57,7 +57,7 @@ fields:
       minRows: null
       propagationKeyFormat: null
       propagationMethod: all
-      selectionLabel: null
+      selectionLabel: 'Add a slide'
       staticField: null
     translationKeyFormat: null
     translationMethod: site
