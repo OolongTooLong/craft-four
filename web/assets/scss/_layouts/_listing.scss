@@ -2,16 +2,37 @@
   .grid{
     &.has-one-column{
       &.featuredPost{
-        --wide: 70rem;
-        --narrow:40rem;
         .card{
-          flex-direction: row;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-column-gap:var(--s4);
           margin:0 auto;
           max-width: var(--narrow);
+          width: 100%;
+          >*:not(hr){
+            margin: 0;
+          }
+          .inner{
+            max-width: var(--measure);
+          }
+          figure{
+            align-self: stretch;
+            display: flex;
+            height: 100%;
+            img{
+              object-fit: cover;
+            }
+          }
           &:nth-child(1){
             max-width: var(--wide);
           }
         }
+      }
+    }
+    .card{
+      hr{
+        grid-column: 1 / span 2;
+        margin: var(--s4) 0 0 0;
       }
     }
   }

@@ -35,7 +35,7 @@
             })(window, document, 'script', 'dataLayer', '{{ alias('@gtm') }}');</script>
         <!-- End Google Tag Manager -->
 
-        <style>
+        <style name="custom-admin-add-style">
             {{ master.stylesheet ?? '' }}
         </style>
         <script src="https://kit.fontawesome.com/aeab489b0c.js" crossorigin="anonymous"></script>
@@ -56,6 +56,6 @@
         {% block bodyContent %}
         {% endblock bodyContent %}
     </body>
-        </html>
+    </html>
     {% endminify %}
 {%- endblock htmlPage -%}

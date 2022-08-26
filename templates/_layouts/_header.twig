@@ -1,9 +1,13 @@
 {% if header.headerBuilder|length %}
+    {% set behaviour = entry.headerBehaviour  %}
+    {% if behaviour == 'default' %}
+        {% set behaviour = header.headerBehaviour %}
+    {% endif %}
     {% set position = entry.headerPosition  %}
     {% if position == 'default' %}
         {% set position = header.headerPosition %}
     {% endif %}
-    <header id="header" class="{{ position ?? '' }}">
+    <header id="header" class="{{ behaviour ?? '' }} {{ position ?? '' }}">
         {% for rowKey, row in header.headerBuilder.all() %}
 
             {% if row.headerSettings|length %}

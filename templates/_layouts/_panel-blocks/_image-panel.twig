@@ -1,0 +1,10 @@
+{% set image = panel.image.one() %}
+{% set imgStyles = "background-image: url('" ~ image.url() ~ "');"|raw %}
+{% if image.hasFocalPoint %}
+    {% set x = image.focalPoint | first * 100 ~ '%' %}
+    {% set y = image.focalPoint | last * 100 ~ '%' %}
+    {% set imgStyles = imgStyles ~ ' background-position: ' ~ [x, y]|join(' ') %}
+{% endif %}
+<div class="image-block" style="{{ imgStyles }}">
+    <div class="rightTrigger"></div>
+</div>

@@ -5,6 +5,7 @@ section[class*="bg"] .card {
 }
 
 .card {
+
   img, figure {
     border-radius: 0;
     width: 100%;
@@ -36,8 +37,6 @@ section[class*="bg"] .card {
       margin-right: var(--s1);
     }
   }
-
-
 
   &.rounded {
     &-5 {

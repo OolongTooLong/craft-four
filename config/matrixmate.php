@@ -30,7 +30,7 @@ return [
                     'tabs' => [
                         [
                             'label' => 'Content',
-                            'fields' => ['layouts', 'channelSelect', 'limit', 'options', 'popup', 'buttonStyle', 'imageCrop','hideButtons', 'showPostDate','useExcerptLimit'],
+                            'fields' => ['layouts', 'channelSelect', 'limit', 'options', 'popup', 'buttonStyle', 'imageCrop','hideButtons', 'showPostDate','useExcerptLimit', 'horizontalLine'],
                         ],
                         [
                             'label' => 'Settings',

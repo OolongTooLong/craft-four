@@ -36,7 +36,11 @@
         a,p,h1,h2,h3,h4,h5,h6 {
           color: var(--#{$color}-invert);
         }
-
+        .outline{
+          -webkit-text-stroke-color: var(--#{$color}-invert);
+          color: transparent;
+          -webkit-text-stroke-width: 1px;
+        }
         // Styles for buttons inside a BG section
         .button-wrap, &.card .button-wrap {
           .button:not(.master) {
@@ -266,6 +270,7 @@
           fill: var(--#{$color}-#{$shade})!important;
         }
       }
+
     }
   }
 }

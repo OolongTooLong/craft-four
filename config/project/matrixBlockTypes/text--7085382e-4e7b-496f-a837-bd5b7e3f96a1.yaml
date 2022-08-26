@@ -1,0 +1,172 @@
+field: a784e051-4dbc-4017-ba12-b606222b68cf # Right Panel
+fieldLayouts:
+  fcd335bc-51d8-4898-bc2d-1427b6cf85c2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6b0168e4-d504-4770-b675-2bcc9b3c203b # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 364125e5-523d-47d6-ad58-b8558b0b5e7a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a1c08967-e371-42f4-ab00-2b76be784382 # Animate
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d2da1be4-dd35-441f-8094-933bd00e0d7e
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 595308a6-aec5-4b43-8637-d0f09a372f88 # Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67dff992-da34-47cf-884d-c86efbf4c76e
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: c8eead77-d996-47d5-b77c-fca0c950fa02
+        userCondition: null
+fields:
+  6b0168e4-d504-4770-b675-2bcc9b3c203b: # Text
+    columnSuffix: ahwccqqf
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  595308a6-aec5-4b43-8637-d0f09a372f88: # Background Colour
+    columnSuffix: llzfsybl
+    contentColumnType: string
+    fieldGroup: null
+    handle: backgroundColour
+    instructions: null
+    name: 'Background Colour'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Light
+            -
+              - value
+              - bg-light-main
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Dark
+            -
+              - value
+              - bg-dark-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-primary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Secondary
+            -
+              - value
+              - bg-secondary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Tertiary
+            -
+              - value
+              - bg-tertiary-main
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Quarternary
+            -
+              - value
+              - bg-quarternary-main
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  a1c08967-e371-42f4-ab00-2b76be784382: # Animate
+    columnSuffix: vfwldqzv
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: animate
+    instructions: null
+    name: Animate
+    searchable: false
+    settings:
+      default: true
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: text
+name: Text
+sortOrder: 1

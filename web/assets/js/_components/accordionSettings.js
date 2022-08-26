@@ -19,7 +19,6 @@ let accordionSettings =(()=>{
                 // Animation complete.
             });
         });
-
     },
     channelAccordion = () => {
         // Channel Trigger

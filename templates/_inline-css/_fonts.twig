@@ -24,7 +24,7 @@
     }
 
     {% if fontSettings.fontSettings.all()|length %}
-    {% set font = fontSettings.fontSettings[0] %}
+    {% set font = fontSettings.fontSettings.one() %}
 
     h1, .h1 {
         font-size: clamp(var({{ font.h1[0].minSize }}), {{ font.h1[0].preferredSize }}, var({{ font.h1[0].maxSize }}));

@@ -41,14 +41,14 @@ let mobileNavSettings =(()=>{
 
         });
 
-        $(window).scroll(function(){
-            var scroll = $(window).scrollTop()
-            if(scroll >= 300){
-                $('#header').addClass('scrolled');
-            }else{
-                $('#header').removeClass('scrolled');
-            }
-        })
+        // $(window).scroll(function(){
+        //     var scroll = $(window).scrollTop()
+        //     if(scroll >= 300){
+        //         $('#header').addClass('scrolled');
+        //     }else{
+        //         $('#header').removeClass('scrolled');
+        //     }
+        // })
 
     }
     ;

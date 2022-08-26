@@ -85,12 +85,35 @@ as such all blocks in a matrix layout live in the same folder.
             {% set hideButton = row.hideButtons ?? '' %}
             {% set showPostDate = row.showPostDate ?? '' %}
             {% set useExcerptLimit = row.useExcerptLimit ?? '' %}
+            {% set horizontalLine = row.horizontalLine ?? '' %}
 
             {% for blockKey, block in repeater.layout.all() %}
                 {# Channel Blocks #}
                 {% include '_layouts/_channel-blocks/_'~ block.type.handle~'.twig' %}
             {% endfor %}
             {{ sprig.script }}
+
+        {# Panels Section #}
+        {% case 'panels' %}
+            <section class="panel-wrapper">
+                {% set panelSection = row.panelSection.all() %}
+                {% for panel in panelSection %}
+                    {% set rightPanelMatrix = panel.rightPanel.all() %}
+                    {% for panel in rightPanelMatrix %}
+                        <div class="right pinRight pinAllMobile {% if panel.animate %} panelAnimation{% endif %}">
+                            {% include '_layouts/_panel-blocks/_'~ panel.type.handle~'-panel.twig' with {blockType:panel.type.handle} %}
+                        </div>
+                    {% endfor %}
+                    {% set leftPanelMatrix = panel.leftPanel.all() %}
+                    {% for panel in leftPanelMatrix %}
+                        <div class="left pinLeft pinAllMobile">
+                            {% include '_layouts/_panel-blocks/_'~ panel.type.handle~'-panel.twig' with {blockType:panel.type.handle} %}
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+
+
+            </section>
         {% endswitch %}
 
     {% endfor %}

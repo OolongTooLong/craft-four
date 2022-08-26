@@ -46,14 +46,15 @@ const jsPath = {
 function jsDeps(done) {
     const files = [
         "node_modules/jquery/dist/jquery.min.js",
+        "node_modules/jquery-ui-dist/jquery-ui.js",
         "node_modules/slick-carousel/slick/slick.min.js",
         "node_modules/gsap/dist/gsap.min.js",
         "node_modules/gsap/dist/ScrollTrigger.js",
         "node_modules/gsap/dist/CSSRulePlugin.js",
         "node_modules/magnific-popup/dist/jquery.magnific-popup.js",
         "node_modules/plyr/dist/plyr.js",
-        "node_modules/jquery-ui-dist/jquery-ui.js",
         "./web/assets/js/_vendor/jquery.ihavecookies.min.js",
+        "./web/assets/js/_vendor/splittext.min.js",
     ]
     return (
         src(files)

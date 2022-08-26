@@ -2,6 +2,7 @@ fieldLayouts:
   b79452a5-ebc0-49da-9018-9793a67f5c46:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -25,9 +27,11 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
             uid: 2c627ec3-019d-4cc0-bb3d-f23d490ec808
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: ffc2b89f-46b4-4c4f-9ca6-71feacca2d27 # Page Builder
             instructions: null
             label: null
@@ -35,13 +39,17 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 36c172d6-1720-459b-ba3c-308d62821f2c
+            userCondition: null
             warning: null
             width: 100
         name: Content
         uid: d95f4965-765a-4c4d-b333-dc3e2f48c0f0
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 4a764151-b881-4190-a8d8-e495aba359a1 # Hero Builder
             instructions: null
             label: null
@@ -49,13 +57,17 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 51096ae8-2ab6-41dc-9031-0076b9209805
+            userCondition: null
             warning: null
             width: 100
         name: Hero
         uid: 3fed03b7-4e58-4aeb-b25e-8c2ae09388da
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: a667ef8e-346d-4874-be12-13759ee2e4e4 # Thumbnail
             instructions: null
             label: null
@@ -63,9 +75,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 6248a639-b389-497c-99be-a3591fd9e249
+            userCondition: null
             warning: null
             width: 25
           -
+            elementCondition: null
             fieldUid: 700ff3bf-9ed3-4b79-a679-641cbe9b20de # Excerpt
             instructions: null
             label: null
@@ -73,9 +87,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 42383aab-1511-4a9f-b546-3c587a51e06d
+            userCondition: null
             warning: null
             width: 75
           -
+            elementCondition: null
             fieldUid: 3dca56ab-24df-48a9-b454-76ebe88b93c1 # SEO Fields
             instructions: null
             label: null
@@ -83,13 +99,17 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 8698af5c-d65e-4e34-8fa9-0635b506d1cf
+            userCondition: null
             warning: null
             width: 100
         name: 'Page Meta'
         uid: 3000bd72-778c-4e62-93f9-39762554f149
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 267977e5-f578-4ff7-9d0b-b087274b6935 # Header Colour
             instructions: null
             label: null
@@ -97,9 +117,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 93d8bf80-be17-4b96-b34f-e1fdb9cfb867
+            userCondition: null
             warning: null
-            width: 100
+            width: 25
           -
+            elementCondition: null
             fieldUid: 2eb56433-f7a5-4573-b1ec-84afd4399048 # Header Position
             instructions: null
             label: null
@@ -107,9 +129,23 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 3e1884b3-e2af-47a3-a76c-28c4e6bf4aed
+            userCondition: null
             warning: null
-            width: 100
+            width: 25
           -
+            elementCondition: null
+            fieldUid: 33555da0-2bfc-4b30-8b8b-06b4bdf87773 # Header Behaviour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a054b58-f99f-4a41-a843-41e853c72db4
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: a36b009a-497d-4ad7-9a64-e0850703f0e2 # Logo
             instructions: null
             label: null
@@ -117,9 +153,11 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: fd9df6fc-5a76-4e3d-a043-a911e7f57dd0
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: bdc80ea3-1873-4381-b649-ef5cbf9a80c2 # Colours
             instructions: null
             label: null
@@ -127,10 +165,12 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: c1226cb6-af79-467d-ad1e-45e41907366e
+            userCondition: null
             warning: null
             width: 100
         name: 'Page Theme'
         uid: f69e1f6f-41a1-4b2c-989c-bcb39bd45a8a
+        userCondition: null
 handle: page
 hasTitleField: true
 name: Page

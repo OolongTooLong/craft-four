@@ -81,6 +81,13 @@
             "type": "toggle"
           }
         },
+        "outLine": {
+          "args": {
+            "tag": "span",
+            "class": "outline",
+            "type": "toggle"
+          }
+        },
         "clearStyles": {
           "api": "module.inline.clearformat"
         }
@@ -142,6 +149,34 @@
           "api": "module.inline.clearformat"
         }
 
+      }
+    },
+    "fontSize": {
+      "dropdown": {
+        "H1": {
+          "args": {
+            "tag": "span",
+            "class": "h1",
+            "type": "toggle"
+          }
+        },
+        "H2": {
+          "args": {
+            "tag": "span",
+            "class": "h2",
+            "type": "toggle"
+          }
+        },
+        "H3": {
+          "args": {
+            "tag": "span",
+            "class": "h3",
+            "type": "toggle"
+          }
+        },
+        "clearStyles": {
+          "api": "module.inline.clearformat"
+        }
       }
     }
   }

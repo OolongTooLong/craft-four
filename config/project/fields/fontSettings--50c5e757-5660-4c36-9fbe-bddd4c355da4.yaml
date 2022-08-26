@@ -7,7 +7,7 @@ name: 'Font Settings'
 searchable: false
 settings:
   blockTypeFields: 0
-  changedFieldIndicator: 709273872
+  changedFieldIndicator: 692338580
   columns:
     __assoc__:
       -
@@ -52,8 +52,29 @@ settings:
             -
               - width
               - ''
+      -
+        - 4409035e-fcc1-41e5-9517-8916da2aeb3e # P
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - b788c841-0001-4b6a-ad4e-67b68af2fd0a # Blockquote
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 6e80093e-0979-4bf3-8948-92023cc12f24 # Form Label
+        -
+          __assoc__:
+            -
+              - width
+              - ''
   contentTable: '{{%stc_fontsettings}}'
-  fieldLayout: table
+  fieldLayout: row
   maxRows: 1
   minRows: null
   propagationKeyFormat: null

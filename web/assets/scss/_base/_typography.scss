@@ -28,10 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 //PLEASE NOTE ALL THESE ARE OVERIDDEN BY THEME SETTINGS -> located in templates
 h1, .h1 {
-  font-size: clamp(var(--f4), 4vw, var(--f7));
-  @include mq(large-tablet){
-    font-size: clamp(var(--f4), 10vw, var(--f7));
-  }
+  font-size: clamp(var(--f3), 10vw, var(--f7));
 }
 
 h2, .h2 {
@@ -146,7 +143,7 @@ cite {
 }
 
 hr {
-  border-top: var(--s-6) solid var(--base-grey);
+  border-top: var(--s-6) solid var(--base-black);
   width: 100%;
 }
 
@@ -156,4 +153,9 @@ a {
 
 address {
   font-style: normal;
+}
+.outline{
+  -webkit-text-stroke-color: var(--dark-main);
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
 }

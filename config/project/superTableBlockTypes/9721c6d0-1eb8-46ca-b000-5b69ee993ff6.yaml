@@ -1,0 +1,174 @@
+field: 22bebcd1-c9ea-4927-9bc1-8c6e0f401b75 # Slides
+fieldLayouts:
+  b7ce1f00-b95d-483a-affe-983742a9eec6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b2503370-c33f-4f91-bbfa-282a78e2546d # Slide Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b7a2e01-1cb0-4287-be58-d54173d9fd28
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5d377371-ef80-4b83-a4be-56f32b78b3d6 # Tab Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe119455-2bd8-4eef-8f72-e99daba2b3e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a90aaac0-1711-4de6-bd6f-a236a2ed4b3e # Slide Label
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 82a557c3-1457-4a3c-a4ae-d884375d041a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6a6b43aa-b0d4-4a01-963f-d3e1d17e5536 # Slide Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cf4623d5-0ab1-44bf-97e0-98d48c17dc81
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1053ac76-7b2c-40d0-99d3-52bdf4b65ec7
+        userCondition: null
+fields:
+  5d377371-ef80-4b83-a4be-56f32b78b3d6: # Tab Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: tabTitle
+    instructions: null
+    name: 'Tab Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6a6b43aa-b0d4-4a01-963f-d3e1d17e5536: # Slide Text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideText
+    instructions: null
+    name: 'Slide Text'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  a90aaac0-1711-4de6-bd6f-a236a2ed4b3e: # Slide Label
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideLabel
+    instructions: null
+    name: 'Slide Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b2503370-c33f-4f91-bbfa-282a78e2546d: # Slide Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: slideImage
+    instructions: null
+    name: 'Slide Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c4100103-0b95-4960-bee7-74876c13e673' # General Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets

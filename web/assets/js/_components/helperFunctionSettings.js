@@ -12,10 +12,5 @@ let helperFunctionSettings =(()=>{
     }
     ;
     init();
-    return {
-        C: ()=>{return C();},
-        S: ()=>{return S();},
-        O: ()=>{return O();}
-
-    };
+    return {};
 })();

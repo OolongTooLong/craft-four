@@ -10,7 +10,8 @@
 :root{
   --spacing-ratio: 1.3; // Adjust all other values
 
-  --s-5: calc(var(--s-4) / var(--spacing-ratio)); //Smallest Value
+  --s-6: calc(var(--s-5) / var(--spacing-ratio)); //Smallest Value
+  --s-5: calc(var(--s-4) / var(--spacing-ratio));
   --s-4: calc(var(--s-3) / var(--spacing-ratio));
   --s-3: calc(var(--s-2) / var(--spacing-ratio));
   --s-2: calc(var(--s-1) / var(--spacing-ratio));
@@ -22,7 +23,10 @@
   --s4: calc(var(--s3) * var(--spacing-ratio));
   --s5: calc(var(--s4) * var(--spacing-ratio));
   --s6: calc(var(--s5) * var(--spacing-ratio));
-  --s7: calc(var(--s6) * var(--spacing-ratio)); // Largest Value
+  --s7: calc(var(--s6) * var(--spacing-ratio));
+  --s8: calc(var(--s7) * var(--spacing-ratio));
+  --s9: calc(var(--s8) * var(--spacing-ratio));
+  --s10: calc(var(--s9) * var(--spacing-ratio)); // Largest Value
 
   --s-neg5: calc(-1 * var(--s5)); // Negative values
   --s-neg4: calc(-1 * var(--s4));

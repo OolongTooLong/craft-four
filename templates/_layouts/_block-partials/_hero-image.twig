@@ -4,8 +4,40 @@
     {% set imageMediumLarge = image.getUrl('mediumLarge')?? '' %}
     {% set imageMedium = image.getUrl('medium')?? '' %}
     {% set imageSmall = image.getUrl('small')?? '' %}
-        <img class="hero-banner"
-             srcset="{{ imageExtraLarge }} 1920w, {{ imageLarge }} 1536w, {{ imageMediumLarge }} 768w, {{ imageMedium }} 576w, {{ imageSmall }} 384w"
-             sizes="100vw"
-             src="{{ imageLarge }}" alt="{{ image.title }}"/>
+{#        <img class="hero-banner"#}
+{#             srcset="{{ imageExtraLarge }} 1920w, {{ imageLarge }} 1536w, {{ imageMediumLarge }} 768w, {{ imageMedium }} 576w, {{ imageSmall }} 384w"#}
+{#             sizes="100vw"#}
+{#             src="{{ imageLarge }}" alt="{{ image.title }}"/>#}
+    <style>
+        {% set imgStyles = 'background-position:center/c0ver' %}
+        {% if image.hasFocalPoint %}
+            {% set x = image.focalPoint | first * 100 ~ '%' %}
+            {% set y = image.focalPoint | last * 100 ~ '%' %}
+            {% set imgStyles =  ' background-position: ' ~ [x, y]|join(' ') ~';'  %}
+        {% endif %}
+        .hero-banner{
+            background-image:url({{ imageMedium }});
+            {{ imgStyles }}
+            background-size: cover;
+        }
+        @media only screen and (min-width:480px){
+            .hero-banner{
+                background-image:url({{ imageMediumLarge }});
+            }
+        }
+        @media only screen and (min-width:575px){
+            .hero-banner{
+                background-image:url({{ imageLarge }});
+            }
+        }
+        @media only screen and (min-width:767px){
+            .hero-banner{
+                background-image:url({{ imageExtraLarge }});
+            }
+        }
+
+    </style>
+    <div class="hero-banner">
+    </div>
+
 {% endif %}

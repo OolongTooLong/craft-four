@@ -29,7 +29,7 @@
                         {{ paddingTop }}
                         {{ paddingBottom }}
                         ">
-                        {% if row.heroContent|length %}
+                        {% if row.heroContent|length and row.heroContent.one()|length %}
                             {% set repeater = row.heroContent.one().heroBlock %}
                             {% for blockKey, block in repeater.all() %}
                                 {% include '_layouts/_hero-blocks/_'~ block.type.handle~'.twig' %}
@@ -162,7 +162,7 @@
                         </section>
                     </section>
 
-                    <div class="hero-text no-grid stack stack-extra-large bottomLeft pad-700-large-tablet pad-top-400 pad-bottom-700 ">
+                    <div class="hero-text no-grid stack stack-extra-large bottomLeft pad-600-large-tablet pad-top-400 pad-bottom-700 ">
                         {{ row.text  }}
                         <div class="stack stack-small">
                             <p class="sub-text">PUBLISHED</p>

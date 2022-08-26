@@ -31,6 +31,18 @@ fieldLayouts:
             width: 25
           -
             elementCondition: null
+            fieldUid: 95751bb7-7d7d-4b08-b924-4de96083d7d8 # Max Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01666479-2873-4627-8d42-5899d87f220a
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: a151f859-1324-4076-ae88-19ea2fa1fbe6 # Grid Gap
             instructions: null
             label: null
@@ -182,6 +194,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 2dbdf587-245c-4768-b296-907b9cee9be3
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: b72454ce-3e63-414b-8bfe-71089353c75b # Horizontal Line
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71f7f31f-6225-4acf-abae-be03f145fcfa
             userCondition: null
             warning: null
             width: 25
@@ -616,6 +640,52 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Number
+  95751bb7-7d7d-4b08-b924-4de96083d7d8: # Max Width
+    columnSuffix: hlihtdbx
+    contentColumnType: string
+    fieldGroup: null
+    handle: maxWidth
+    instructions: null
+    name: 'Max Width'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Unset
+            -
+              - value
+              - unset
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Wide
+            -
+              - value
+              - wide-row
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Narrow
+            -
+              - value
+              - narrow-row
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
   a3f311bd-6985-4c99-bc54-7d49a6f07b29: # Advanced Settings
     columnSuffix: glwbazix
     contentColumnType: text
@@ -1091,6 +1161,21 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Dropdown
+  b72454ce-3e63-414b-8bfe-71089353c75b: # Horizontal Line
+    columnSuffix: drrfezye
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: horizontalLine
+    instructions: null
+    name: 'Horizontal Line'
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
   bc17326c-2a53-47a9-b7d6-e84bd45fee97: # Show Post Date
     columnSuffix: pbzychih
     contentColumnType: boolean
@@ -1206,7 +1291,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 310285723
+      changedFieldIndicator: 645554312
       columns:
         __assoc__:
           -
