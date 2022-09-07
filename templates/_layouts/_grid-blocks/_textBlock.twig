@@ -2,6 +2,9 @@
     <div class="{{ block.type.handle ?? '' }} {{ block.blockColour ?? '' }}">
         <div class="stack">
             {{ block.text }}
+            {% set buttonOrientation = block.buttonOrientation ?? '' %}
+            {% set buttonRepeater = block.buttonRepeater.all() ?? '' %}
+            {% include "_layouts/_block-partials/_button-repeater.twig" %}
         </div>
     </div>
 {% endif %}

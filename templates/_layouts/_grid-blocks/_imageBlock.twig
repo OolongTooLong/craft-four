@@ -51,7 +51,7 @@
             <a class="gallery-item mfp-fade" href="{{ image.url() }}">
         {% endif %}
         <figure class="{{ blockType }} {{ block.orientation }}">
-            <img srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
+            <img loading="lazy" srcset="{{ imageMedium }} 576w, {{ imageSmall }} 384w"
                  sizes="(min-width: 920px) 33.3vw, (min-width: 767px) 50vw, 100vw"
                  src="{{ imageMedium }}" alt="{{ image.alt ?? '' }}"/>
             {% if image.text %}
